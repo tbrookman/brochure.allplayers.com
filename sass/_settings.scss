@@ -10,23 +10,35 @@
 // $mobileTotalColumns: 4;
 // $blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported
 
+// Padding Settings
+
+   $paddingTen: 10px;
+
 // Colors Settings
 
- $mainColor: #002d62;
-// $secondaryColor: #ab1d37;
-// $alertColor: #c60f13;
-// $successColor: #5da423;
-// $txtColor: #222;
+   $mainColor: #002d62;
+   $secondaryColor: #ab1d37;
+   $standardAlertColor: #D9EDF7;
+   $standardAlertTextColor: #3A87AD;
+   $alertColor: #FCF8E3;
+   $alertTextColor: #C09853;
+   $successColor: #DFF0D8;
+   $successTextColor: #468847;
+   $txtColor: #333333;
 // $highlightColor: #ffff99;
 // $black: #000;
 // $white: #fff;
+   $lightGrey: #f2f2f2;
+   $midGrey: #e5e5e5;
+   $grey: #cccccc;
+   $darkGrey: #666;
 // $shinyEdge: rgba(#fff, .5);
 // $darkEdge: rgba(#000, .2);
 
 // Font Settings
 
 // $fontSmoothing: antialiased;
-// $headerFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+   $headerFontFamily: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
 // $headerFontWeight: bold;
 // $headerFontStyle: normal;
 // $headerFontColor: #222;

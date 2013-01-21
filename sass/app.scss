@@ -17,6 +17,7 @@
 // @import "foundation/mixins/clearfix";
 // @import "foundation/mixins/css-triangle";
 // @import "foundation/mixins/font-size";
+   @import "mixins/_gradients";
 
 // Must include next two for semantic grid to work
 
@@ -33,13 +34,16 @@
 // Control which common styles get compiled
 
 // @import "foundation/common/typography";
+   @import "_typography";
 // @import "foundation/common/forms";
 
 // Control which components you get if customizing
 
 // @import "foundation/components/modules/buttons";
+   @import "_buttons";
 // @import "foundation/components/modules/tabs";
 // @import "foundation/components/modules/ui";
+   @import "_ui";
 // @import "foundation/components/modules/topbar";
 // @import "foundation/components/modules/navbar";
 // @import "foundation/components/modules/orbit";
@@ -48,3 +52,5 @@
 
 // Media Queries Overrides
 // @import "foundation/components/modules/mqueries";
+
+@import "overrides";

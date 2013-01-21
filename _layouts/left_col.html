@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+{% include head-tag.snippet %}
+<body>
+<!-- Header and Nav -->
+{% include header.snippet %} 
+<!-- End Header and Nav -->
+<div>
+  <div class="three columns">
+    <ul class="nav-bar vertical">
+      <li><a href="/grid.html">The Grid</a></li>
+      <li><a href="/typography.html">Typography</a></li>
+      <li><a href="/buttons.html">Buttons</a></li>
+      <li><a href="/forms.html">Forms</a></li>
+      <li><a href="/navigation.html">Navigation</a></li>
+      <li><a href="/tabs.html">Tabs</a></li>
+      <li><a href="/elements.html">Elements</a></li>
+    </ul>
+  </div>
+  <div class="six columns">
+    {{ content }} 
+  </div>
+  <div class="three columns">
+    <p><img src="http://placehold.it/320x240&text=Ad" /></p>
+  </div>
+</div>
+<div class="twelve columns">
+  {% include footer.snippet %}
+</div>
+</body>
+</html>

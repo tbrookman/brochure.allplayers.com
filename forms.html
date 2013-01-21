@@ -1,0 +1,176 @@
+---
+layout: left_col
+title: Forms
+---
+
+<h1>{{ page.title }}</h1>
+
+<h2>Row Layouts</h2>
+
+<!-- Row Layout for forms -->
+<form>
+  <label>This is a label.</label>
+  <input type="text" placeholder="Standard Input" />
+  <label>Address</label>
+  <input type="text" class="twelve" placeholder="Street" />
+  <div class="row">
+    <div class="six columns">
+      <input type="text" placeholder="City" />
+    </div>
+    <div class="three columns">
+      <input type="text" placeholder="State" />
+    </div>
+    <div class="three columns">
+      <input type="text" placeholder="ZIP" />
+    </div>
+  </div>
+  <textarea placeholder="Message"></textarea>
+</form>
+
+<!-- Right aligned and inline labels -->
+<form>
+  <div class="row">
+    <div class="two mobile-one columns">
+      <label class="right inline">Address Name:</label>
+    </div>
+    <div class="ten mobile-three columns">
+      <input type="text" placeholder="e.g. Home" class="eight" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="two mobile-one columns">
+      <label class="right inline">City:</label>
+    </div>
+    <div class="ten mobile-three columns">
+      <input type="text" class="eight" />
+    </div>
+  </div>
+  <div class="row">
+    <div class="two mobile-one columns">
+      <label class="right inline">ZIP:</label>
+    </div>
+    <div class="ten mobile-three columns">
+      <input type="text" class="three" />
+    </div>
+  </div>
+</form>
+
+<h2>Fieldsets</h2>
+
+<form>
+  <fieldset>
+
+    <legend>Fieldset Name</legend>
+
+    <label>This is a label.</label>
+    <input type="text" placeholder="Standard Input" />
+
+    <label>Address</label>
+    <input type="text" />
+    <input type="text" class="six" />
+
+  </fieldset>
+</form>
+
+<h2>Pre/Postfix Labels & Actions</h2>
+
+<!-- Prefix label -->
+<label>Input with a prefix character</label>
+<div class="row">
+  <div class="four columns">
+    <div class="row collapse">
+      <div class="two mobile-one columns">
+        <span class="prefix">#</span>
+      </div>
+      <div class="ten mobile-three columns">
+        <input type="text" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Postfix label -->
+<label>Input with a postfix label</label>
+<div class="row">
+  <div class="five columns">
+    <div class="row collapse">
+      <div class="nine mobile-three columns">
+        <input type="text" />
+      </div>
+      <div class="three mobile-one columns">
+        <span class="postfix">.com</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Postfix action -->
+<div class="row collapse">
+  <div class="ten mobile-three columns">
+    <input type="text" />
+  </div>
+  <div class="two mobile-one columns">
+    <a class="button expand postfix">Search</a>
+  </div>
+</div>
+
+<h2>Error States</h2>
+
+<div class="row">
+  <div class="five columns">
+    <label class="error">Error</label>
+    <input type="text" class="error" />
+    <small class="error">Invalid entry</small>
+  </div>
+
+  <div class="five columns end error">
+    <label>Another Error</label>
+    <input type="text" />
+    <small>Invalid entry</small>
+  </div>
+</div>
+
+<h2>Radio Buttons and Checkboxes</h2>
+
+<form class="custom">
+
+  <!-- Custom Radio -->
+  <div class="row">
+    <div class="four columns">
+      <label for="radio1"><input name="radio1" type="radio" id="radio1" style="display:none;"><span class="custom radio"></span> Radio Button 1</label>
+      <label for="radio2"><input name="radio1" type="radio" id="radio2" style="display:none;"><span class="custom radio checked"></span> Radio Button 2</label>
+      <label for="radio3"><input name="radio1" type="radio" id="radio3" disabled style="display:none;"><span class="custom radio"></span> Radio Button 3</label>
+    </div>
+    <div class="four columns">
+      <label for="radio4"><input name="radio2" type="radio" id="radio4"> Radio Button 1</label>
+      <label for="radio5"><input name="radio2" CHECKED type="radio" id="radio5"> Radio Button 2</label>
+      <label for="radio6"><input name="radio2" type="radio" id="radio6"> Radio Button 3</label>
+    </div>
+
+    <!-- Custom Checkbox -->
+    <div class="four columns">
+      <label for="checkbox1"><input type="checkbox" id="checkbox1" style="display: none;"><span class="custom checkbox"></span> Label for Checkbox</label>
+      <label for="checkbox2"><input type="checkbox" id="checkbox2" checked style="display: none;"><span class="custom checkbox checked"></span> Label for Checkbox</label>
+      <label for="checkbox3"><input type="checkbox" CHECKED id="checkbox3"> Label for Checkbox</label>
+    </div>
+  </div>
+
+  <!-- Custom Selects -->
+  <label for="customDropdown">Dropdown Label</label>
+  <select style="display:none;" id="customDropdown">
+    <option SELECTED>This is a dropdown</option>
+    <option>This is another option</option>
+    <option>Look, a third option</option>
+  </select>
+  <div class="custom dropdown">
+    <a href="#" class="current">
+      This is a dropdown
+    </a>
+    <a href="#" class="selector"></a>
+    <ul>
+      <li>This is a dropdown</li>
+      <li>This is another option</li>
+      <li>Look, a third option</li>
+    </ul>
+  </div>
+</form>
