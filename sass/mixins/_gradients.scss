@@ -2,11 +2,11 @@
 
  @mixin simpleGradient($color) {
     background: $color;
-    background: -moz-linear-gradient(top,  $color 0%, darken($color,10%) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color), color-stop(100%,darken($color,10%)));
-    background: -webkit-linear-gradient(top,  $color 0%,darken($color,10%) 100%);
-    background: -o-linear-gradient(top,  $color 0%,darken($color,10%) 100%);
-    background: -ms-linear-gradient(top,  $color 0%,darken($color,10%) 100%);
-    background: linear-gradient(to bottom,  $color 0%,darken($color,10%) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='darken($color,10%)',GradientType=0 );
+    background: -moz-linear-gradient(top,  $color 0%, darken($color,20%) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color), color-stop(100%,darken($color,20%)));
+    background: -webkit-linear-gradient(top,  $color 0%,darken($color,20%) 100%);
+    background: -o-linear-gradient(top,  $color 0%,darken($color,20%) 100%);
+    background: -ms-linear-gradient(top,  $color 0%,darken($color,20%) 100%);
+    background: linear-gradient(to bottom,  $color 0%,darken($color,20%) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
   }

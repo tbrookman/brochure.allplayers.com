@@ -16,7 +16,7 @@
 
 // Colors Settings
 
-   $mainColor: #002d62;
+   $mainColor: #3bb4ff;
    $secondaryColor: #ab1d37;
    $standardAlertColor: #D9EDF7;
    $standardAlertTextColor: #3A87AD;
@@ -31,7 +31,7 @@
    $lightGrey: #f2f2f2;
    $midGrey: #e5e5e5;
    $grey: #cccccc;
-   $darkGrey: #666;
+   $darkGrey: #474747;
 // $shinyEdge: rgba(#fff, .5);
 // $darkEdge: rgba(#000, .2);
 
@@ -39,7 +39,7 @@
 
 // $fontSmoothing: antialiased;
    $headerFontFamily: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
-// $headerFontWeight: bold;
+   $headerFontWeight: normal;
 // $headerFontStyle: normal;
 // $headerFontColor: #222;
 // $bodyFontFamily: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -54,11 +54,11 @@
 // Button Settings
 
 // $buttonRadius: 3px;
-// $btnBase: 10px;
+ $btnBase: 10px;
 
 // $tinyBtnBase: $btnBase - 5;
 // $smallBtnBase: $btnBase - 3;
-// $largeBtnBase: $btnBase + 5;
+   $largeBtnBase: $btnBase + 3;
 
 // Form Settings
 
@@ -108,9 +108,9 @@
 // Top Bar Settings
 
 // $topBarBgColor: #222;
-// $topBarHeight: 45px;
+   $topBarHeight: 35px;
 // $topBarHeightMobile: 45px;
-// $topBarBtmMargin: 30px;
+   $topBarBtmMargin: 0px;
 // $topBarTitleWeight: bold;
 // $topBarTitleSize: 17px;
 // $topBarLinkColor: #fff;
