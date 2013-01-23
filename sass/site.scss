@@ -10,12 +10,13 @@
 		h3 {font-size: ms(3);}
 	}
 	#view-features {background: #f2f2f2; margin: 20px 0;
-		h2 {text-align: center;}
+		h3 {text-align: center;}
 		 a {}
 	}
 }
 
 #pre-footer {background: url(../images/global/upper-sep.png) no-repeat center top; padding-top: 50px;
+	.six.columns:first-child {border-right: 2px dotted $grey}
 	p {font-size: ms(1);}
 
 }
