@@ -12125,22 +12125,22 @@ table.hide-for-medium {
   }
 }
 /* line 1, ../sass/site.scss */
-.intro {
+#homepage-intro {
   background: url(../images/global/sep.png) no-repeat center top;
   margin-top: 20px;
   padding-top: 35px;
 }
 /* line 2, ../sass/site.scss */
-.intro h1 {
+#homepage-intro h1 {
   margin-top: 60px;
   margin-bottom: 0;
 }
 /* line 3, ../sass/site.scss */
-.intro p {
+#homepage-intro p {
   font-size: 17px;
 }
 /* line 4, ../sass/site.scss */
-.intro .eight.columns, .intro .row .columns.eight, .row .intro .columns.eight {
+#homepage-intro .eight.columns {
   padding-right: 120px;
 }
 
@@ -12166,4 +12166,107 @@ table.hide-for-medium {
 /* line 13, ../sass/site.scss */
 #tiled-features #view-features h2 {
   text-align: center;
+}
+
+/* line 18, ../sass/site.scss */
+#pre-footer {
+  background: url(../images/global/upper-sep.png) no-repeat center top;
+  padding-top: 50px;
+}
+/* line 19, ../sass/site.scss */
+#pre-footer p {
+  font-size: 17px;
+}
+
+/* line 23, ../sass/site.scss */
+#demo {
+  background: #474747;
+  margin-top: 20px;
+}
+/* line 24, ../sass/site.scss */
+#demo h3 {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* line 28, ../sass/site.scss */
+#footer {
+  background: #f2f2f2;
+}
+/* line 29, ../sass/site.scss */
+#footer h2 {
+  color: #474747;
+  margin-bottom: 0;
+}
+/* line 30, ../sass/site.scss */
+#footer h4 {
+  color: #474747;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+/* line 31, ../sass/site.scss */
+#footer ul {
+  list-style-type: none;
+}
+/* line 32, ../sass/site.scss */
+#footer ul li {
+  padding: 10px 0;
+  border-bottom: 1px dotted #cccccc;
+  line-height: 16px;
+}
+/* line 33, ../sass/site.scss */
+#footer ul li:last-child {
+  border: 0;
+}
+/* line 38, ../sass/site.scss */
+#footer #info-block {
+  padding-top: 20px;
+}
+/* line 39, ../sass/site.scss */
+#footer #link-list {
+  padding-bottom: 20px;
+}
+/* line 42, ../sass/site.scss */
+#footer .three.columns h4 {
+  color: #a0a0a0;
+}
+/* line 43, ../sass/site.scss */
+#footer .three.columns ul {
+  list-style-type: none;
+}
+/* line 45, ../sass/site.scss */
+#footer .three.columns ul li a {
+  color: #a0a0a0;
+}
+/* line 52, ../sass/site.scss */
+#footer #findGroup {
+  padding-bottom: 20px;
+  padding-top: 15px;
+  border-bottom: 1px dotted #cccccc;
+  border-top: 1px dotted #cccccc;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+/* line 53, ../sass/site.scss */
+#footer #findGroup h2 {
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+/* line 54, ../sass/site.scss */
+#footer #findGroup .container {
+  background: none;
+  padding: 0;
+}
+/* line 56, ../sass/site.scss */
+#footer #findGroup .three.columns:first-child {
+  padding-left: 0;
+}
+/* line 58, ../sass/site.scss */
+#footer #findGroup .three.columns p strong {
+  color: #474747;
+}
+/* line 63, ../sass/site.scss */
+#footer #findGroup .six.columns {
+  padding-right: 0;
 }
