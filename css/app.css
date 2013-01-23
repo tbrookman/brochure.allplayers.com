@@ -7275,10 +7275,8 @@ input[type="text"], input[type="password"], input[type="date"], input[type="date
   background-color: white;
   font-family: inherit;
   border: 1px solid #cccccc;
-  -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
   border-radius: 2px;
   -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
@@ -7318,17 +7316,14 @@ textarea {
 /* line 40, ../sass/common/_forms.scss */
 select {
   width: 100%;
-  font-size: 23px;
 }
 
 /* Fieldsets */
 /* line 43, ../sass/common/_forms.scss */
 fieldset {
   border: solid 1px #dddddd;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   padding: 12px 12px 0;
   margin: 18px 0;
@@ -7395,10 +7390,8 @@ form.custom span.custom {
 }
 /* line 61, ../sass/common/_forms.scss */
 form.custom span.custom.radio {
-  -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
+  -webkit-border-radius: 100px;
   border-radius: 100px;
 }
 /* line 63, ../sass/common/_forms.scss */
@@ -7421,10 +7414,8 @@ form.custom span.custom.radio.checked:before {
   display: block;
   width: 8px;
   height: 8px;
-  -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
-  -ms-border-radius: 100px;
-  -o-border-radius: 100px;
+  -webkit-border-radius: 100px;
   border-radius: 100px;
   background: #222222;
   position: relative;
@@ -7623,7 +7614,7 @@ form.custom .custom.disabled {
 section.hero {
   background: #474747;
   background-image: url(../images/hero/homepage-hero-bg.png);
-  background-position: 80%, top;
+  background-position: 75%, top;
   background-repeat: no-repeat;
   max-height: 360px;
   padding-bottom: 20px;
@@ -7633,9 +7624,9 @@ section.hero {
 section.hero h1 {
   color: white;
   text-shadow: 1px 1px black;
-  font-size: 72px;
-  margin: 20px 0;
-  line-height: 70px;
+  font-size: 71px;
+  margin: 30px 0 20px 0;
+  line-height: 60px;
 }
 /* line 4, ../sass/components/modules/_hero.scss */
 section.hero p {
@@ -7648,17 +7639,58 @@ section.hero img {
 }
 
 /* line 2, ../sass/components/modules/_findgroup.scss */
+#findGroup h2 {
+  margin: 0 0 10px 0;
+}
+/* line 3, ../sass/components/modules/_findgroup.scss */
 #findGroup .twelve.columns.container {
   background: #474747;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   padding: 10px 0;
 }
-/* line 8, ../sass/components/modules/_findgroup.scss */
-#findGroup .twelve.columns.container .three.columns .two.columns strong {
+/* line 4, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .three.columns {
+  padding-right: 0;
+}
+/* line 5, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .three.columns .nine.columns {
+  padding: 0;
+}
+/* line 6, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .three.columns .nine.columns select {
+  -webkit-appearance: menulist-button;
+  font-size: 17px;
+  height: 38px;
+}
+/* line 9, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .three.columns .three.columns p {
+  text-align: center;
+  margin: 0;
+  padding-top: 8px;
+}
+/* line 10, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .three.columns .three.columns p strong {
   color: white;
   text-align: center;
 }
+/* line 15, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .six.columns {
+  padding-left: 0;
+}
+/* line 16, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .six.columns .nine.columns {
+  padding-right: 0;
+}
 /* line 17, ../sass/components/modules/_findgroup.scss */
-#findGroup .twelve.columns.container .six.columns .two.columns strong {
+#findGroup .twelve.columns.container .six.columns .nine.columns select {
+  -webkit-appearance: menulist-button;
+  font-size: 17px;
+  height: 38px;
+}
+/* line 20, ../sass/components/modules/_findgroup.scss */
+#findGroup .twelve.columns.container .six.columns .three.columns strong {
   color: white;
   text-align: center;
 }
@@ -7675,10 +7707,8 @@ section.hero img {
   background: -ms-linear-gradient(top, #3bb4ff 0%, #0083d4 100%);
   background: linear-gradient(to bottom, #3bb4ff 0%, #0083d4 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   border: 1px solid #0093ee;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
@@ -7811,18 +7841,14 @@ section.hero img {
 }
 /* line 31, ../sass/components/modules/_buttons.scss */
 .button.radius {
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 32, ../sass/components/modules/_buttons.scss */
 .button.round {
-  -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
-  -ms-border-radius: 1000px;
-  -o-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 35, ../sass/components/modules/_buttons.scss */
@@ -8275,10 +8301,8 @@ ul.button-group li:first-child {
 }
 /* line 161, ../sass/components/modules/_buttons.scss */
 ul.button-group.radius li a.button, ul.button-group.radius li a.button.radius, ul.button-group.radius li a.button-rounded, ul.button-group.radius li input[type="submit"].button, ul.button-group.radius li input[type="submit"].button.radius, ul.button-group.radius li input[type="submit"].button-rounded {
-  -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  -o-border-radius: 0px;
+  -webkit-border-radius: 0px;
   border-radius: 0px;
 }
 /* line 164, ../sass/components/modules/_buttons.scss */
@@ -8499,10 +8523,8 @@ div.button-bar ul.button-group:last-child {
 }
 /* line 36, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd a, .tabs.pill li a {
-  -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
-  -ms-border-radius: 1000px;
-  -o-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
   border-radius: 1000px;
   background: #e6e6e6;
   height: 26px;
@@ -8620,10 +8642,8 @@ div.alert-box {
   background-color: #d9edf7;
   border: 1px solid rgba(58, 135, 173, 0.1);
   margin-bottom: 12px;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   text-shadow: 0 -1px rgba(255, 255, 255, 0.3);
   position: relative;
@@ -8676,28 +8696,22 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
   bottom: 1px;
   color: #474747;
   background: #f2f2f2;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   border: 1px solid #cccccc;
 }
 /* line 43, ../sass/components/modules/_ui.scss */
 .label.radius {
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 44, ../sass/components/modules/_ui.scss */
 .label.round {
   padding: 1px 7px 2px;
-  -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
-  -ms-border-radius: 1000px;
-  -o-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 46, ../sass/components/modules/_ui.scss */
@@ -8748,10 +8762,8 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
   font-size: 12px;
   padding: 5px;
   z-index: 999;
-  -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  -o-border-radius: 4px;
+  -webkit-border-radius: 4px;
   border-radius: 4px;
   line-height: normal;
 }
@@ -8800,10 +8812,8 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 72, ../sass/components/modules/_ui.scss */
 .tooltip.noradius {
-  -webkit-border-radius: 0;
   -moz-border-radius: 0;
-  -ms-border-radius: 0;
-  -o-border-radius: 0;
+  -webkit-border-radius: 0;
   border-radius: 0;
 }
 /* line 73, ../sass/components/modules/_ui.scss */
@@ -8828,10 +8838,8 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
   border: solid 1px #e6e6e6;
   margin: 0 0 22px 0;
   padding: 20px;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 83, ../sass/components/modules/_ui.scss */
@@ -8872,10 +8880,8 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 95, ../sass/components/modules/_ui.scss */
 .panel.radius {
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -9014,10 +9020,8 @@ dl.sub-nav dt {
 /* line 146, ../sass/components/modules/_ui.scss */
 dl.sub-nav dd a {
   text-decoration: none;
-  -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
-  -ms-border-radius: 1000px;
-  -o-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 147, ../sass/components/modules/_ui.scss */
@@ -9083,10 +9087,8 @@ ul.breadcrumbs {
   background: #c1213e;
   padding: 6px 10px 7px;
   border: 1px solid #ab1d37;
-  -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
   border-radius: 2px;
   overflow: hidden;
   margin-left: 0;
@@ -9172,10 +9174,8 @@ ul.inline-list > li > *, ul.link-list > li > * {
   margin: 0;
   background: #ededed;
   border: solid 1px #dbdbdb;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -9191,10 +9191,8 @@ ul.inline-list > li > *, ul.link-list > li > * {
   -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   -webkit-transition-property: box-shadow;
   -moz-transition-property: box-shadow;
@@ -9243,10 +9241,8 @@ ul.inline-list > li > *, ul.link-list > li > * {
 /* line 230, ../sass/components/modules/_ui.scss */
 table {
   background: #fff;
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
   margin: 0 0 18px;
   border: 1px solid #dddddd;
@@ -9370,34 +9366,26 @@ div.progress.alert .meter {
 }
 /* line 273, ../sass/components/modules/_ui.scss */
 div.progress.radius {
-  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
+  -webkit-border-radius: 3px;
   border-radius: 3px;
 }
 /* line 274, ../sass/components/modules/_ui.scss */
 div.progress.radius .meter {
-  -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
+  -webkit-border-radius: 2px;
   border-radius: 2px;
 }
 /* line 276, ../sass/components/modules/_ui.scss */
 div.progress.round {
-  -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
-  -ms-border-radius: 1000px;
-  -o-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 /* line 277, ../sass/components/modules/_ui.scss */
 div.progress.round .meter {
-  -webkit-border-radius: 1000px;
   -moz-border-radius: 1000px;
-  -ms-border-radius: 1000px;
-  -o-border-radius: 1000px;
+  -webkit-border-radius: 1000px;
   border-radius: 1000px;
 }
 
@@ -11700,10 +11688,8 @@ table.hide-for-medium {
   .joyride-tip-guide {
     width: 95% !important;
     left: 2.5% !important;
-    -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
-    -ms-border-radius: 4px;
-    -o-border-radius: 4px;
+    -webkit-border-radius: 4px;
     border-radius: 4px;
   }
 
@@ -12137,4 +12123,47 @@ table.hide-for-medium {
   .top-bar ul > li.has-button a.button {
     margin: 0;
   }
+}
+/* line 1, ../sass/site.scss */
+.intro {
+  background: url(../images/global/sep.png) no-repeat center top;
+  margin-top: 20px;
+  padding-top: 35px;
+}
+/* line 2, ../sass/site.scss */
+.intro h1 {
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+/* line 3, ../sass/site.scss */
+.intro p {
+  font-size: 17px;
+}
+/* line 4, ../sass/site.scss */
+.intro .eight.columns, .intro .row .columns.eight, .row .intro .columns.eight {
+  padding-right: 120px;
+}
+
+/* line 7, ../sass/site.scss */
+#tiled-features {
+  padding-top: 40px;
+  background: url(../images/global/sep.png) no-repeat center top;
+  margin-top: 50px;
+}
+/* line 9, ../sass/site.scss */
+#tiled-features .four.columns img {
+  margin-left: 60px;
+}
+/* line 10, ../sass/site.scss */
+#tiled-features .four.columns h3 {
+  font-size: 27px;
+}
+/* line 12, ../sass/site.scss */
+#tiled-features #view-features {
+  background: #f2f2f2;
+  margin: 20px 0;
+}
+/* line 13, ../sass/site.scss */
+#tiled-features #view-features h2 {
+  text-align: center;
 }

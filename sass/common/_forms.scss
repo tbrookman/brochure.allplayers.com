@@ -37,7 +37,7 @@
 
   textarea { height: auto; }
 
-  select { width: 100%; font-size: ms(2); }
+  select { width: 100%; }
 
   /* Fieldsets */
   fieldset { border: solid 1px #ddd; @include border-radius($fieldsetBorderRadius); padding: 12px 12px 0; margin: 18px 0;
