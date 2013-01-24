@@ -390,6 +390,28 @@
       h2 {font-size: ms(3);}
        p {font-size: ms(0);}
     }
+
+    section#feature-hero-wrapper {background: $lightGrey;
+      #feature-hero {padding-left: 30px; padding-top: 20px;
+        h1 {font-size: ms(4); margin-top: 40px; line-height: 35px;}
+        h2 {font-size: ms(1); color: $darkGrey;} 
+      }
+
+      #feature-image {position: relative;
+        img {position: absolute; top: 70px; right: 160px;}
+      }
+    }
+
+    section#feature-content {padding-top: 25px;
+      p {font-size: ms(0);}
+      .two.columns {
+        img {margin-top: 15px;}
+      }
+      .ten.columns {
+        p {font-size: ms(0);}
+        h3 {margin-bottom: 0; font-size: ms(2);}
+      }
+    }
   }
 
   /* Topbar Specific Breakpoint that you can customize */

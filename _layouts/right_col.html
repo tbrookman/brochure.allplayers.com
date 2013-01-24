@@ -5,18 +5,21 @@
   <!-- Header and Nav -->
   {% include header.snippet %} 
   <!-- End Header and Nav -->
-  <section>
+  <section id="feature-hero-wrapper">
     {% include feature-hero.snippet %}
   </section>
-  <section>
-    <div class="six columns">
-      {{ content }} 
-    </div>
-    <div class="three columns">
-      {% include featurenav.snippet %}
+  <section class="row" id="feature-content">
+    <div class="twelve columns">
+      <div class="nine columns">
+        {{ content }} 
+      </div>
+      <div class="three columns">
+        {% include featurenav.snippet %}
+      </div>
     </div>
   </section>
 {% include demo.snippet %}
 {% include footer.snippet %}
 </body>
 </html>
+
