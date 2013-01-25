@@ -17,7 +17,7 @@
 // Colors Settings
 
    $mainColor: #3bb4ff;
-   $secondaryColor: #ab1d37;
+   $secondaryColor: #474747;
    $standardAlertColor: #D9EDF7;
    $standardAlertTextColor: #3A87AD;
    $alertColor: #FCF8E3;
@@ -39,6 +39,7 @@
 
 // $fontSmoothing: antialiased;
    $headerFontFamily: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
+   $lowerHeaderFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
    $headerFontWeight: normal;
 // $headerFontStyle: normal;
 // $headerFontColor: #222;
@@ -65,7 +66,7 @@
 // $formSpacing: 12px;
 // $labelFontWeight: 500;
 // $labelFontColor: lighten(#000, 30%);
-// $labelBtmMargin: 3px;
+   $labelBtmMargin: 5px;
 // $inputFontColor: rgba(0,0,0,0.75);
 // $inputFontSize: 14px;
 // $inputBgColor: #fff;

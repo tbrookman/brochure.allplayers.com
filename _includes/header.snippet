@@ -5,14 +5,13 @@
         <li class="name"><a href="#" class="logo"><img src="images/global/header-logo.png"/></a></li>
         <li class="toggle-topbar"><a href="#"></a></li>
       </ul>
+      <!-- Right Nav Section -->
       <ul class="right">
-        <li><a href="/branding">Branding</a></li>
-        <li><a href="#">Benefits</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Login</a></li>
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include pages_list %}
+      </ul>
       </ul>
     </div>
   </div>
 </nav>
-
-

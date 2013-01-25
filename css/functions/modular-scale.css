@@ -1,13 +1,13 @@
 /*
-Syntax error: An @import loop has been found: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss imports itself
-        on line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss
-        from line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss
+Syntax error: An @import loop has been found: /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss imports itself
+        on line 3 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss
+        from line 3 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss
 
-1: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss
+1: /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss
 
 Backtrace:
-/Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss:3
-/Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss:3
+/Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss:3
+/Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss:3
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:435:in `handle_import_loop!'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:219:in `visit_import'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
@@ -77,4 +77,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: An @import loop has been found: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss imports itself\A         on line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss\A         from line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss\A \A 1: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss"; }
+  content: "Syntax error: An @import loop has been found: /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss imports itself\A         on line 3 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss\A         from line 3 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss\A \A 1: /Users/mmaxwell/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss"; }
