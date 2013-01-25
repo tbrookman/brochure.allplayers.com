@@ -12798,53 +12798,58 @@ section#feature-content .ten.columns h3 {
 }
 
 /**~Header/Nav~**/
-/* line 3, ../sass/branding-guide.scss */
+/* line 2, ../sass/branding-guide.scss */
+body.branding-guide {
+  background: #474747 !important;
+}
+
+/* line 4, ../sass/branding-guide.scss */
 .contain-to-grid.branding {
   background: transparent none;
 }
 
-/* line 6, ../sass/branding-guide.scss */
+/* line 7, ../sass/branding-guide.scss */
 .top-bar.branding {
   background: #474747;
   border-bottom: 3px solid #cccccc;
 }
-/* line 9, ../sass/branding-guide.scss */
+/* line 10, ../sass/branding-guide.scss */
 .top-bar.branding ul li:hover, .top-bar.branding ul li.active {
   background: transparent none;
 }
-/* line 12, ../sass/branding-guide.scss */
-.top-bar.branding ul li.home a {
+/* line 11, ../sass/branding-guide.scss */
+.top-bar.branding ul li a.branding-guide {
   background: url("../images/home-icon.png") no-repeat center;
   padding: auto 10px;
 }
-/* line 13, ../sass/branding-guide.scss */
-.top-bar.branding ul li.home a:hover, .top-bar.branding ul li.home a.active {
+/* line 12, ../sass/branding-guide.scss */
+.top-bar.branding ul li a.branding-guide:hover, .top-bar.branding ul li a.branding-guide.active {
   background: transparent url("../images/home-icon-active.png") no-repeat center;
   padding: auto 10px;
 }
 
 /**~Main~**/
-/* line 22, ../sass/branding-guide.scss */
+/* line 20, ../sass/branding-guide.scss */
 .branding-wrapper {
   background: white;
   border-bottom: 4px solid #cccccc;
 }
 
 /**~Footer~**/
-/* line 26, ../sass/branding-guide.scss */
+/* line 24, ../sass/branding-guide.scss */
 footer {
   background-color: #6d6d6d;
 }
-/* line 27, ../sass/branding-guide.scss */
+/* line 25, ../sass/branding-guide.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 28, ../sass/branding-guide.scss */
+/* line 26, ../sass/branding-guide.scss */
 footer ul li {
   font-weight: bold;
   font-size: 95%;
 }
-/* line 30, ../sass/branding-guide.scss */
+/* line 28, ../sass/branding-guide.scss */
 footer .footer-branding {
   margin: 30px;
 }
