@@ -1,14 +1,13 @@
-<div class="row">
-<nav class="top-bar">
-  <ul>
-    <li class="name"><h1><a href="#"><img src="../images/global/header-logo.png"/></a></h1></li>
-    <li class="toggle-topbar"><a href="#"></a></li>
-  </ul>
-    <ul class="right horizontal">
-    {% assign pages_list = site.pages %}
-    {% assign group = 'branding' %}
-    {% include pages_list %}
-    </ul>
-</nav>
+<div class="contain-to-grid branding fixed">
+	<nav class="top-bar branding">
+	  <ul class="left">
+	    <li class="name">{{ site.brandingmain }}</li>
+	    <li class="toggle-topbar"><a href="#"></a></li>
+	  </ul>
+	    <ul class="right horizontal">
+	    {% assign pages_list = site.pages %}
+	    {% assign group = 'branding' %}
+	    {% include pages_list %}
+	    </ul>
+	</nav>
 </div>
-

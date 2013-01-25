@@ -17,11 +17,4 @@
 body{ 
 	&.branding-guide {background: $secondaryColor !important;}
 }
-.wrapper {background: $white; border-bottom: 4px solid $grey;}
 .white{color: $white;}
-.branding-guide {background-color: lighten($darkGrey, 20%);}
-footer { z-index: -5;
-	ul {list-style-type: none;
-		li {font-weight: bold; font-size: 95%;}
-	}
-}

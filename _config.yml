@@ -3,3 +3,6 @@ server: true
 server_port: 3000
 auto: true
 permalink: ./:title.html
+img: <img src="../images/global/header-logo.png"/>
+sitemain: <a href="/"><img src="../images/global/header-logo.png"/></a> 
+brandingmain: <h1><a href="/"><img src="../images/global/header-logo.png"/></a></h1>

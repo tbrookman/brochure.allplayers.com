@@ -21,8 +21,8 @@
   /* Wrapped around .top-bar to make it fixed at the top */
   .fixed { width: 100%; left: 0; position: fixed; top: 0; z-index: 99; }
   /* <nav> */
-  .top-bar { background: $secondaryColor; border-bottom: 3px solid $grey; height: $topBarHeight; line-height: $topBarHeight; margin: 0 0 $topBarBtmMargin; padding: 0; width: 100%; position: relative;
-
+  .top-bar { background: $black; height: $topBarHeight; line-height: $topBarHeight; margin: 0 0 $topBarBtmMargin; padding: 0; width: 100%; position: relative;
+    &.branding {background: $secondaryColor; border-bottom: 3px solid $grey;}
     /* Contain width to .row width */
     .contain-to-grid & { max-width: $rowWidth; margin: 0 auto; }
 

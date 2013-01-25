@@ -10,6 +10,12 @@
 // $mobileTotalColumns: 4;
 // $blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported
 
+// Media Queries
+
+   $screenSmall: 768px !default;
+   $screenMedium: 1279px !default;
+   $screenXlarge: 1441px !default;
+
 // Padding Settings
 
    $paddingTen: 10px;
@@ -55,7 +61,7 @@
 // Button Settings
 
 // $buttonRadius: 3px;
- $btnBase: 10px;
+   $btnBase: 10px;
 
 // $tinyBtnBase: $btnBase - 5;
 // $smallBtnBase: $btnBase - 3;
@@ -123,7 +129,7 @@
 // $topBarDropToggleColor: #fff;
 // $topBarDropToggleAlpha: 0.5;
 // $topBarSearchWidth: 200px;
-// $topBarBreakPoint: 940px; // Change to 9999px for always mobile layout
+   $topBarBreakPoint: $screenSmall; // Change to 9999px for always mobile layout
 // $topBarNavToggleSize: 8px;
 
 // UI Settings
@@ -244,6 +250,7 @@
 // $tipCloseSize: 20px;
 // $tipCloseWeight: normal;
 // $tipScreenFill: rgba(0,0,0,0.5);
+
 
 // Modular Scale Settings
 

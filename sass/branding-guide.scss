@@ -1,0 +1,18 @@
+/**~Header/Nav~**/
+.contain-to-grid {
+	&.branding {background: transparent none;}
+}
+.top-bar {
+	&.branding {background: $secondaryColor; border-bottom: 3px solid $grey;}
+}
+/**~Main~**/
+.branding-wrapper {background: $white; border-bottom: 4px solid $grey;}
+
+
+/**~Footer~**/
+footer { background-color: lighten($secondaryColor, 15%);
+	ul {list-style-type: none;
+		li {font-weight: bold; font-size: 95%;}
+	}
+	.footer-branding {margin: $columnGutter;}
+}
