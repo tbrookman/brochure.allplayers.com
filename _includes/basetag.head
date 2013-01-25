@@ -1,8 +1,8 @@
 <script type='text/javascript'>
   (function() {
     var baselocation = location.origin + '/';
-    if (location.href.indexOf("/brochure"+"."+"allplayers.com") !== -1) {
-      baselocation = location.href.slice(0, location.href.indexOf('/brochure"+"."+"allplayers.com')+10) + '/';
+    if (location.href.indexOf("/brochure.allplayers.com") !== -1) {
+      baselocation = location.href.slice(0, location.href.indexOf('/brochure.allplayers.com')+10) + '/';
     }
     var tag = document.createElement('base');
     tag.href = baselocation;
