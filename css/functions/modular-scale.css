@@ -1,13 +1,13 @@
 /*
-Syntax error: An @import loop has been found: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss imports itself
-        on line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss
-        from line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss
+Syntax error: An @import loop has been found: /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss imports itself
+        on line 3 of /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss
+        from line 3 of /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss
 
-1: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss
+1: /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss
 
 Backtrace:
-/Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss:3
-/Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss:3
+/Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss:3
+/Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss:3
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:435:in `handle_import_loop!'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:219:in `visit_import'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
@@ -47,23 +47,7 @@ Backtrace:
 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Library/Ruby/Site/1.8/rubygems/custom_require.rb:36:in `to_proc'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Library/Ruby/Gems/1.8/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
+/Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
 /Library/Ruby/Gems/1.8/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
@@ -77,4 +61,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: An @import loop has been found: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss imports itself\A         on line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss\A         from line 3 of /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss\A \A 1: /Users/lfisher/Documents/brochure.allplayers/sass/functions/modular-scale.scss"; }
+  content: "Syntax error: An @import loop has been found: /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss imports itself\A         on line 3 of /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss\A         from line 3 of /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss\A \A 1: /Users/lfisher/Documents/brochure.allplayers.com/sass/functions/modular-scale.scss"; }
