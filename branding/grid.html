@@ -1,135 +1,284 @@
 ---
 layout: branding_left_col
 title: Grid
+group: branding
+description: For more information on what grids can do, visit <a href="http://foundation.zurb.com/grid.php">Zurb Foundation</a> to learn more.
 ---
 
 <h1>{{ page.title }}</h1>
+<h4 class="subheader">{{ page.description }} </h4>
+<hr>
 
-<div class="row">
-<div class="row">
-  <div class="four columns">
-    .four.columns
-  </div>
-  <div class="four columns">
-    .four.columns
-  </div>
-  <div class="four columns">
-    .four.columns
-  </div>
-</div>
-<div class="row">
-  <div class="three columns">
-    .three.columns
-  </div>
-  <div class="six columns">
-    .six.columns
-  </div>
-  <div class="three columns">
-    .three.columns
-  </div>
-</div>
-<div class="row">
-  <div class="two columns">
-    .two.columns
-  </div>
+<div class="row tabs">
   <div class="eight columns">
-    .eight.columns
+    <h3>An Example</h3>
   </div>
-  <div class="two columns">
-    .two.columns
-  </div>
-</div>
-<div class="row">
-  <div class="one columns">
-    .one
-  </div>
-  <div class="eleven columns">
-    .eleven.columns
+  <div class="four columns tabs">
+    <dl class="tabs pill small">
+      <dd class="active"><a href="#gridBasics">Example</a></dd>
+      <dd><a href="#gridCode">Code</a></dd>
+    </dl>
   </div>
 </div>
-<div class="row">
-  <div class="two columns">
-    .two.columns
-  </div>
-  <div class="ten columns">
-    .ten.columns
-  </div>
-</div>
-<div class="row">
-  <div class="three columns">
-    .three.columns
-  </div>
-  <div class="nine columns">
-    .nine.columns
-  </div>
-</div>
-<div class="row">
-  <div class="four columns">
-    .four.columns
-  </div>
-  <div class="eight columns">
-    .eight.columns
-  </div>
-</div>
-<div class="row">
-  <div class="five columns">
-    .five.columns
-  </div>
-  <div class="seven columns">
-    .seven.columns
-  </div>
-</div>
-<div class="row">
-  <div class="six columns">
-    .six.columns
-  </div>
-  <div class="six columns">
-    .six.columns
-  </div>
-</div>
-<div class="row">
-  <div class="seven columns">
-    .seven.columns
-  </div>
-  <div class="five columns">
-    .five.columns
-  </div>
-</div>
-<div class="row">
-  <div class="eight columns">
-    .eight.columns
-  </div>
-  <div class="four columns">
-    .four.columns
-  </div>
-</div>
-<div class="row">
-  <div class="nine columns">
-    .nine.columns
-  </div>
-  <div class="three columns">
-    .three.columns
-  </div>
-</div>
-<div class="row">
-  <div class="ten columns">
-    .ten.columns
-  </div>
-  <div class="two columns">
-    .two.columns
-  </div>
-</div>
-<div class="row">
-  <div class="eleven columns">
-    .eleven.columns
-  </div>
-  <div class="one columns">
-    .one
-  </div>
-</div>
-<div class="row">
-  <div class="twelve columns">
-    .twelve.columns
-  </div>
-</div>
-</div>
+
+<p>Below is a visible example of the grid. Each column block is sized based on how many of the 12 columns it takes up, and where you see thicker borders it's because two columns are running against each other.</p>
+
+<ul class="tabs-content">
+  <li class="active" id="gridBasicsTab">
+    <div class="row display">
+      <div class="four columns">
+        .four.columns
+      </div>
+      <div class="four columns">
+        .four.columns
+      </div>
+      <div class="four columns">
+        .four.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="three columns">
+        .three.columns
+      </div>
+      <div class="six columns">
+        .six.columns
+      </div>
+      <div class="three columns">
+        .three.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="two columns">
+        .two.columns
+      </div>
+      <div class="eight columns">
+        .eight.columns
+      </div>
+      <div class="two columns">
+        .two.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="one columns">
+        .one
+      </div>
+      <div class="eleven columns">
+        .eleven.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="two columns">
+        .two.columns
+      </div>
+      <div class="ten columns">
+        .ten.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="three columns">
+        .three.columns
+      </div>
+      <div class="nine columns">
+        .nine.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="four columns">
+        .four.columns
+      </div>
+      <div class="eight columns">
+        .eight.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="five columns">
+        .five.columns
+      </div>
+      <div class="seven columns">
+        .seven.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="six columns">
+        .six.columns
+      </div>
+      <div class="six columns">
+        .six.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="seven columns">
+        .seven.columns
+      </div>
+      <div class="five columns">
+        .five.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="eight columns">
+        .eight.columns
+      </div>
+      <div class="four columns">
+        .four.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="nine columns">
+        .nine.columns
+      </div>
+      <div class="three columns">
+        .three.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="ten columns">
+        .ten.columns
+      </div>
+      <div class="two columns">
+        .two.columns
+      </div>
+    </div>
+    <div class="row display">
+      <div class="eleven columns">
+        .eleven.columns
+      </div>
+      <div class="one columns">
+        .one
+      </div>
+    </div>
+    <div class="row display">
+      <div class="twelve columns">
+        .twelve.columns
+      </div>
+    </div>
+  </li>
+  <li id="gridCodeTab">
+<pre><code data-language='html'>
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;four columns&quot;&gt;
+.four.columns
+&lt;/div&gt;
+&lt;div class=&quot;four columns&quot;&gt;
+.four.columns
+&lt;/div&gt;
+&lt;div class=&quot;four columns&quot;&gt;
+.four.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;three columns&quot;&gt;
+.three.columns
+&lt;/div&gt;
+&lt;div class=&quot;six columns&quot;&gt;
+.six.columns
+&lt;/div&gt;
+&lt;div class=&quot;three columns&quot;&gt;
+.three.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;two columns&quot;&gt;
+.two.columns
+&lt;/div&gt;
+&lt;div class=&quot;eight columns&quot;&gt;
+.eight.columns
+&lt;/div&gt;
+&lt;div class=&quot;two columns&quot;&gt;
+.two.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;one columns&quot;&gt;
+.one
+&lt;/div&gt;
+&lt;div class=&quot;eleven columns&quot;&gt;
+.eleven.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;two columns&quot;&gt;
+.two.columns
+&lt;/div&gt;
+&lt;div class=&quot;ten columns&quot;&gt;
+.ten.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;three columns&quot;&gt;
+.three.columns
+&lt;/div&gt;
+&lt;div class=&quot;nine columns&quot;&gt;
+.nine.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;four columns&quot;&gt;
+.four.columns
+&lt;/div&gt;
+&lt;div class=&quot;eight columns&quot;&gt;
+.eight.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;five columns&quot;&gt;
+.five.columns
+&lt;/div&gt;
+&lt;div class=&quot;seven columns&quot;&gt;
+.seven.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;six columns&quot;&gt;
+.six.columns
+&lt;/div&gt;
+&lt;div class=&quot;six columns&quot;&gt;
+.six.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;seven columns&quot;&gt;
+.seven.columns
+&lt;/div&gt;
+&lt;div class=&quot;five columns&quot;&gt;
+.five.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;eight columns&quot;&gt;
+.eight.columns
+&lt;/div&gt;
+&lt;div class=&quot;four columns&quot;&gt;
+.four.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;nine columns&quot;&gt;
+.nine.columns
+&lt;/div&gt;
+&lt;div class=&quot;three columns&quot;&gt;
+.three.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;ten columns&quot;&gt;
+.ten.columns
+&lt;/div&gt;
+&lt;div class=&quot;two columns&quot;&gt;
+.two.columns
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;eleven columns&quot;&gt;
+.eleven.columns
+&lt;/div&gt;
+&lt;div class=&quot;one columns&quot;&gt;
+.one
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;twelve columns&quot;&gt;
+.twelve.columns
+&lt;/div&gt;
+&lt;/div&gt;
+</code></pre>            </li>
+</ul>
