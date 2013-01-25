@@ -7757,13 +7757,13 @@ section.hero img {
 /* line 3, ../sass/components/modules/_buttons.scss */
 .button {
   width: auto;
-  background: #55beff;
-  background: -moz-linear-gradient(top, #55beff 0%, #0093ed 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #55beff), color-stop(100%, #0093ed));
-  background: -webkit-linear-gradient(top, #55beff 0%, #0093ed 100%);
-  background: -o-linear-gradient(top, #55beff 0%, #0093ed 100%);
-  background: -ms-linear-gradient(top, #55beff 0%, #0093ed 100%);
-  background: linear-gradient(to bottom, #55beff 0%, #0093ed 100%);
+  background: #6ec8ff;
+  background: -moz-linear-gradient(top, #6ec8ff 0%, #08a0ff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6ec8ff), color-stop(100%, #08a0ff));
+  background: -webkit-linear-gradient(top, #6ec8ff 0%, #08a0ff 100%);
+  background: -o-linear-gradient(top, #6ec8ff 0%, #08a0ff 100%);
+  background: -ms-linear-gradient(top, #6ec8ff 0%, #08a0ff 100%);
+  background: linear-gradient(to bottom, #6ec8ff 0%, #08a0ff 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -9606,11 +9606,6 @@ pre {
   /* Contain width to .row width */
   /* First <ul> for branding, title, name, etc */
   /* topbar global <ul> styles */
-}
-/* line 25, ../sass/components/modules/_topbar.scss */
-.top-bar.branding {
-  background: #474747;
-  border-bottom: 3px solid #cccccc;
 }
 /* line 27, ../sass/components/modules/_topbar.scss */
 .contain-to-grid .top-bar {
@@ -12304,29 +12299,43 @@ body.branding-guide {
   background: #474747;
   border-bottom: 3px solid #cccccc;
 }
+/* line 9, ../sass/branding-guide.scss */
+.top-bar.branding ul li:hover, .top-bar.branding ul li.active {
+  background: transparent none;
+}
+/* line 12, ../sass/branding-guide.scss */
+.top-bar.branding ul li.home a {
+  background: url("../images/home-icon.png") no-repeat center;
+  padding: auto 10px;
+}
+/* line 13, ../sass/branding-guide.scss */
+.top-bar.branding ul li.home a:hover, .top-bar.branding ul li.home a.active {
+  background: transparent url("../images/home-icon-active.png") no-repeat center;
+  padding: auto 10px;
+}
 
 /**~Main~**/
-/* line 9, ../sass/branding-guide.scss */
+/* line 22, ../sass/branding-guide.scss */
 .branding-wrapper {
   background: white;
   border-bottom: 4px solid #cccccc;
 }
 
 /**~Footer~**/
-/* line 13, ../sass/branding-guide.scss */
+/* line 26, ../sass/branding-guide.scss */
 footer {
   background-color: #6d6d6d;
 }
-/* line 14, ../sass/branding-guide.scss */
+/* line 27, ../sass/branding-guide.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 15, ../sass/branding-guide.scss */
+/* line 28, ../sass/branding-guide.scss */
 footer ul li {
   font-weight: bold;
   font-size: 95%;
 }
-/* line 17, ../sass/branding-guide.scss */
+/* line 30, ../sass/branding-guide.scss */
 footer .footer-branding {
   margin: 30px;
 }

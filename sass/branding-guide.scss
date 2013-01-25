@@ -3,7 +3,20 @@
 	&.branding {background: transparent none;}
 }
 .top-bar {
-	&.branding {background: $secondaryColor; border-bottom: 3px solid $grey;}
+	&.branding {background: $secondaryColor; border-bottom: 3px solid $grey;
+		ul {
+			li{
+				&:hover, &.active {background: transparent none;}
+
+				&.home {
+					a {background: url("../images/home-icon.png") no-repeat center; padding: auto 10px;
+						&:hover, &.active {background: transparent url("../images/home-icon-active.png") no-repeat center; padding: auto 10px;}
+					}
+				}
+			}
+		}
+
+	}
 }
 /**~Main~**/
 .branding-wrapper {background: $white; border-bottom: 4px solid $grey;}
