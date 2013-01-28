@@ -7,13 +7,17 @@
   </header>
   <!-- // One column template with hero --> 
   {% if page.layout_keyword == 'one_column' %}
-    <section id="hero-wrapper">
-      {% include hero.snippet %}
-    </section>
+    {% if page.hero_image != null %}
+      <section id="hero-wrapper">
+        {% include hero.snippet %}
+      </section>
+    {% endif %}
     <section>
       <div class="row">
         <div class="twelve columns">
-          {% include find-group.snippet %}
+          {% if page.hero_image != null %}
+            {% include find-group.snippet %}
+          {% endif %}
           {{ content }}
         </div>
       </div>
