@@ -1,28 +1,77 @@
 ---
 layout: branding_left_col
 title: Buttons
+group: branding
+description: Buttons are a convenient tool when it comes to more traditional actions.
 ---
-
 <h1>{{ page.title }}</h1>
+<h4 class="subheader">{{ page.description }}</h4>
+<hr>
+      <div class="row tabs">
+        <div class="eight columns">
+          <h3>Styles, Sizes &amp; Options</h3>
+        </div>
+        <div class="four columns tabs">
+          <dl class="tabs pill small">
+            <dd class="active"><a href="#btnEx">Example</a></dd>
+            <dd><a href="#btnCode">Code</a></dd>
+          </dl>
+        </div>
+      </div>
+      <ul class="tabs-content">
+        <li class="active" id="btnExTab">
+          <div class="row">
+            <div class="four columns">
+              <h5>Sizes</h5>
+              <a class="tiny button" href="#">Tiny</a><br><br>
+              <a class="small button" href="#">Small</a><br><br>
+              <a class="button" href="#">Medium</a><br><br>
+              <a class="large button" href="#">Large</a>
+            </div>
+            <div class="four columns">
+              <h5>Type</h5>
+              <a class="button" href="#">Normal</a><br><br>
+              <a class="secondary button" href="#">Secondary</a><br><br>
+              <a class="success button" href="#">Success</a><br><br>
+              <a class="alert button" href="#">Alert</a>
+            </div>
+            <div class="four columns">
+              <h5>Styles</h5>
+              <a class="button" href="#">Square</a><br><br>
+              <a class="radius button" href="#">Radius</a><br><br>
+              <a class="round button" href="#">Round</a>
+            </div>
+          </div>
 
-<div class="three columns">
-<!-- Sizes -->
-<a class="tiny button" href="#">Tiny</a><br>
-<a class="small button" href="#">Small</a>
-<a class="button" href="#">Medium</a>
-<a class="large button" href="#">Large</a>
-</div>
-<div class="three columns">
-<!-- Types -->
-<a class="button" href="#">Normal</a>
-<a class="secondary button" href="#">Secondary</a>
-<a class="success button" href="#">Success</a>
-<a class="alert button" href="#">Alert</a>
-</div>
-<div class="three columns">
-<!-- Styles -->
-<a class="button" href="#">Square</a>
-<a class="radius button" href="#">Radius</a>
-<a class="round button" href="#">Round</a>
-<input type="submit" class="button" value="Input Submit Button" />
-</div>
+          <br>
+          <p>Button classes can also be applied to <code>button</code> elements, as well as <code>input type="submit"</code> elements.</p>
+
+          <button class="button">Form Button</button>
+          <input type="submit" class="button" value="Input Submit Button" />
+          <a href="#" class="button">Regular Button &raquo;</a>
+        </li>
+        <li id="btnCodeTab">
+<pre><code data-language='html'>
+&lt;!-- Sizes --&gt;
+&lt;a class=&quot;tiny button&quot; href=&quot;#&quot;&gt;Tiny&lt;/a&gt;
+&lt;a class=&quot;small button&quot; href=&quot;#&quot;&gt;Small&lt;/a&gt;
+&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Medium&lt;/a&gt;
+&lt;a class=&quot;large button&quot; href=&quot;#&quot;&gt;Large&lt;/a&gt;
+
+&lt;!-- Types --&gt;
+&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Normal&lt;/a&gt;
+&lt;a class=&quot;secondary button&quot; href=&quot;#&quot;&gt;Secondary&lt;/a&gt;
+&lt;a class=&quot;success button&quot; href=&quot;#&quot;&gt;Success&lt;/a&gt;
+&lt;a class=&quot;alert button&quot; href=&quot;#&quot;&gt;Alert&lt;/a&gt;
+
+&lt;!-- Styles --&gt;
+&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Square&lt;/a&gt;
+&lt;a class=&quot;radius button&quot; href=&quot;#&quot;&gt;Radius&lt;/a&gt;
+&lt;a class=&quot;round button&quot; href=&quot;#&quot;&gt;Round&lt;/a&gt;
+
+&lt;!-- Inputs and Submits --&gt;
+&lt;button class=&quot;button&quot;&gt;Form Button&lt;/button&gt;
+&lt;input type=&quot;submit&quot; class=&quot;button&quot; value=&quot;Input Submit Button&quot; /&gt;
+</code></pre>            
+  </li>
+      </ul>

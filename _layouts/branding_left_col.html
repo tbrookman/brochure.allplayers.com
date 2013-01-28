@@ -1,30 +1,21 @@
 <!DOCTYPE html>
 <html>
 {% include branding-head-tag.snippet %}
-<body>
+<body class="branding-guide">
 <!-- Header and Nav -->
 {% include branding-header.snippet %} 
 <!-- End Header and Nav -->
-<div>
-  <div class="three columns">
-    <ul class="nav-bar vertical">
-      <li><a href="/branding/grid.html">The Grid</a></li>
-      <li><a href="/branding/typography.html">Typography</a></li>
-      <li><a href="/branding/buttons.html">Buttons</a></li>
-      <li><a href="/branding/forms.html">Forms</a></li>
-      <li><a href="/branding/navigation.html">Navigation</a></li>
-      <li><a href="/branding/tabs.html">Tabs</a></li>
-      <li><a href="/branding/elements.html">Elements</a></li>
-    </ul>
-  </div>
-  <div class="six columns">
-    {{ content }} 
-  </div>
-  <div class="three columns">
-    <p><img src="http://placehold.it/320x240&text=Ad" /></p>
-  </div>
+<div class="row branding-wrapper">
+  <section>
+    <div class="seven columns">
+      {{ content }} 
+    </div>
+    <div class="four offset-by-one columns">
+      <!--<p><img src="http://placehold.it/320x240&text=Ad" /></p>-->
+    </div>
+  </section>
 </div>
-<div class="twelve columns">
+<div class="row">
   {% include branding-footer.snippet %}
 </div>
 </body>

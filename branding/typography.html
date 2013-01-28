@@ -1,123 +1,326 @@
 ---
 layout: branding_left_col
 title: Typography
+group: branding
+description: One of the most important features, Typography helps establish brand identity.
 ---
+  <h2>{{ page.title }}</h1>
+  <h4 class="subheader">{{ page.description }}</h4>
+  <hr>
+  <div class="row tabs">
+    <div class="eight columns">
+      <h3>Header Styles</h3>
+    </div>
+    <div class="four columns tabs no-brdr">
+      <dl class="tabs pill small">
+        <dd class="active"><a href="#tabsEx">Example</a></dd>
+        <dd><a href="#tabsCode">Code</a></dd>
+      </dl>
+    </div>
+  </div>
+  <ul class="tabs-content">
+    <li id="tabsExTab" class="active">          
+      <!-- Basic Headers -->
+      <h1>h1 header</h1>
+      <h2>h2 header</h2>
+      <h3>h3 header</h3>
+      <h4>This is an h4 header</h4>
+      <h5>h5 header</h5>
+      <h6>h6 header</h6>
 
-<h1>{{ page.title }}</h1>
+      <!-- Headers with small text -->
+      <h1>h1 header <small>Small header text.</small></h1>
+      <h2>h2 header <small>Small header text.</small></h2>
+      <h3>h3 header <small>Small header text.</small></h3>
+      <h4>h4 header <small>Small header text.</small></h4>
+      <h5>h5 header <small>Small header text.</small></h5>
+      <h6>h6 header <small>Small header text.</small></h6>
 
-<h2>Header Styles</h2>
+      <!-- Subheaders -->
+      <h1 class="subheader">h1.subheader header</h1>
+      <h2 class="subheader">h2.subheader header</h2>
+      <h3 class="subheader">h3.subheader header</h3>
+      <h4 class="subheader">h4.subheader header</h4>
+      <h5 class="subheader">h5.subheader header</h5>
+      <h6 class="subheader">h6.subheader header</h6>
+    </li>
+    <li id="tabsCodeTab">
+      <pre><code data-language='html'>
+&lt;h1&gt;h1 header&lt;/h1&gt;<br />
+&lt;h2&gt;h2 header&lt;/h2&gt;<br />
+&lt;h3&gt;h3 header&lt;/h3&gt;<br />
+&lt;h4&gt;This is an h4 header&lt;/h4&gt;<br />
+&lt;h5&gt;h5 header&lt;/h5&gt;<br />
+&lt;h6&gt;h6 header&lt;/h6&gt;<br />
+<br />
+&lt;!-- Headers with small text --&gt;<br />
+&lt;h1&gt;h1 header &lt;small&gt;Small header text.&lt;/small&gt;&lt;/h1&gt;<br />
+&lt;h2&gt;h2 header &lt;small&gt;Small header text.&lt;/small&gt;&lt;/h2&gt;<br />
+&lt;h3&gt;h3 header &lt;small&gt;Small header text.&lt;/small&gt;&lt;/h3&gt;<br />
+&lt;h4&gt;h4 header &lt;small&gt;Small header text.&lt;/small&gt;&lt;/h4&gt;<br />
+&lt;h5&gt;h5 header &lt;small&gt;Small header text.&lt;/small&gt;&lt;/h5&gt;<br />
+&lt;h6&gt;h6 header &lt;small&gt;Small header text.&lt;/small&gt;&lt;/h6&gt;<br />
+<br />
+&lt;!-- Subheaders --&gt;<br />
+&lt;h1 class="subheader"&gt;h1.subheader header&lt;/h1&gt;<br />
+&lt;h2 class="subheader"&gt;h2.subheader header&lt;/h2&gt;<br />
+&lt;h3 class="subheader"&gt;h3.subheader header&lt;/h3&gt;<br />
+&lt;h4 class="subheader"&gt;h4.subheader header&lt;/h4&gt;<br />
+&lt;h5 class="subheader"&gt;h5.subheader header&lt;/h5&gt;<br />
+&lt;h6 class="subheader"&gt;h6.subheader header&lt;/h6&gt;
+      </code></pre>           
+    </li>
+  </ul> 
 
-<!-- Basic Headers -->
-<h1>h1 header</h1>
-<h2>h2 header</h2>
-<h3>h3 header</h3>
-<h4>h4 header</h4>
-<h5>h5 header</h5>
-<h6>h6 header</h6>
+  <hr>
+  <div class="row tabs">
+    <div class="eight columns">
+      <h3>Paragraphs</h3>
+    </div>
+    <div class="four columns tabs no-brdr">
+      <dl class="tabs pill small">
+        <dd class="active"><a href="#pgEx">Example</a></dd>
+        <dd><a href="#pgCode">Code</a></dd>
+      </dl>
+    </div>
+  </div>
+  <ul class="tabs-content">
+    <li id="pgExTab" class="active">          
+      <p>It's really easy to add emphasis to copy in Foundation. We've implemented some standards like <strong>bold</strong> and <em>italics</em>, as well as, our own nifty styles, such as <code>&lt;code&gt;</code>, <kbd>&lt;kbd&gt;</kbd> and <small>&lt;small&gt;</small></p>
 
-<!-- Headers with small text -->
-<h1>h1 header <small>Small header text.</small></h1>
-<h2>h2 header <small>Small header text.</small></h2>
-<h3>h3 header <small>Small header text.</small></h3>
-<h4>h4 header <small>Small header text.</small></h4>
-<h5>h5 header <small>Small header text.</small></h5>
-<h6>h6 header <small>Small header text.</small></h6>
+      <aside><p>You can also put text into and <strong>&lt;aside&gt;</strong> element to give it some hierarchy on the page. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p></aside>
 
-<!-- Subheaders -->
-<h1 class="subheader">h1.subheader header</h1>
-<h2 class="subheader">h2.subheader header</h2>
-<h3 class="subheader">h3.subheader header</h3>
-<h4 class="subheader">h4.subheader header</h4>
-<h5 class="subheader">h5.subheader header</h5>
-<h6 class="subheader">h6.subheader header</h6>
+      <h5 class="subheader"> This is an emphasis point</h5>
+      <p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.</p>
 
-<h2>Paragraphs</h2>
+      <h5 class="subheader"> Here is a point that I made about star trek</h5>
+      <p>
+      These are the voyages of the Starship Enterprise. Its continuing mission, to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator coil. Field strength has increased by 3,000 percent.
+      </p>
+      <p>
+      We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
+      </p>
+      <h5 class="subheader">Here's another point I wanted to make</h5>
+      <p>
+      Run a manual sweep of anomalous airborne or electromagnetic readings. Radiation levels in our atmosphere have increased by 3,000 percent. Electromagnetic and subspace wave fronts approaching synchronization. What is the strength of the ship's deflector shields at maximum output? The wormhole's size and short period would make this a local phenomenon. Do you have sufficient data to compile a holographic simulation?
+      </p>
+    </li>
+    <li id="pgCodeTab">
+      <pre><code data-language="html" class="rainbow">
+&lt;p&gt;It's really easy to add emphasis to copy in Foundation. We've implemented some standards like &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italics&lt;/em&gt;, as well as, our own nifty styles, such as &lt;code&gt;&amp;lt;code&amp;gt;&lt;/code&gt;, &lt;kbd&gt;&amp;lt;kbd&amp;gt;&lt;/kbd&gt; and &lt;small&gt;&amp;lt;small&amp;gt;&lt;/small&gt;&lt;/p&gt;<br />
+&lt;aside&gt;&lt;p&gt;You can also put text into and &lt;strong&gt;&amp;lt;aside&amp;gt;&lt;/strong&gt; element to give it some hierarchy on the page. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.&lt;/p&gt;&lt;/aside&gt;<br />
+&lt;h5&gt; This is an emphasis point&lt;/h5&gt;<br />
+&lt;p&gt;Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows. Some pilots get picked and become television programs. Some don't, become nothing. She starred in one of the ones that became nothing.&lt;/p&gt;<br />
+      </code></pre>           
+    </li>
+  </ul> 
 
+  <hr>
+  <div class="row tabs">
+    <div class="eight columns">
+      <h3>Links</h3>
+    </div>
+    <div class="four columns tabs no-brdr">
+      <dl class="tabs pill small">
+        <dd class="active"><a href="#linksEx">Example</a></dd>
+        <dd><a href="#linksCode">Code</a></dd>
+      </dl>
+    </div>
+  </div>
+  <ul class="tabs-content">
+    <li id="linksExTab" class="active">
+      <h2><a href="#">This is a header link.</a></h2>
+      <h3><a href="#">This is a header link.</a></h3>
+      <h4><a href="#">This is a header link.</a></h4>
+      <h5><a href="#">This is a header link.</a></h5>
+      <p><a href="#">This is a standard inline paragraph link.</a></p>
+    </li>
+    <li id="linksCodeTab">
+      <pre><code data-language="html" class="rainbow">
+&lt;h2&gt;&lt;a href="#"&gt;This is a header link.&lt;/a&gt;&lt;/h2&gt;<br />
+&lt;h3&gt;&lt;a href="#"&gt;This is a header link.&lt;/a&gt;&lt;/h3&gt;<br />
+&lt;h4&gt;&lt;a href="#"&gt;This is a header link.&lt;/a&gt;&lt;/h4&gt;<br />
+&lt;h5&gt;&lt;a href="#"&gt;This is a header link.&lt;/a&gt;&lt;/h5&gt;<br />
+&lt;p&gt;&lt;a href="#"&gt;This is a standard inline paragraph link.&lt;/a&gt;&lt;/p&gt;
+      </pre> </code>
+    </li>
 
-    <p>It's really easy to add emphasis to copy in Foundation. We've implemented some standards like <strong>bold</strong> and <em>italics</em>, as well as, our own nifty styles, such as <code>&lt;code&gt;</code>, <kbd>&lt;kbd&gt;</kbd> and <small>&lt;small&gt;</small></p>
+  </ul>
+  <hr>
 
-    <aside><p>You can also put text into and <strong>&lt;aside&gt;</strong> element to give it some hierarchy on the page. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.</p></aside>
+  <div class="row tabs">
+    <div class="eight columns">
+      <h3>Lists</h3>
+    </div>
+    <div class="four columns tabs no-brdr">
+      <dl class="tabs pill small">
+        <dd class="active"><a href="#listEx">Example</a></dd>
+        <dd><a href="#listCode">Code</a></dd>
+      </dl>
+    </div>
+  </div>
+  <ul class="tabs-content">
+    <li id="listExTab" class="active">
+      <!-- Disc Lists -->
+      <h5>ul.disc</h5>
+      <ul class="disc">
+        <li>List item with a much longer description or more content.</li>
+        <li>List item</li>
+        <li>List item
+          <ul>
+            <li>Nested List Item</li>
+            <li>Nested List Item</li>
+            <li>Nested List Item</li>
+          </ul>
+        </li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+      </ul>
 
+      <!-- Circle Lists -->
+      <h5>ul.circle</h5>
+      <ul class="circle">
+        <li>List item with a much longer description or more content.</li>
+        <li>List item</li>
+        <li>List item
+          <ul>
+            <li>Nested List Item</li>
+            <li>Nested List Item</li>
+            <li>Nested List Item</li>
+          </ul>
+        </li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+      </ul>
 
+      <!-- Square Lists -->
+      <h5>ul.square</h5>
+      <ul class="square">
+        <li>List item with a much longer description or more content.</li>
+        <li>List item</li>
+        <li>List item
+          <ul>
+            <li>Nested List Item</li>
+            <li>Nested List Item</li>
+            <li>Nested List Item</li>
+          </ul>
+        </li>
+        <li>List item</li>
+        <li>List item</li>
+        <li>List item</li>
+      </ul>
 
-<h2>Links</h2>
+      <!-- Ordered Lists -->
+      <ol>
+        <li>Ordered List Item</li>
+        <li>Ordered List Item</li>
+        <li>Ordered List Item</li>
+        <li>Ordered List Item</li>
+      </ol>
 
-<h2><a href="#">This is a header link.</a></h2>
-<h3><a href="#">This is a header link.</a></h3>
-<h4><a href="#">This is a header link.</a></h4>
-<h5><a href="#">This is a header link.</a></h5>
-<p><a href="#">This is a standard inline paragraph link.</a></p>
-
-<h2>Lists</h2>
-
-<!-- Disc Lists -->
-<h5>ul.disc</h5>
-<ul class="disc">
-  <li>List item with a much longer description or more content.</li>
-  <li>List item</li>
-  <li>List item
-    <ul>
-      <li>Nested List Item</li>
-      <li>Nested List Item</li>
-      <li>Nested List Item</li>
-    </ul>
+      <!-- Definition Lists -->
+      <dl>
+        <dt>Definition Title</dt>
+        <dd>Definition text, you can add as many of these as you need. The line-height matches paragraphs.</dd>
+      </dl>
   </li>
-  <li>List item</li>
-  <li>List item</li>
-  <li>List item</li>
+  <li id="listCodeTab">
+    <pre><code data-language="html" class="rainbow">
+&lt;!-- Disc Lists --&gt;<br />
+&lt;h5&gt;ul.disc&lt;/h5&gt;<br />
+&lt;ul class="disc"&gt;<br />
+  &lt;li&gt;List item with a much longer description or more content.&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item<br />
+    &lt;ul&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+    &lt;/ul&gt;<br />
+  &lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+<br />
+&lt;!-- Circle Lists --&gt;<br />
+&lt;h5&gt;ul.circle&lt;/h5&gt;<br />
+&lt;ul class="circle"&gt;<br />
+  &lt;li&gt;List item with a much longer description or more content.&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item<br />
+    &lt;ul&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+    &lt;/ul&gt;<br />
+  &lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+<br />
+&lt;!-- Square Lists --&gt;<br />
+&lt;h5&gt;ul.square&lt;/h5&gt;<br />
+&lt;ul class="square"&gt;<br />
+  &lt;li&gt;List item with a much longer description or more content.&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item<br />
+    &lt;ul&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+      &lt;li&gt;Nested List Item&lt;/li&gt;<br />
+    &lt;/ul&gt;<br />
+  &lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+  &lt;li&gt;List item&lt;/li&gt;<br />
+&lt;/ul&gt;<br />
+<br />
+&lt;!-- Ordered Lists --&gt;<br />
+&lt;ol&gt;<br />
+  &lt;li&gt;Ordered List Item&lt;/li&gt;<br />
+  &lt;li&gt;Ordered List Item&lt;/li&gt;<br />
+  &lt;li&gt;Ordered List Item&lt;/li&gt;<br />
+  &lt;li&gt;Ordered List Item&lt;/li&gt;<br />
+&lt;/ol&gt;<br />
+<br />
+&lt;!-- Definition Lists --&gt;<br />
+&lt;dl&gt;<br />
+  &lt;dt&gt;Definition Title&lt;/dt&gt;<br />
+  &lt;dd&gt;Definition text, you can add as many of these as you need. The line-height matches paragraphs.&lt;/dd&gt;<br />
+&lt;/dl&gt;
+    </code> </pre>
+  </li>
 </ul>
 
-<!-- Circle Lists -->
-<h5>ul.circle</h5>
-<ul class="circle">
-  <li>List item with a much longer description or more content.</li>
-  <li>List item</li>
-  <li>List item
-    <ul>
-      <li>Nested List Item</li>
-      <li>Nested List Item</li>
-      <li>Nested List Item</li>
-    </ul>
-  </li>
-  <li>List item</li>
-  <li>List item</li>
-  <li>List item</li>
-</ul>
+  <hr>
+  <div class="row tabs">
+    <div class="eight columns">
+      <h3>Blockquotes</h3>
+    </div>
+    <div class="four columns tabs no-brdr">
+      <dl class="tabs pill small">
+        <dd class="active"><a href="#bqEx">Example</a></dd>
+        <dd><a href="#bqCode">Code</a></dd>
+      </dl>
+    </div>
+  </div>
+  <ul class="tabs-content">
+    <li id="bqExTab" class="active">
 
-<!-- Square Lists -->
-<h5>ul.square</h5>
-<ul class="square">
-  <li>List item with a much longer description or more content.</li>
-  <li>List item</li>
-  <li>List item
-    <ul>
-      <li>Nested List Item</li>
-      <li>Nested List Item</li>
-      <li>Nested List Item</li>
-    </ul>
-  </li>
-  <li>List item</li>
-  <li>List item</li>
-  <li>List item</li>
-</ul>
-
-<!-- Ordered Lists -->
-<ol>
-  <li>Ordered List Item</li>
-  <li>Ordered List Item</li>
-  <li>Ordered List Item</li>
-  <li>Ordered List Item</li>
-</ol>
-
-<!-- Definition Lists -->
-<dl>
-  <dt>Definition Title</dt>
-  <dd>Definition text, you can add as many of these as you need. The line-height matches paragraphs.</dd>
-</dl>
-
-<h2>Blockquotes</h2>
-
-<blockquote>
-  <p>I do not fear computers. I fear the lack of them.
-  <cite>Isaac Asimov</cite></p>
-</blockquote>
+      <blockquote>
+        <p>I do not fear computers. I fear the lack of them.
+        <cite>Isaac Asimov</cite></p>
+      </blockquote>
+    </li>
+    <li id="bqCodeTab">
+      <pre><code data-language="html" class="rainbow">
+&lt;blockquote&gt;<br />
+  &lt;p&gt;I do not fear computers. I fear the lack of them.<br />
+  &lt;cite&gt;Isaac Asimov&lt;/cite&gt;&lt;/p&gt;<br />
+&lt;/blockquote&gt;
+      </pre></code>
+    </li>

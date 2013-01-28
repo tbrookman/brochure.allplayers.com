@@ -1,6 +1,529 @@
 ---
 layout: branding_left_col
 title: Elements
+group: branding
 ---
 
 <h1>{{ page.title }}</h1>
+
+<hr>
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="alerts"></a>
+              <h3>Alerts</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#alertsEx">Example</a></dd>
+                <dd><a href="#alertsCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+          <ul class="tabs-content">
+            <li class="active" id="alertsExTab">
+              <div class="alert-box">
+                This is a standard alert (div.alert-box).
+                <a href="" class="close">&times;</a>
+              </div>
+
+              <div class="alert-box success">
+                This is a success alert (div.alert-box.success).
+                <a href="" class="close">&times;</a>
+              </div>
+
+              <div class="alert-box alert">
+                This is an alert (div.alert-box.alert).
+                <a href="" class="close">&times;</a>
+              </div>
+
+              <div class="alert-box secondary">
+                This is a secondary alert (div.alert-box.secondary).
+                <a href="" class="close">&times;</a>
+              </div>
+            </li>
+            <li id="alertsCodeTab">
+<pre><code data-language='html'>
+&lt;div class=&quot;alert-box&quot;&gt;
+  This is a standard alert (div.alert-box).
+  &lt;a href=&quot;&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box success&quot;&gt;
+  This is a success alert (div.alert-box.success).
+  &lt;a href=&quot;&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box alert&quot;&gt;
+  This is an alert (div.alert-box.alert).
+  &lt;a href=&quot;&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;alert-box secondary&quot;&gt;
+  This is a secondary alert (div.alert-box.secondary).
+  &lt;a href=&quot;&quot; class=&quot;close&quot;&gt;&amp;times;&lt;/a&gt;
+&lt;/div&gt;
+</code></pre>            </li>
+          </ul>
+
+  				<hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="labels"></a>
+              <h3>Labels</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#labelsEx">Example</a></dd>
+                <dd><a href="#labelsCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+          <ul class="tabs-content">
+            <li class="active" id="labelsExTab">
+              <div class="row">
+                <div class="three columns phone-two">
+                  <h5>Types</h5>
+                  <span class="label">Normal Label</span><br>
+                  <span class="secondary label">Secondary Label</span><br>
+                  <span class="success label">Success Label</span><br>
+                  <span class="alert label">Alert Label</span>
+                </div>
+                <div class="three columns end phone-two">
+                  <h5>Styles</h5>
+                  <span class="label">Regular Label</span><br>
+                  <span class="radius label">Radius Label</span><br>
+                  <span class="round label">Round Label</span>
+                </div>
+              </div>
+              <br>
+              <p><span class="radius label">Example Label</span> This label could read a date for an update or it could include an author name or anything really. Inline labels are pretty handy when you need to draw attention or visually separate a short piece of content.</p>
+            </li>
+            <li id="labelsCodeTab">
+<pre><code data-language='html'>
+&lt;!-- Types --&gt;
+&lt;span class=&quot;label&quot;&gt;Normal Label&lt;/span&gt;
+&lt;span class=&quot;secondary label&quot;&gt;Secondary Label&lt;/span&gt;
+&lt;span class=&quot;success label&quot;&gt;Success Label&lt;/span&gt;
+&lt;span class=&quot;alert label&quot;&gt;Alert Label&lt;/span&gt;
+
+&lt;!-- Styles --&gt;
+&lt;span class=&quot;label&quot;&gt;Regular Label&lt;/span&gt;
+&lt;span class=&quot;radius label&quot;&gt;Radius Label&lt;/span&gt;
+&lt;span class=&quot;round label&quot;&gt;Round Label&lt;/span&gt;
+</code></pre>            </li>
+          </ul>
+
+          <hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="tooltips"></a>
+              <h3>Tooltips</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#tipsEx">Example</a></dd>
+                <dd><a href="#tipsCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+          <ul class="tabs-content">
+            <li class="active" id="tipsExTab">
+              <h5>Example in text below</h5>
+              <p>The tooltips can be positioned on the <span class="has-tip" data-width="210" title="I'm on bottom and the default position.">"tip-bottom"</span>, which is the default position, <span class="has-tip tip-top noradius" data-width="210" title="I'm on the top and I'm not rounded!">"tip-top" (hehe)</span>, <span class="has-tip tip-left" data-width="90" title="I'm on the left!">"tip-left"</span>, or <span class="has-tip tip-right" data-width="120" title="I'm on the right!">"tip-right"</span> of the target element. On a small device, the tooltips are full width and bottom aligned.</p>
+            </li>
+            <li id="tipsCodeTab">
+<pre><code data-language='html'>
+&lt;span class=&quot;has-tip&quot; data-width=&quot;210&quot; title=&quot;Bottom and the default position.&quot;&gt;&quot;tip-bottom&quot;&lt;/span&gt;
+&lt;span class=&quot;has-tip tip-top noradius&quot; data-width=&quot;210&quot; title=&quot;Top and not rounded!&quot;&gt;&quot;tip-top&quot;&lt;/span&gt;
+&lt;span class=&quot;has-tip tip-left&quot; data-width=&quot;90&quot; title=&quot;left!&quot;&gt;&quot;tip-left&quot;&lt;/span&gt;
+&lt;span class=&quot;has-tip tip-right&quot; data-width=&quot;90&quot; title=&quot;right!&quot;&gt;&quot;tip-right&quot;&lt;/span&gt;
+</code></pre>            </li>
+          </ul>
+
+  				<hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="accordion"></a>
+              <h3>Accordion</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#accEx">Example</a></dd>
+                <dd><a href="#accCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+  				<p>Accordions are similar to tabs as a way to selectively show a single panel of content at a time.</p>
+          <ul class="tabs-content">
+            <li class="active" id="accExTab">
+              <ul class="accordion">
+                <li class="active">
+                  <div class="title">
+                    <h5>Accordion Panel 1</h5>
+                  </div>
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="title">
+                    <h5>Accordion Panel 2</h5>
+                  </div>
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="title">
+                    <h5>Accordion Panel 3</h5>
+                  </div>
+                  <div class="content">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li id="accCodeTab">
+<pre><code data-language='html'>
+&lt;ul class=&quot;accordion&quot;&gt;
+  &lt;li class=&quot;active&quot;&gt;
+    &lt;div class=&quot;title&quot;&gt;
+      &lt;h5&gt;Accordion Panel 1&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;title&quot;&gt;
+      &lt;h5&gt;Accordion Panel 2&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;div class=&quot;title&quot;&gt;
+      &lt;h5&gt;Accordion Panel 3&lt;/h5&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;content&quot;&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>            </li>
+          </ul>
+
+  				<hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="panels"></a>
+              <h3>Panels</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#panelEx">Example</a></dd>
+                <dd><a href="#panelCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+  				<p>A panel is a simple, helpful css class that enables you to outline sections of your page easily. This allows you to view your page sections as you add content to them, or add emphasis to a section. There are two styles built in, and they support a class of <code>.radius</code> to round them off.</p>
+          <ul class="tabs-content">
+            <li class="active" id="panelExTab">
+              <div class="row">
+                <div class="six columns">
+                  <div class="panel">
+                    <h5>This is a regular panel.</h5>
+                    <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                  </div>
+                </div>
+                <div class="six columns">
+                  <div class="panel callout radius">
+                    <h5>This is a callout panel.</h5>
+                    <p>It's a little ostentatious, but useful for important content.</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li id="panelCodeTab">
+<pre><code data-language='html'>
+&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;six columns&quot;&gt;
+    &lt;div class=&quot;panel&quot;&gt;
+      &lt;h5&gt;This is a regular panel.&lt;/h5&gt;
+      &lt;p&gt;It has an easy to override visual style, and is appropriately subdued.&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class=&quot;six columns&quot;&gt;
+    &lt;div class=&quot;panel callout radius&quot;&gt;
+      &lt;h5&gt;This is a callout panel.&lt;/h5&gt;
+      &lt;p&gt;Content...&lt;/p&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>            </li>
+          </ul>
+
+  				<hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="inline-lists"></a>
+              <h3>Inline Lists</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#listEx">Example</a></dd>
+                <dd><a href="#listCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+  				<p>When you just need a horizontal list of links, like in a footer, and you want more control than just spaces between them you can use this simple construct.</p>
+          <ul class="tabs-content">
+            <li class="active" id="listExTab">
+              <ul class="inline-list">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+                <li><a href="#">Link 4</a></li>
+                <li><a href="#">Link 5</a></li>
+              </ul>
+            </li>
+            <li id="listCodeTab">
+<pre><code data-language='html'>
+&lt;ul class=&quot;inline-list&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 4&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link 5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>            </li>
+          </ul>
+
+          <hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="table"></a>
+              <h3>Tables</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#tableEx">Example</a></dd>
+                <dd><a href="#tableCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+          <p>Okay, they're not the sexiest things ever, but tables get the job done (for tabular data).</p>
+          <ul class="tabs-content">
+            <li class="active" id="tableExTab">
+              <table class="twelve">
+                <thead>
+                  <tr>
+                    <th>Table Header</th>
+                    <th>Table Header</th>
+                    <th>Table Header</th>
+                    <th>Table Header</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Content</td>
+                    <td>This is longer content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                  </tr>
+                  <tr>
+                    <td>Content</td>
+                    <td>This is longer content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                  </tr>
+                  <tr>
+                    <td>Content</td>
+                    <td>This is longer content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                  </tr>
+                  <tr>
+                    <td>Content</td>
+                    <td>This is longer content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                  </tr>
+                </tbody>
+              </table>
+            </li>
+            <li id="tableCodeTab">
+<pre><code data-language='html'>
+&lt;table class=&quot;twelve&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Table Header&lt;/th&gt;
+      &lt;th&gt;Table Header&lt;/th&gt;
+      &lt;th&gt;Table Header&lt;/th&gt;
+      &lt;th&gt;Table Header&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;This is longer content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;This is longer content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;This is longer content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;This is longer content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+      &lt;td&gt;Content&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre>            </li>
+          </ul>
+
+          <hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="progress-bar"></a>
+              <h3>Progress Bars</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#progEx">Example</a></dd>
+                <dd><a href="#progCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+          <p>Add simple progress bars to your page using our simple pattern. We've included built in ways to control the radius, height, padding and border in the Scss settings file. You can use <code>.round</code> or <code>.radius</code> to add some rounded borders. If you want to change the color, use the same classes as we use for the buttons: <code>.primary</code>, <code>.secondary</code>, <code>.alert</code>, <code>.success</code>. If you want to control the width of your progress bar, simply use the grid classes <code>.one</code>, <code>.two</code>, <code>.three</code>, etc. You can control the width of the fill meter by setting the width of the <code>span</code> element.</p>
+          <ul class="tabs-content">
+            <li class="active" id="progExTab">
+              <div class="progress six"><span class="meter"></span></div>
+              <div class="radius progress success eight"><span class="meter"></span></div>
+              <div class="nice round progress alert ten"><span class="meter"></span></div>
+              <div class="nice secondary progress"><span class="meter"></span></div>
+            </li>
+            <li id="progCodeTab">
+<pre><code data-language='html'>
+&lt;div class=&quot;progress six&quot;&gt;&lt;span class=&quot;meter&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;radius progress success eight&quot;&gt;&lt;span class=&quot;meter&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;nice round progress alert ten&quot;&gt;&lt;span class=&quot;meter&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+&lt;div class=&quot;nice secondary progress&quot;&gt;&lt;span class=&quot;meter&quot;&gt;&lt;/span&gt;&lt;/div&gt;
+</code></pre>            </li>
+          </ul>
+
+          <br>
+
+          <hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="thumbs"></a>
+              <h3>Image Thumbnails</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#thEx">Example</a></dd>
+                <dd><a href="#thCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+          <p>To use and image as an anchor, wrap an <code>a.th</code> around your image and viola!</p>
+          <ul class="tabs-content">
+            <li class="active" id="thExTab">
+              <div class="row">
+                <div class="six mobile-two columns">
+                  <a href="#" class="th"><img src="http://placehold.it/350x200"></a>
+                </div>
+                <div class="six mobile-two columns">
+                  <a href="#" class="th"><img src="http://placehold.it/350x200"></a>
+                </div>
+              </div>
+            </li>
+            <li id="thCodeTab">
+<pre><code data-language='html'>
+&lt;a href=&quot;#&quot; class=&quot;th&quot;&gt;&lt;img src=&quot;http://placehold.it/350x200&quot;&gt;&lt;/a&gt;
+</code></pre>            </li>
+          </ul>
+
+          <hr>
+
+          <div class="row tabs">
+            <div class="eight columns">
+              <a name="price-tables"></a>
+              <h3>Pricing Tables</h3>
+            </div>
+            <div class="four columns tabs">
+              <dl class="tabs pill small">
+                <dd class="active"><a href="#pricEx">Example</a></dd>
+                <dd><a href="#pricCode">Code</a></dd>
+              </dl>
+            </div>
+          </div>
+          <ul class="tabs-content">
+            <li class="active" id="pricExTab">
+              <div class="row">
+                <div class="six columns">
+                  <ul class="pricing-table">
+                    <li class="title">Standard</li>
+                    <li class="price">$99.99</li>
+                    <li class="description">Content...</li>
+                    <li class="bullet-item">1 Database</li>
+                    <li class="bullet-item">5GB Storage</li>
+                    <li class="bullet-item">20 Users</li>
+                    <li class="cta-button"><a class="button" href="#">Buy it Now &raquo;</a></li>
+                  </ul>
+                </div>
+                <div class="six columns">
+                  <ul class="pricing-table">
+                    <li class="title">Standard</li>
+                    <li class="price">$99.99</li>
+                    <li class="description">Content...</li>
+                    <li class="bullet-item">1 Database</li>
+                    <li class="bullet-item">5GB Storage</li>
+                    <li class="bullet-item">20 Users</li>
+                    <li class="cta-button"><a class="button" href="#">Buy it Now &raquo;</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li id="pricCodeTab">
+<pre><code data-language='html'>
+&lt;ul class=&quot;pricing-table&quot;&gt;
+  &lt;li class=&quot;title&quot;&gt;Standard&lt;/li&gt;
+  &lt;li class=&quot;price&quot;&gt;$99.99&lt;/li&gt;
+  &lt;li class=&quot;description&quot;&gt;Content...&lt;/li&gt;
+  &lt;li class=&quot;bullet-item&quot;&gt;1 Database&lt;/li&gt;
+  &lt;li class=&quot;bullet-item&quot;&gt;5GB Storage&lt;/li&gt;
+  &lt;li class=&quot;bullet-item&quot;&gt;20 Users&lt;/li&gt;
+  &lt;li class=&quot;cta-button&quot;&gt;&lt;a class=&quot;button&quot; href=&quot;#&quot;&gt;Buy it Now &amp;raquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>            </li>
+          </ul>
+
+  				<hr>
