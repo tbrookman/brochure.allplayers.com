@@ -6086,55 +6086,46 @@ table.hide-for-medium {
 }
 
 /* line 70, ../sass/site.scss */
-section#feature-hero-wrapper {
-  background: #f2f2f2;
-}
-/* line 71, ../sass/site.scss */
-section#feature-hero-wrapper #feature-hero {
-  min-height: 270px;
-  background: url("../images/features/hero-bg.png") no-repeat right center;
-}
-/* line 73, ../sass/site.scss */
-section#feature-hero-wrapper #feature-hero h1 {
-  font-size: 71px;
-  margin-top: 40px;
-  line-height: 60px;
-}
-/* line 74, ../sass/site.scss */
-section#feature-hero-wrapper #feature-hero h2 {
-  font-size: 27px;
-  color: #474747;
-}
-/* line 77, ../sass/site.scss */
-section#feature-hero-wrapper #feature-image {
-  position: relative;
-}
-/* line 78, ../sass/site.scss */
-section#feature-hero-wrapper #feature-image img {
-  position: absolute;
-  top: 70px;
-  right: 160px;
-}
-
-/* line 82, ../sass/site.scss */
 section#feature-content {
   padding-top: 25px;
   background: url("../images/global/sep.png") no-repeat center -1px;
 }
-/* line 83, ../sass/site.scss */
+/* line 71, ../sass/site.scss */
 section#feature-content p {
   font-size: 17px;
 }
-/* line 85, ../sass/site.scss */
+/* line 73, ../sass/site.scss */
 section#feature-content .two.columns img {
   margin-top: 15px;
 }
-/* line 88, ../sass/site.scss */
+/* line 76, ../sass/site.scss */
 section#feature-content .ten.columns p {
   font-size: 14px;
 }
-/* line 89, ../sass/site.scss */
+/* line 77, ../sass/site.scss */
 section#feature-content .ten.columns h3 {
+  margin-bottom: 0;
+}
+
+/* line 81, ../sass/site.scss */
+section#info-content {
+  padding-top: 25px;
+  background: url("../images/global/sep.png") no-repeat center -1px;
+}
+/* line 82, ../sass/site.scss */
+section#info-content p {
+  font-size: 17px;
+}
+/* line 84, ../sass/site.scss */
+section#info-content .two.columns img {
+  margin-top: 15px;
+}
+/* line 87, ../sass/site.scss */
+section#info-content .ten.columns p {
+  font-size: 14px;
+}
+/* line 88, ../sass/site.scss */
+section#info-content .ten.columns h3 {
   margin-bottom: 0;
 }
 
@@ -7854,7 +7845,7 @@ form.custom .custom.disabled {
 }
 
 /* line 1, ../sass/components/modules/_hero.scss */
-section.hero {
+section#hero-wrapper {
   background: #474747;
   background-image: url(../images/hero/homepage-hero-bg.png);
   background-position: 75%, top;
@@ -7864,7 +7855,7 @@ section.hero {
   margin-bottom: 40px;
 }
 /* line 3, ../sass/components/modules/_hero.scss */
-section.hero h1 {
+section#hero-wrapper h1 {
   color: white;
   text-shadow: 1px 1px black;
   font-size: 71px;
@@ -7872,13 +7863,75 @@ section.hero h1 {
   line-height: 60px;
 }
 /* line 4, ../sass/components/modules/_hero.scss */
-section.hero p {
+section#hero-wrapper p {
   color: white;
   font-size: 18px;
 }
 /* line 5, ../sass/components/modules/_hero.scss */
-section.hero img {
+section#hero-wrapper img {
   margin-top: 30px;
+}
+
+/* line 8, ../sass/components/modules/_hero.scss */
+section#feature-hero-wrapper {
+  background: #f2f2f2;
+}
+/* line 9, ../sass/components/modules/_hero.scss */
+section#feature-hero-wrapper #feature-hero {
+  min-height: 270px;
+  background: url("../images/features/hero-bg.png") no-repeat right center;
+}
+/* line 11, ../sass/components/modules/_hero.scss */
+section#feature-hero-wrapper #feature-hero h1 {
+  font-size: 71px;
+  margin-top: 40px;
+  line-height: 60px;
+}
+/* line 12, ../sass/components/modules/_hero.scss */
+section#feature-hero-wrapper #feature-hero h2 {
+  font-size: 27px;
+  color: #474747;
+}
+/* line 15, ../sass/components/modules/_hero.scss */
+section#feature-hero-wrapper #feature-image {
+  position: relative;
+}
+/* line 16, ../sass/components/modules/_hero.scss */
+section#feature-hero-wrapper #feature-image img {
+  position: absolute;
+  top: 70px;
+  right: 160px;
+}
+
+/* line 20, ../sass/components/modules/_hero.scss */
+section#info-hero-wrapper {
+  background: #f2f2f2;
+}
+/* line 21, ../sass/components/modules/_hero.scss */
+section#info-hero-wrapper #info-hero {
+  min-height: 270px;
+  background: url("../images/features/hero-bg.png") no-repeat right center;
+}
+/* line 23, ../sass/components/modules/_hero.scss */
+section#info-hero-wrapper #info-hero h1 {
+  font-size: 71px;
+  margin-top: 40px;
+  line-height: 60px;
+}
+/* line 24, ../sass/components/modules/_hero.scss */
+section#info-hero-wrapper #info-hero h2 {
+  font-size: 27px;
+  color: #474747;
+}
+/* line 27, ../sass/components/modules/_hero.scss */
+section#info-hero-wrapper #info-image {
+  position: relative;
+}
+/* line 28, ../sass/components/modules/_hero.scss */
+section#info-hero-wrapper #info-image img {
+  position: absolute;
+  top: 70px;
+  right: 160px;
 }
 
 /* line 2, ../sass/components/modules/_findgroup.scss */
@@ -9781,7 +9834,7 @@ pre {
 /* line 19, ../sass/components/modules/_topbar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #222222;
+  background: #474747;
 }
 
 /* Wrapped around .top-bar to make it fixed at the top */
@@ -12742,55 +12795,46 @@ table.hide-for-medium {
 }
 
 /* line 70, ../sass/site.scss */
-section#feature-hero-wrapper {
-  background: #f2f2f2;
-}
-/* line 71, ../sass/site.scss */
-section#feature-hero-wrapper #feature-hero {
-  min-height: 270px;
-  background: url("../images/features/hero-bg.png") no-repeat right center;
-}
-/* line 73, ../sass/site.scss */
-section#feature-hero-wrapper #feature-hero h1 {
-  font-size: 71px;
-  margin-top: 40px;
-  line-height: 60px;
-}
-/* line 74, ../sass/site.scss */
-section#feature-hero-wrapper #feature-hero h2 {
-  font-size: 27px;
-  color: #474747;
-}
-/* line 77, ../sass/site.scss */
-section#feature-hero-wrapper #feature-image {
-  position: relative;
-}
-/* line 78, ../sass/site.scss */
-section#feature-hero-wrapper #feature-image img {
-  position: absolute;
-  top: 70px;
-  right: 160px;
-}
-
-/* line 82, ../sass/site.scss */
 section#feature-content {
   padding-top: 25px;
   background: url("../images/global/sep.png") no-repeat center -1px;
 }
-/* line 83, ../sass/site.scss */
+/* line 71, ../sass/site.scss */
 section#feature-content p {
   font-size: 17px;
 }
-/* line 85, ../sass/site.scss */
+/* line 73, ../sass/site.scss */
 section#feature-content .two.columns img {
   margin-top: 15px;
 }
-/* line 88, ../sass/site.scss */
+/* line 76, ../sass/site.scss */
 section#feature-content .ten.columns p {
   font-size: 14px;
 }
-/* line 89, ../sass/site.scss */
+/* line 77, ../sass/site.scss */
 section#feature-content .ten.columns h3 {
+  margin-bottom: 0;
+}
+
+/* line 81, ../sass/site.scss */
+section#info-content {
+  padding-top: 25px;
+  background: url("../images/global/sep.png") no-repeat center -1px;
+}
+/* line 82, ../sass/site.scss */
+section#info-content p {
+  font-size: 17px;
+}
+/* line 84, ../sass/site.scss */
+section#info-content .two.columns img {
+  margin-top: 15px;
+}
+/* line 87, ../sass/site.scss */
+section#info-content .ten.columns p {
+  font-size: 14px;
+}
+/* line 88, ../sass/site.scss */
+section#info-content .ten.columns h3 {
   margin-bottom: 0;
 }
 

@@ -1,18 +1,17 @@
-<div class="contain-to-grid branding fixed">
-	<nav class="top-bar branding">
-	  <ul class="left">
-	    <li class="name"><a href="{{ site.site_main }}"> <img src="{{ site.img }}" /> </a></li>
-	    <li class="toggle-topbar"><a href="#"></a></li>
-	  </ul>
+
+<nav class="top-bar branding row">
+	  	<ul class="left">
+	    	<li class="name"><a href="{{ site.site_main }}"> <img src="{{ site.img }}" /> </a></li>
+	    	<li class="toggle-topbar"><a href="#"></a></li>
+	  	</ul>
 	    <ul class="right horizontal">
-	    {% if page.url == node.url %}
-	    <li class="home"><a href="{{ site.branding_url }} class="active"></a></li>
-	    {% else %}
-	    <li class="home"><a href="{{ site.branding_url }}"></a></li>
-	    {% endif %}
-	    {% assign pages_list = site.pages %}
-	    {% assign group = 'branding' %}
-	    {% include pages_list %}
+		    {% if page.url == node.url %}
+		    <li class="home"><a href="{{ site.branding_url }} class="active"></a></li>
+		    {% else %}
+		    <li class="home"><a href="{{ site.branding_url }}"></a></li>
+		    {% endif %}
+		    {% assign pages_list = site.pages %}
+		    {% assign group = 'branding' %}
+		    {% include pages_list %}
 	    </ul>
-	</nav>
-</div>
+</nav>
