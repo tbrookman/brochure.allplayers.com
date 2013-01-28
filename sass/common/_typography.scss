@@ -22,16 +22,15 @@
     small { font-size: 60%; color: lighten($headerFontColor, 30%); line-height: 0; }
   }
 
-  h1, h2, h3 { font-weight: $headerFontWeight; font-style: $headerFontStyle;
+  h1, h2, h3, h4, h5, h6 {
     &.white {color: $white;}
+  }
+
+  h1, h2, h3 { font-weight: $headerFontWeight; font-style: $headerFontStyle;
   }
   h4, h5, h6 { font-weight: bold;
-    &.white {color: $white;}
     }
-  h4 { 
-    font: {family: $lowerHeaderFontFamily;}
-  }
-  h5 {text-transform: uppercase;
+  h5 {
     &.subheader {font-weight: bold;}
   }
 

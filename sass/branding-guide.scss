@@ -17,11 +17,11 @@ body.branding-guide {background: $secondaryColor !important;}
 	}
 }
 /**~Main~**/
-.branding-wrapper {background: $white; border-bottom: 4px solid $grey;}
+.branding-wrapper {background: $white; border-bottom: 4px solid $grey; z-index: 1; position: relative;}
 
 
 /**~Footer~**/
-footer { background-color: lighten($secondaryColor, 15%);
+footer { background-color: lighten($secondaryColor, 15%); z-index: 0; position: relative;
 	ul {list-style-type: none;
 		li {font-weight: bold; font-size: 95%;}
 	}

@@ -98,19 +98,19 @@
 
   /* Accordion ---------------------- */
 
-  ul.accordion { margin: 0 0 22px 0; border-bottom: 1px solid $mainColor;
+  ul.accordion { margin: 0 0 22px 0; border-bottom: 1px solid $fieldBorderColor;
 
-    &>li {  list-style: none; margin: 0; padding: 0; border-top: 1px solid $mainColor;
+    &>li {  list-style: none; margin: 0; padding: 0; border-top: 0 none;
 
-      & > div.title { cursor: pointer; background: $mainColor; padding: 15px; margin: 0; position: relative;  border-#{$defaultFloat}: 1px solid $mainColor; border-#{$defaultOpposite}: 1px solid $mainColor; @include single-transition(0.15s, background, linear);
+      & > div.title { cursor: pointer; @include fieldTitleGradient($fieldBorderColor,$secondaryColor); padding: 10px; margin: 0; position: relative;  border-#{$defaultFloat}: 1px solid $fieldBorderColor; border-#{$defaultOpposite}: 1px solid $fieldBorderColor; @include single-transition(0.15s, background, linear);
 
         h1, h2, h3, h4, h5 { margin: 0; color: $white; }
-        &:after { @include cssTriangle(6px, $white, $defaultOpposite); position: absolute; #{$defaultOpposite}: 15px; top: 21px; }
+        &:after { @include cssTriangle(6px, $white, $defaultOpposite); position: absolute; #{$defaultOpposite}: 15px; top: 15px; }
       }
 
       .content { display: none; padding: 15px; }
 
-      &.active { border-top: 3px solid $mainColor;
+      &.active { border-top: $fieldBorderColor;
 
         .title { background: $white; padding-top: 13px;
 
@@ -118,7 +118,7 @@
 
           &:after { @include cssTriangle(6px, darken($secondaryColor, 30%), top); }
         }
-        .content { background: $white; display: block; border-#{$defaultFloat}: 1px solid $mainColor; border-#{$defaultOpposite}: 1px solid $mainColor; }
+        .content { background: $white; display: block; border-#{$defaultFloat}: 1px solid $fieldBorderColor; border-#{$defaultOpposite}: 1px solid $fieldBorderColor; }
       }
     }
   }

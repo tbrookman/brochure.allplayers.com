@@ -10,3 +10,14 @@
     background: linear-gradient(to bottom,  $color 0%,darken($color,20%) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
   }
+
+  @mixin fieldTitleGradient($colorA,$colorB) {
+  	background: $colorA; /* Old browsers */
+	background: -moz-linear-gradient(top, lighten($colorA, 60%) 0%, lighten($colorB, 20%) 3%, lighten($colorB, 20%) 90%, $colorB 93%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,lighten($colorA, 60%)), color-stop(3%,lighten($colorB, 20%)), color-stop(90%,lighten($colorB, 20%)), color-stop(93%,$colorB)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, lighten($colorA, 60%) 0%,lighten($colorB, 20%) 3%,lighten($colorB, 20%) 90%,$colorB 93%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, lighten($colorA, 60%) 0%,lighten($colorB, 20%) 3%,lighten($colorB, 20%) 90%,$colorB 93%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, lighten($colorA, 60%) 0%,lighten($colorB, 20%) 3%,lighten($colorB, 20%) 90%,$colorB 93%); /* IE10+ */
+	background: linear-gradient(to bottom, lighten($colorA, 60%) 0%,lighten($colorB, 20%) 3%,lighten($colorB, 20%) 90%,$colorB 93%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$colorA', endColorstr='$colorB',GradientType=0 ); /* IE6-9 */
+  }
