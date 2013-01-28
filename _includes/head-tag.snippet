@@ -4,11 +4,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  {% assign site.url = "http://localhost:3000" %}
+  {% assign site_url = "http://localhost:3000" %}
   {% if site.safe %}
-    {% assign site.url = "http://allplayers.github.com/brochure.allplayers.com" %}
+    {% assign site_url = "http://allplayers.github.com/brochure.allplayers.com" %}
   {% endif %}
-  <base href="{{ site.url }}/">
+  <base href="{{ site_url }}/">
   <link rel="stylesheet" href="css/app.css">
   <link href="//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css">
   <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
