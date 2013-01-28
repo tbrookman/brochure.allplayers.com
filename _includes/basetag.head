@@ -1,0 +1,5 @@
+{% assign site.url = "http://localhost:3000" %}
+{% if site.safe %}
+  {% assign site.url = "http://allplayers.github.com/brochure.allplayers.com" %}
+{% endif %}
+<base href="{{ site.url }}/">

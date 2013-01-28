@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+{% include head-tag.snippet %}
+<body>
+  <!-- Header and Nav -->
+  {% include header.snippet %} 
+  <!-- End Header and Nav -->
+  <section id="info-hero-wrapper">
+    {% include info-hero.snippet %}
+  </section>
+  <section class="row" id="info-content">
+    <div class="twelve columns">
+      <div class="eight columns">
+        {{ content }} 
+      </div>
+      <div class="four columns">
+        {% include info-right-col.snippet %}
+      </div>
+    </div>
+  </section>
+{% include demo.snippet %}
+{% include footer.snippet %}
+</body>
+</html>

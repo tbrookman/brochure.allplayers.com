@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+{% include branding-head-tag.snippet %}
+<body class="branding-guide">
+<!-- Header and Nav -->
+{% include branding-header.snippet %} 
+<!-- End Header and Nav -->
+{% include branding-feature.snippet %}
+<div class="row wrapper ten">
+  <section role="main" class="hide-extras">
+    <div class="eight columns">
+      {{ content }} 
+    </div>
+    <div class="four columns">
+      <p><img src="http://placehold.it/320x240&text=Ad" /></p>
+    </div>
+  </section>
+  <section id="sidebar1" role="complementary">
+        {% include branding-sidebar1.snippet %}
+  </section>
+</div>
+<div class="twelve columns">
+  {% include branding-footer.snippet %}
+</div>
+</body>
+</html>
