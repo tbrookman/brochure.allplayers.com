@@ -3,7 +3,7 @@ server: true
 server_port: 3000
 auto: true
 permalink: ./:title.html
-img: ../images/global/header-logo.png
+img: images/global/header-logo.png
 site_main: /
 branding_url: branding_index.html
 
