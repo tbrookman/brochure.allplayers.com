@@ -2,7 +2,9 @@
 <html>
 {% include head-tag.snippet %}
 <body>
-  {% include header.snippet %} 
+  <header>
+    {% include header.snippet %} 
+  </header>
   <!-- // One column template with hero --> 
   {% if page.layout_keyword == 'one_column' %}
     <section id="hero-wrapper">
@@ -55,6 +57,8 @@
   {% endif %}
   <!-- // END Features page template with right column and hero -->
   {% include demo.snippet %}
-  {% include footer.snippet %}
+  <footer>
+    {% include footer.snippet %}
+  </footer>
 </body>
 </html>
