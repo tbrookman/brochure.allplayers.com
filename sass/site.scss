@@ -89,3 +89,26 @@ section#feature-content {padding-top: 25px; background: url("../images/global/se
 		h3 {margin-bottom: 0;}
 	}
 }
+
+section#info-hero-wrapper {background: $lightGrey;
+	#info-hero {
+		min-height: 270px; background: url("../images/features/hero-bg.png") no-repeat right center;
+		h1 {font-size: ms(7); margin-top: 40px; line-height: 60px;}
+		h2 {font-size: ms(3); color: $darkGrey;} 
+	}
+
+	#info-image {position: relative;
+		img {position: absolute; top: 70px; right: 160px;}
+	}
+}
+
+section#info-content {padding-top: 25px; background: url("../images/global/sep.png") no-repeat center -1px;
+	p {font-size: ms(1);}
+	.two.columns {
+		img {margin-top: 15px;}
+	}
+	.ten.columns {
+		p {font-size: ms(0);}
+		h3 {margin-bottom: 0;}
+	}
+}

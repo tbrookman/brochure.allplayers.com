@@ -2700,7 +2700,7 @@ div.orbit-wrapper span.rotator {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/images/foundation/orbit/rotator-black.png?1358891005') no-repeat;
+  background: url('/images/foundation/orbit/rotator-black.png?1359134743') no-repeat;
   z-index: 3;
 }
 /* line 27, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
@@ -2722,7 +2722,7 @@ div.orbit-wrapper span.mask {
 div.orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/images/foundation/orbit/timer-black.png?1358891005') repeat 0 0;
+  background: url('/images/foundation/orbit/timer-black.png?1359134743') repeat 0 0;
 }
 /* line 32, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper span.pause {
@@ -2732,13 +2732,13 @@ div.orbit-wrapper span.pause {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/images/foundation/orbit/pause-black.png?1358891005') no-repeat;
+  background: url('/images/foundation/orbit/pause-black.png?1359134743') no-repeat;
   z-index: 4;
   opacity: 0;
 }
 /* line 33, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper span.pause.active {
-  background: url('/images/foundation/orbit/pause-black.png?1358891005') no-repeat 0 -40px;
+  background: url('/images/foundation/orbit/pause-black.png?1359134743') no-repeat 0 -40px;
 }
 /* line 35, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper div.timer:focus span.pause, div.orbit-wrapper span.pause.active {
@@ -2785,24 +2785,24 @@ div.orbit-wrapper div.slider-nav span {
 }
 /* line 48, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow.png?1358891005');
+  background: url('/images/foundation/orbit/right-arrow.png?1359134743');
   background-size: 100%;
   right: 0;
 }
 /* line 49, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow.png?1358891005');
+  background: url('/images/foundation/orbit/left-arrow.png?1359134743');
   background-size: 100%;
   left: 0;
 }
 
 /* line 54, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow-small.png?1358891005');
+  background: url('/images/foundation/orbit/right-arrow-small.png?1359134743');
 }
 /* line 55, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow-small.png?1358891005');
+  background: url('/images/foundation/orbit/left-arrow-small.png?1359134743');
 }
 
 /* Bullet Nav ---------------------- */
@@ -2823,7 +2823,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -9999px;
-  background: url('/images/foundation/orbit/bullets.jpg?1358891005') no-repeat 4px 0;
+  background: url('/images/foundation/orbit/bullets.jpg?1359134743') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -6135,6 +6135,59 @@ section#feature-content .ten.columns p {
 }
 /* line 89, ../sass/site.scss */
 section#feature-content .ten.columns h3 {
+  margin-bottom: 0;
+}
+
+/* line 93, ../sass/site.scss */
+section#info-hero-wrapper {
+  background: #f2f2f2;
+}
+/* line 94, ../sass/site.scss */
+section#info-hero-wrapper #info-hero {
+  min-height: 270px;
+  background: url("../images/features/hero-bg.png") no-repeat right center;
+}
+/* line 96, ../sass/site.scss */
+section#info-hero-wrapper #info-hero h1 {
+  font-size: 71px;
+  margin-top: 40px;
+  line-height: 60px;
+}
+/* line 97, ../sass/site.scss */
+section#info-hero-wrapper #info-hero h2 {
+  font-size: 27px;
+  color: #474747;
+}
+/* line 100, ../sass/site.scss */
+section#info-hero-wrapper #info-image {
+  position: relative;
+}
+/* line 101, ../sass/site.scss */
+section#info-hero-wrapper #info-image img {
+  position: absolute;
+  top: 70px;
+  right: 160px;
+}
+
+/* line 105, ../sass/site.scss */
+section#info-content {
+  padding-top: 25px;
+  background: url("../images/global/sep.png") no-repeat center -1px;
+}
+/* line 106, ../sass/site.scss */
+section#info-content p {
+  font-size: 17px;
+}
+/* line 108, ../sass/site.scss */
+section#info-content .two.columns img {
+  margin-top: 15px;
+}
+/* line 111, ../sass/site.scss */
+section#info-content .ten.columns p {
+  font-size: 14px;
+}
+/* line 112, ../sass/site.scss */
+section#info-content .ten.columns h3 {
   margin-bottom: 0;
 }
 
@@ -10473,7 +10526,7 @@ div.orbit-wrapper span.rotator {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/images/foundation/orbit/rotator-black.png?1358891005') no-repeat;
+  background: url('/images/foundation/orbit/rotator-black.png?1359134743') no-repeat;
   z-index: 3;
 }
 /* line 27, ../sass/components/modules/_orbit.scss */
@@ -10495,7 +10548,7 @@ div.orbit-wrapper span.mask {
 div.orbit-wrapper span.mask.move {
   width: 40px;
   left: 0;
-  background: url('/images/foundation/orbit/timer-black.png?1358891005') repeat 0 0;
+  background: url('/images/foundation/orbit/timer-black.png?1359134743') repeat 0 0;
 }
 /* line 32, ../sass/components/modules/_orbit.scss */
 div.orbit-wrapper span.pause {
@@ -10505,13 +10558,13 @@ div.orbit-wrapper span.pause {
   position: absolute;
   top: 0;
   left: 0;
-  background: url('/images/foundation/orbit/pause-black.png?1358891005') no-repeat;
+  background: url('/images/foundation/orbit/pause-black.png?1359134743') no-repeat;
   z-index: 4;
   opacity: 0;
 }
 /* line 33, ../sass/components/modules/_orbit.scss */
 div.orbit-wrapper span.pause.active {
-  background: url('/images/foundation/orbit/pause-black.png?1358891005') no-repeat 0 -40px;
+  background: url('/images/foundation/orbit/pause-black.png?1359134743') no-repeat 0 -40px;
 }
 /* line 35, ../sass/components/modules/_orbit.scss */
 div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper div.timer:focus span.pause, div.orbit-wrapper span.pause.active {
@@ -10558,24 +10611,24 @@ div.orbit-wrapper div.slider-nav span {
 }
 /* line 48, ../sass/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow.png?1358891005');
+  background: url('/images/foundation/orbit/right-arrow.png?1359134743');
   background-size: 100%;
   right: 0;
 }
 /* line 49, ../sass/components/modules/_orbit.scss */
 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow.png?1358891005');
+  background: url('/images/foundation/orbit/left-arrow.png?1359134743');
   background-size: 100%;
   left: 0;
 }
 
 /* line 54, ../sass/components/modules/_orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.right {
-  background: url('/images/foundation/orbit/right-arrow-small.png?1358891005');
+  background: url('/images/foundation/orbit/right-arrow-small.png?1359134743');
 }
 /* line 55, ../sass/components/modules/_orbit.scss */
 .lt-ie9 div.orbit-wrapper div.slider-nav span.left {
-  background: url('/images/foundation/orbit/left-arrow-small.png?1358891005');
+  background: url('/images/foundation/orbit/left-arrow-small.png?1359134743');
 }
 
 /* Bullet Nav ---------------------- */
@@ -10596,7 +10649,7 @@ ul.orbit-bullets li {
   cursor: pointer;
   color: #999999;
   text-indent: -9999px;
-  background: url('/images/foundation/orbit/bullets.jpg?1358891005') no-repeat 4px 0;
+  background: url('/images/foundation/orbit/bullets.jpg?1359134743') no-repeat 4px 0;
   width: 13px;
   height: 12px;
   overflow: hidden;
@@ -12794,6 +12847,59 @@ section#feature-content .ten.columns p {
 }
 /* line 89, ../sass/site.scss */
 section#feature-content .ten.columns h3 {
+  margin-bottom: 0;
+}
+
+/* line 93, ../sass/site.scss */
+section#info-hero-wrapper {
+  background: #f2f2f2;
+}
+/* line 94, ../sass/site.scss */
+section#info-hero-wrapper #info-hero {
+  min-height: 270px;
+  background: url("../images/features/hero-bg.png") no-repeat right center;
+}
+/* line 96, ../sass/site.scss */
+section#info-hero-wrapper #info-hero h1 {
+  font-size: 71px;
+  margin-top: 40px;
+  line-height: 60px;
+}
+/* line 97, ../sass/site.scss */
+section#info-hero-wrapper #info-hero h2 {
+  font-size: 27px;
+  color: #474747;
+}
+/* line 100, ../sass/site.scss */
+section#info-hero-wrapper #info-image {
+  position: relative;
+}
+/* line 101, ../sass/site.scss */
+section#info-hero-wrapper #info-image img {
+  position: absolute;
+  top: 70px;
+  right: 160px;
+}
+
+/* line 105, ../sass/site.scss */
+section#info-content {
+  padding-top: 25px;
+  background: url("../images/global/sep.png") no-repeat center -1px;
+}
+/* line 106, ../sass/site.scss */
+section#info-content p {
+  font-size: 17px;
+}
+/* line 108, ../sass/site.scss */
+section#info-content .two.columns img {
+  margin-top: 15px;
+}
+/* line 111, ../sass/site.scss */
+section#info-content .ten.columns p {
+  font-size: 14px;
+}
+/* line 112, ../sass/site.scss */
+section#info-content .ten.columns h3 {
   margin-bottom: 0;
 }
 
