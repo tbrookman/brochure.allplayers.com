@@ -2,20 +2,63 @@
 <html>
 {% include head-tag.snippet %}
 <body>
-  {% include header.snippet %}
-  <div class="container">
-    <section class="hero">
+  <header>
+    {% include header.snippet %} 
+  </header>
+  <!-- // One column template with hero --> 
+  {% if page.layout_keyword == 'one_column' %}
+    <section id="hero-wrapper">
       {% include hero.snippet %}
     </section>
     <section>
       <div class="row">
         <div class="twelve columns">
+          {% include find-group.snippet %}
           {{ content }}
         </div>
       </div>
     </section>
-  </div>
+  {% endif %}
+  <!-- // END One columns template with hero -->
+
+  <!-- // Basic informational page tempalte with right column and hero --> 
+  {% if page.layout_keyword == 'basic_info' %}
+    <section id="info-hero-wrapper">
+      {% include hero.snippet %}
+    </section>
+    <section class="row" id="info-content">
+      <div class="twelve columns">
+        <div class="eight columns">
+          {{ content }} 
+        </div>
+        <div class="four columns">
+          {% include info-right-col.snippet %}
+        </div>
+      </div>
+    </section>
+  {% endif %}
+  <!-- // END Basic informational page template with right column and hero -->
+
+  <!-- // Features page template with right column and hero -->
+  {% if page.layout_keyword == 'feature' %}
+    <section id="feature-hero-wrapper">
+      {% include hero.snippet %}
+    </section>
+    <section class="row" id="feature-content">
+      <div class="twelve columns">
+        <div class="nine columns">
+          {{ content }} 
+        </div>
+        <div class="three columns">
+          {% include feature-nav.snippet %}
+        </div>
+      </div>
+    </section>
+  {% endif %}
+  <!-- // END Features page template with right column and hero -->
   {% include demo.snippet %}
-  {% include footer.snippet %}
+  <footer>
+    {% include footer.snippet %}
+  </footer>
 </body>
 </html>

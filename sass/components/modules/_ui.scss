@@ -288,3 +288,18 @@
     .bullet-item { background-color: $priceBgColor; padding: $priceItemPadding; text-align: $priceItemAlign; color: $priceItemColor; font-size: $priceItemFontSize; font-weight: $priceItemWeight; border-bottom: $priceItemBtmBorder; }
     .cta-button { background-color: $priceCtaBgColor; text-align: $priceCtaAlign; padding: $priceCtaPadding; }
   }
+
+pre { background: #0B1022;
+  overflow: scroll;
+  margin: 0px;
+  padding: 0px;
+  padding: 10px;
+  padding-top: 0;
+  padding-bottom: 12px;
+  color: #fff;
+  font-size: 13px;
+  margin-bottom: 20px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
