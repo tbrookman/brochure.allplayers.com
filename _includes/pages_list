@@ -31,10 +31,7 @@ Usage:
         {% if group == null or group == node.group %}
           <li class="{% if page.url == node.url %}active {% endif %} {% if node.dropdown %} has-dropdown{% endif %}">
             {% if page.url == node.url %}
-          	<a href="{{ node.url }}" class="active {{ node.title | replace:' ','_' | downcase }}">{{ node.title }}</a>
-          	{% else %}
-          	<a href="{{ node.url }}" class="{{ node.title }} {{ node.title | replace:' ','_' | downcase }}">{{ node.title }}</a>
-        	  {% endif %}
+          	<a href="{{ node.url }}" class="active {{ node.title | replace:' ','-' | downcase }}">{% else %} <a href="{{ node.url }}" class="{{ node.title | replace:' ','-' | downcase }}"> {% endif %} {% if node.title == "Branding Guide" %} {% else %}{{ node.title }} {% endif %} </a> 
             {% if node.dropdown %}
               <ul class="dropdown">
               {% for subweight in (0..20) %}

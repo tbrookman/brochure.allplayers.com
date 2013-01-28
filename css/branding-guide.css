@@ -1,25 +1,18 @@
 /*
 Syntax error: Undefined variable: "$secondaryColor".
-        on line 6 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss
+        on line 2 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss
 
 1: /Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss
 
 Backtrace:
-/Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss:6
+/Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss:2
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/script/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/script/node.rb:40:in `perform'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/script/list.rb:70:in `_perform'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/script/list.rb:70:in `map'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/script/list.rb:70:in `_perform'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/script/node.rb:40:in `perform'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:296:in `visit_prop'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `map'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:53:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:107:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:119:in `with_environment'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:106:in `visit_children'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:318:in `visit_rule'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `send'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/base.rb:37:in `visit'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/tree/visitors/perform.rb:98:in `visit'
@@ -92,4 +85,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Undefined variable: \"$secondaryColor\".\A         on line 6 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss\A \A 1: /Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss"; }
+  content: "Syntax error: Undefined variable: \"$secondaryColor\".\A         on line 2 of /Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss\A \A 1: /Users/mmaxwell/Documents/brochure.allplayers.com/sass/branding-guide.scss"; }
