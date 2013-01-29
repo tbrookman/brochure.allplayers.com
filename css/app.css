@@ -8823,14 +8823,14 @@ div.button-bar ul.button-group:last-child {
 /* line 40, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active, .tabs.vertical li.active {
   margin-top: 0;
-  border-top: 1px solid #474747;
+  border-top: 1px solid #3bb4ff;
+  border-bottom: 1px solid #3bb4ff;
   border-left: 4px solid #3bb4ff;
 }
 /* line 41, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active a, .tabs.vertical li.active a {
   background: #f2f2f2;
-  border: none;
-  border-top: 1px solid white;
+  border: 1px solid white;
   color: #3bb4ff;
   height: auto;
   margin: 0;
