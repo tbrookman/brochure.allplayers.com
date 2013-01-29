@@ -613,13 +613,13 @@ fieldset legend {
 /* Errors */
 /* line 49, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/common/_forms.scss */
 .error input, input.error, .error textarea, textarea.error {
-  border-color: #ed1e25;
-  background-color: rgba(237, 30, 37, 0.1);
+  border-color: #f3656a;
+  background-color: rgba(243, 101, 106, 0.1);
 }
 
 /* line 50, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/common/_forms.scss */
 .error label, label.error {
-  color: #ed1e25;
+  color: #f3656a;
 }
 
 /* line 51, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/common/_forms.scss */
@@ -628,7 +628,7 @@ fieldset legend {
   padding: 6px 4px;
   margin-top: -13px;
   margin-bottom: 12px;
-  background: #ed1e25;
+  background: #f3656a;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
@@ -1446,12 +1446,12 @@ that IE7/8 do not support :nth-child.
 }
 /* line 23, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.alert {
-  background-color: #ed1e25;
-  border: 1px solid #b00e14;
+  background-color: #f3656a;
+  border: 1px solid #ed1e25;
 }
 /* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.alert:hover, .button.alert:focus {
-  background-color: #c81016;
+  background-color: #ef363c;
 }
 /* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.secondary {
@@ -1515,11 +1515,11 @@ that IE7/8 do not support :nth-child.
 }
 /* line 45, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.disabled.alert, .button[disabled].alert {
-  background-color: #ed1e25;
+  background-color: #f3656a;
 }
 /* line 46, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #ed1e25;
+  background-color: #f3656a;
   outline: none;
 }
 /* line 48, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
@@ -1717,7 +1717,7 @@ input[type=submit].button, button.button {
 }
 /* line 105, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.alert:hover, .button.dropdown.split.alert:focus {
-  background-color: #ed1e25;
+  background-color: #f3656a;
 }
 /* line 106, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.success:hover, .button.dropdown.split.success:focus {
@@ -1852,8 +1852,8 @@ input[type=submit].button, button.button {
 }
 /* line 133, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.alert > span {
-  background-color: #ed1e25;
-  border-left-color: #b00e14;
+  background-color: #f3656a;
+  border-left-color: #ed1e25;
 }
 /* line 134, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.success > span {
@@ -1871,7 +1871,7 @@ input[type=submit].button, button.button {
 }
 /* line 138, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.alert > a:hover, .button.dropdown.split.alert > span:hover, .button.dropdown.split.alert > a:focus, .button.dropdown.split.alert > span:focus {
-  background-color: #c81016;
+  background-color: #ef363c;
 }
 /* line 139, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.success > a:hover, .button.dropdown.split.success > span:hover, .button.dropdown.split.success > a:focus, .button.dropdown.split.success > span:focus {
@@ -3669,7 +3669,7 @@ div.alert-box.success {
 }
 /* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 div.alert-box.alert {
-  background-color: #ed1e25;
+  background-color: #f3656a;
   color: #fff;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
 }
@@ -3729,7 +3729,7 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 46, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 .label.alert {
-  background-color: #ed1e25;
+  background-color: #f3656a;
 }
 /* line 47, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 .label.success {
@@ -4373,7 +4373,7 @@ div.progress.success .meter {
 }
 /* line 267, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 div.progress.alert .meter {
-  background: #ed1e25;
+  background: #f3656a;
 }
 /* line 270, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 div.progress.radius {
@@ -7572,13 +7572,13 @@ fieldset legend {
 /* Errors */
 /* line 49, ../sass/common/_forms.scss */
 .error input, input.error, .error textarea, textarea.error {
-  border-color: #ed1e25;
-  background-color: rgba(237, 30, 37, 0.1);
+  border-color: #f3656a;
+  background-color: rgba(243, 101, 106, 0.1);
 }
 
 /* line 50, ../sass/common/_forms.scss */
 .error label, label.error {
-  color: #ed1e25;
+  color: #f3656a;
 }
 
 /* line 51, ../sass/common/_forms.scss */
@@ -7587,7 +7587,7 @@ fieldset legend {
   padding: 6px 4px;
   margin-top: -13px;
   margin-bottom: 12px;
-  background: #ed1e25;
+  background: #f3656a;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
@@ -8103,20 +8103,20 @@ section#info-hero-wrapper #info-image img {
 }
 /* line 23, ../sass/components/modules/_buttons.scss */
 .button.alert {
-  background: #3a0506;
-  background: -moz-linear-gradient(top, #3a0506 0%, black 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3a0506), color-stop(100%, black));
-  background: -webkit-linear-gradient(top, #3a0506 0%, black 100%);
-  background: -o-linear-gradient(top, #3a0506 0%, black 100%);
-  background: -ms-linear-gradient(top, #3a0506 0%, black 100%);
-  background: linear-gradient(to bottom, #3a0506 0%, #000000 100%);
+  background: #820a0e;
+  background: -moz-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #820a0e), color-stop(100%, #230304));
+  background: -webkit-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: -o-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: -ms-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: linear-gradient(to bottom, #820a0e 0%, #230304 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
-  border: 1px solid #b00e14;
-  color: #7f612e;
+  border: 1px solid #ed1e25;
+  color: #070101;
 }
 /* line 24, ../sass/components/modules/_buttons.scss */
 .button.alert:hover, .button.alert:focus {
-  background-color: #c81016;
+  background-color: #ef363c;
 }
 /* line 26, ../sass/components/modules/_buttons.scss */
 .button.secondary {
@@ -8183,11 +8183,11 @@ section#info-hero-wrapper #info-image img {
 }
 /* line 45, ../sass/components/modules/_buttons.scss */
 .button.disabled.alert, .button[disabled].alert {
-  background-color: #ed1e25;
+  background-color: #f3656a;
 }
 /* line 46, ../sass/components/modules/_buttons.scss */
 .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #ed1e25;
+  background-color: #f3656a;
   outline: none;
 }
 /* line 48, ../sass/components/modules/_buttons.scss */
@@ -8385,7 +8385,7 @@ input[type=submit].button, button.button {
 }
 /* line 105, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.alert:hover, .button.dropdown.split.alert:focus {
-  background-color: #ed1e25;
+  background-color: #f3656a;
 }
 /* line 106, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.success:hover, .button.dropdown.split.success:focus {
@@ -8538,8 +8538,8 @@ input[type=submit].button, button.button {
 }
 /* line 140, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.alert > span {
-  background-color: #ed1e25;
-  border-left-color: #b00e14;
+  background-color: #f3656a;
+  border-left-color: #ed1e25;
 }
 /* line 141, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.success > span {
@@ -8557,7 +8557,7 @@ input[type=submit].button, button.button {
 }
 /* line 145, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.alert > a:hover, .button.dropdown.split.alert > span:hover, .button.dropdown.split.alert > a:focus, .button.dropdown.split.alert > span:focus {
-  background-color: #c81016;
+  background-color: #ef363c;
 }
 /* line 146, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.success > a:hover, .button.dropdown.split.success > span:hover, .button.dropdown.split.success > a:focus, .button.dropdown.split.success > span:focus {
@@ -8705,11 +8705,15 @@ div.button-bar ul.button-group:last-child {
   margin-bottom: 0;
   margin-left: 0;
 }
-/* line 11, ../sass/components/modules/_tabs.scss */
+/* line 12, ../sass/components/modules/_tabs.scss */
+.tabs:not[class*="-up"] dd, .tabs:not[class*="-up"] li {
+  margin-left: 10px;
+}
+/* line 14, ../sass/components/modules/_tabs.scss */
 .tabs.no-brdr {
   border-bottom: 0 none;
 }
-/* line 12, ../sass/components/modules/_tabs.scss */
+/* line 15, ../sass/components/modules/_tabs.scss */
 .tabs dt, .tabs li.section-title {
   color: #b3b3b3;
   cursor: default;
@@ -8725,87 +8729,104 @@ div.button-bar ul.button-group:last-child {
   width: auto;
   text-transform: uppercase;
 }
-/* line 13, ../sass/components/modules/_tabs.scss */
+/* line 16, ../sass/components/modules/_tabs.scss */
 .tabs dt:first-child, .tabs li.section-title:first-child {
   padding: 0;
   padding-right: 9px;
 }
-/* line 16, ../sass/components/modules/_tabs.scss */
+/* line 19, ../sass/components/modules/_tabs.scss */
 .tabs dd, .tabs li {
   display: block;
   float: left;
   padding: 0;
   margin: 0;
+  border: 1px solid #f2f2f2;
+  margin-top: -3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
-/* line 17, ../sass/components/modules/_tabs.scss */
+/* line 20, ../sass/components/modules/_tabs.scss */
 .tabs dd a, .tabs li a {
-  color: gray;
+  -moz-border-radius: 3px 0;
+  -webkit-border-radius: 3px 0;
+  border-radius: 3px 0;
+  background: #f2f2f2;
+  color: #3bb4ff;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   display: block;
   font-size: 14px;
   height: 40px;
   line-height: 40px;
   padding: 0px 23.8px;
 }
-/* line 18, ../sass/components/modules/_tabs.scss */
+/* line 21, ../sass/components/modules/_tabs.scss */
 .tabs dd a:focus, .tabs li a:focus {
   font-weight: bold;
   color: #3bb4ff;
 }
-/* line 20, ../sass/components/modules/_tabs.scss */
+/* line 23, ../sass/components/modules/_tabs.scss */
 .tabs dd.active, .tabs li.active {
-  border-top: 3px solid #3bb4ff;
-  margin-top: -3px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid #f2f2f2;
+  padding-bottom: 1px;
 }
-/* line 21, ../sass/components/modules/_tabs.scss */
+/* line 24, ../sass/components/modules/_tabs.scss */
 .tabs dd.active a, .tabs li.active a {
   cursor: default;
   color: #4d4d4d;
-  background: #fff;
-  border-left: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #f2f2f2), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: -o-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: -ms-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: linear-gradient(to bottom, #f2f2f2 37%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='darken($color, 10%)', endColorstr='$color', GradientType=0 );
+  border-left: 1px solid white;
+  border-right: 1px solid white;
   font-weight: bold;
 }
-/* line 23, ../sass/components/modules/_tabs.scss */
+/* line 26, ../sass/components/modules/_tabs.scss */
 .tabs dd:first-child, .tabs li:first-child {
   margin-left: 0;
 }
-/* line 26, ../sass/components/modules/_tabs.scss */
+/* line 29, ../sass/components/modules/_tabs.scss */
 .tabs.vertical {
   height: auto;
   border-bottom: 1px solid #e6e6e6;
 }
-/* line 27, ../sass/components/modules/_tabs.scss */
+/* line 30, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dt, .tabs.vertical dd, .tabs.vertical li {
   float: none;
   height: auto;
 }
-/* line 29, ../sass/components/modules/_tabs.scss */
+/* line 32, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd, .tabs.vertical li {
   border-left: 3px solid #cccccc;
 }
-/* line 30, ../sass/components/modules/_tabs.scss */
+/* line 33, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd a, .tabs.vertical li a {
   background: #f2f2f2;
-  border: none;
-  border: 1px solid #e6e6e6;
+  border: 1px solid white;
   border-width: 1px 1px 0 0;
   color: #555;
   display: block;
   font-size: 14px;
   height: auto;
   line-height: 1;
-  padding: 15px 20px;
+  padding: 16px 20px;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
-/* line 32, ../sass/components/modules/_tabs.scss */
+/* line 35, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active, .tabs.vertical li.active {
   margin-top: 0;
   border-top: 1px solid #4d4d4d;
   border-left: 4px solid #1a1a1a;
 }
-/* line 33, ../sass/components/modules/_tabs.scss */
+/* line 36, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active a, .tabs.vertical li.active a {
   background: #4d4d4d;
   border: none;
@@ -8818,24 +8839,24 @@ div.button-bar ul.button-group:last-child {
   -moz-box-shadow: 0 0 0;
   box-shadow: 0 0 0;
 }
-/* line 35, ../sass/components/modules/_tabs.scss */
+/* line 38, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd:first-child a.active, .tabs.vertical li:first-child a.active {
   margin: 0;
 }
-/* line 39, ../sass/components/modules/_tabs.scss */
+/* line 42, ../sass/components/modules/_tabs.scss */
 .tabs.pill {
   border-bottom: none;
   margin-bottom: 10px;
 }
-/* line 40, ../sass/components/modules/_tabs.scss */
+/* line 43, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd, .tabs.pill li {
   margin-right: 10px;
 }
-/* line 41, ../sass/components/modules/_tabs.scss */
+/* line 44, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd:last-child, .tabs.pill li:last-child {
   margin-right: 0;
 }
-/* line 42, ../sass/components/modules/_tabs.scss */
+/* line 45, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd a, .tabs.pill li a {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
@@ -8845,27 +8866,27 @@ div.button-bar ul.button-group:last-child {
   line-height: 26px;
   color: #666;
 }
-/* line 44, ../sass/components/modules/_tabs.scss */
+/* line 47, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd.active, .tabs.pill li.active {
   border: none;
   margin-top: 0;
 }
-/* line 45, ../sass/components/modules/_tabs.scss */
+/* line 48, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd.active a, .tabs.pill li.active a {
   background-color: #3bb4ff;
   border: none;
   color: #fff;
 }
-/* line 48, ../sass/components/modules/_tabs.scss */
+/* line 51, ../sass/components/modules/_tabs.scss */
 .tabs.pill.contained {
   border-bottom: solid 1px #eeeeee;
   margin-bottom: 0;
 }
-/* line 50, ../sass/components/modules/_tabs.scss */
+/* line 53, ../sass/components/modules/_tabs.scss */
 .tabs.pill.two-up dd, .tabs.pill.two-up li, .tabs.pill.three-up dd, .tabs.pill.three-up li, .tabs.pill.four-up dd, .tabs.pill.four-up li, .tabs.pill.five-up dd, .tabs.pill.five-up li {
   margin-right: 0;
 }
-/* line 53, ../sass/components/modules/_tabs.scss */
+/* line 56, ../sass/components/modules/_tabs.scss */
 .tabs.small {
   border-bottom: 0 none;
   height: 22px;
@@ -8875,66 +8896,66 @@ div.button-bar ul.button-group:last-child {
   margin-top: 18px;
   float: right;
 }
-/* line 55, ../sass/components/modules/_tabs.scss */
+/* line 58, ../sass/components/modules/_tabs.scss */
 .tabs.small dd a {
   padding: 0 8px;
   font-size: 12px;
   line-height: 22px;
   height: 22px;
 }
-/* line 59, ../sass/components/modules/_tabs.scss */
+/* line 62, ../sass/components/modules/_tabs.scss */
 .tabs.two-up dt a, .tabs.two-up dd a, .tabs.two-up li a, .tabs.three-up dt a, .tabs.three-up dd a, .tabs.three-up li a, .tabs.four-up dt a, .tabs.four-up dd a, .tabs.four-up li a, .tabs.five-up dt a, .tabs.five-up dd a, .tabs.five-up li a {
   padding: 0 17px;
   text-align: center;
   overflow: hidden;
 }
-/* line 61, ../sass/components/modules/_tabs.scss */
+/* line 64, ../sass/components/modules/_tabs.scss */
 .tabs.two-up dt, .tabs.two-up dd, .tabs.two-up li {
   width: 50%;
 }
-/* line 62, ../sass/components/modules/_tabs.scss */
+/* line 65, ../sass/components/modules/_tabs.scss */
 .tabs.three-up dt, .tabs.three-up dd, .tabs.two-up li {
   width: 33.33%;
 }
-/* line 63, ../sass/components/modules/_tabs.scss */
+/* line 66, ../sass/components/modules/_tabs.scss */
 .tabs.four-up dt, .tabs.four-up dd, .tabs.two-up li {
   width: 25%;
 }
-/* line 64, ../sass/components/modules/_tabs.scss */
+/* line 67, ../sass/components/modules/_tabs.scss */
 .tabs.five-up dt, .tabs.five-up dd, .tabs.two-up li {
   width: 20%;
 }
 
-/* line 67, ../sass/components/modules/_tabs.scss */
+/* line 70, ../sass/components/modules/_tabs.scss */
 ul.tabs-content {
   display: block;
   margin: 0 0 20px;
   padding: 0;
 }
-/* line 68, ../sass/components/modules/_tabs.scss */
+/* line 71, ../sass/components/modules/_tabs.scss */
 ul.tabs-content > li {
   display: none;
 }
-/* line 69, ../sass/components/modules/_tabs.scss */
+/* line 72, ../sass/components/modules/_tabs.scss */
 ul.tabs-content > li.active {
   display: block;
 }
-/* line 71, ../sass/components/modules/_tabs.scss */
+/* line 74, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained {
   padding: 0;
 }
-/* line 72, ../sass/components/modules/_tabs.scss */
+/* line 75, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained > li {
   border: solid 0 #e6e6e6;
   border-width: 0 1px 1px 1px;
   padding: 20px;
 }
-/* line 73, ../sass/components/modules/_tabs.scss */
+/* line 76, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained.vertical > li {
   border-width: 1px 1px 1px 1px;
 }
 
-/* line 77, ../sass/components/modules/_tabs.scss */
+/* line 80, ../sass/components/modules/_tabs.scss */
 .no-js ul.tabs-content > li {
   display: block;
 }
@@ -8970,7 +8991,7 @@ div.alert-box {
   font-weight: bold;
   font-size: 14px;
   color: #3a87ad;
-  background-color: #d9edf7;
+  background-color: aliceblue;
   border: 1px solid rgba(58, 135, 173, 0.1);
   margin-bottom: 12px;
   -moz-border-radius: 3px;
@@ -8987,14 +9008,14 @@ div.alert-box.success {
 }
 /* line 30, ../sass/components/modules/_ui.scss */
 div.alert-box.alert {
-  background-color: #ed1e25;
-  color: #c09853;
+  background-color: #f3656a;
+  color: #66080b;
   text-shadow: 0 -1px rgba(255, 255, 255, 0.3);
 }
 /* line 31, ../sass/components/modules/_ui.scss */
 div.alert-box.secondary {
-  background-color: #c81016;
-  color: #c09853;
+  background-color: #ffd748;
+  color: #846800;
   text-shadow: 0 1px rgba(255, 255, 255, 0.3);
 }
 /* line 33, ../sass/components/modules/_ui.scss */
@@ -9047,9 +9068,9 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 46, ../sass/components/modules/_ui.scss */
 .label.alert {
-  background-color: #ed1e25;
-  border: 1px solid #c81016;
-  color: #c09853;
+  background-color: #f3656a;
+  border: 1px solid #ef363c;
+  color: #66080b;
 }
 /* line 47, ../sass/components/modules/_ui.scss */
 .label.success {
@@ -9059,9 +9080,9 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 48, ../sass/components/modules/_ui.scss */
 .label.secondary {
-  background-color: #d9edf7;
+  background-color: aliceblue;
   color: #3a87ad;
-  border: 1px solid #afd9ee;
+  border: 1px solid #bde0ff;
 }
 
 /* Tooltips ---------------------- */
@@ -9183,9 +9204,9 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 86, ../sass/components/modules/_ui.scss */
 .panel.callout {
-  background: #d9edf7;
+  background: aliceblue;
   color: #3a87ad;
-  border-color: #afd9ee;
+  border-color: #bde0ff;
   -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5);
   -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5);
@@ -9227,27 +9248,12 @@ ul.accordion > li {
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 0 none;
+  border-top: 1px solid #dddddd;
 }
 /* line 105, ../sass/components/modules/_ui.scss */
 ul.accordion > li > div.title {
   cursor: pointer;
-  background: #dddddd;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, white 0%, #7a7a7a 3%, #7a7a7a 90%, #474747 93%);
-  /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(3%, #7a7a7a), color-stop(90%, #7a7a7a), color-stop(93%, #474747));
-  /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, white 0%, #7a7a7a 3%, #7a7a7a 90%, #474747 93%);
-  /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, white 0%, #7a7a7a 3%, #7a7a7a 90%, #474747 93%);
-  /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, white 0%, #7a7a7a 3%, #7a7a7a 90%, #474747 93%);
-  /* IE10+ */
-  background: linear-gradient(to bottom, #ffffff 0%, #7a7a7a 3%, #7a7a7a 90%, #474747 93%);
-  /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$colorA', endColorstr='$colorB',GradientType=0 );
-  /* IE6-9 */
+  background: #474747;
   padding: 10px;
   margin: 0;
   position: relative;
@@ -9270,7 +9276,7 @@ ul.accordion > li > div.title:after {
   width: 0;
   height: 0;
   border: solid 6px;
-  border-color: transparent white transparent transparent;
+  border-color: transparent transparent transparent white;
   position: absolute;
   right: 15px;
   top: 15px;
@@ -9282,7 +9288,7 @@ ul.accordion > li .content {
 }
 /* line 113, ../sass/components/modules/_ui.scss */
 ul.accordion > li.active {
-  border-top: #dddddd;
+  border-top: 1px solid #dddddd;
 }
 /* line 115, ../sass/components/modules/_ui.scss */
 ul.accordion > li.active .title {
@@ -9708,7 +9714,7 @@ div.progress.success .meter {
 }
 /* line 270, ../sass/components/modules/_ui.scss */
 div.progress.alert .meter {
-  background: #c09853;
+  background: #66080b;
 }
 /* line 273, ../sass/components/modules/_ui.scss */
 div.progress.radius {

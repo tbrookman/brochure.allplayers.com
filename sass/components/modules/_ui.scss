@@ -28,7 +28,7 @@
 
     &.success { background-color: $successColor; color: $successTextColor; text-shadow: 0 1px $white; }
     &.alert { background-color: $alertColor; color: $alertTextColor; text-shadow: 0 -1px rgba($white,.3); }
-    &.secondary { background-color: darken($alertColor, 10%); color: $alertTextColor; text-shadow: 0 1px rgba(#fff,.3); }
+    &.secondary { background-color: $secondaryAlertColor; color: $secondaryAlertTextColor; text-shadow: 0 1px rgba(#fff,.3); }
 
     a.close { color: #333; position: absolute; #{$defaultOpposite}: 4px; top: 3px; font-size: ms(1); opacity: 0.2; padding: 4px; }
     a.close:hover, a.close:focus { opacity: 0.4; }
@@ -100,17 +100,17 @@
 
   ul.accordion { margin: 0 0 22px 0; border-bottom: 1px solid $fieldBorderColor;
 
-    &>li {  list-style: none; margin: 0; padding: 0; border-top: 0 none;
+    &>li {  list-style: none; margin: 0; padding: 0; border-top: 1px solid $fieldBorderColor;
 
-      & > div.title { cursor: pointer; @include fieldTitleGradient($fieldBorderColor,$secondaryColor); padding: 10px; margin: 0; position: relative;  border-#{$defaultFloat}: 1px solid $fieldBorderColor; border-#{$defaultOpposite}: 1px solid $fieldBorderColor; @include single-transition(0.15s, background, linear);
+      & > div.title { cursor: pointer; background: $secondaryColor; padding: 10px; margin: 0; position: relative;  border-#{$defaultFloat}: 1px solid $fieldBorderColor; border-#{$defaultOpposite}: 1px solid $fieldBorderColor; @include single-transition(0.15s, background, linear);
 
         h1, h2, h3, h4, h5 { margin: 0; color: $white; }
-        &:after { @include cssTriangle(6px, $white, $defaultOpposite); position: absolute; #{$defaultOpposite}: 15px; top: 15px; }
+        &:after { @include cssTriangle(6px, $white, $defaultFloat); position: absolute; #{$defaultOpposite}: 15px; top: 15px; }
       }
 
       .content { display: none; padding: 15px; }
 
-      &.active { border-top: $fieldBorderColor;
+      &.active { border-top: 1px solid $fieldBorderColor;
 
         .title { background: $white; padding-top: 13px;
 

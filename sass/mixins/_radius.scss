@@ -5,3 +5,9 @@
 	-webkit-border-radius: $number;
 	border-radius: $number;
   }
+
+   @mixin top-border-radius($number) {
+    -moz-border-radius: $number 0;
+	-webkit-border-radius: $number 0;
+	border-radius: $number 0;
+  }
