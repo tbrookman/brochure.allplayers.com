@@ -8706,14 +8706,42 @@ div.button-bar ul.button-group:last-child {
   margin-left: 0;
 }
 /* line 12, ../sass/components/modules/_tabs.scss */
-.tabs:not[class*="-up"] dd, .tabs:not[class*="-up"] li {
-  margin-left: 10px;
+.tabs:not(.pill):not(.vertical) dd, .tabs:not(.pill):not(.vertical) li {
+  border: 1px solid #f2f2f2;
+  margin-top: -3px;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+/* line 13, ../sass/components/modules/_tabs.scss */
+.tabs:not(.pill):not(.vertical) dd a, .tabs:not(.pill):not(.vertical) li a {
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 /* line 14, ../sass/components/modules/_tabs.scss */
+.tabs:not(.pill):not(.vertical) dd.active, .tabs:not(.pill):not(.vertical) li.active {
+  border-bottom: 1px solid white;
+  border-top: 1px solid #f2f2f2;
+  padding-bottom: 1px;
+}
+/* line 15, ../sass/components/modules/_tabs.scss */
+.tabs:not(.pill):not(.vertical) dd.active a, .tabs:not(.pill):not(.vertical) li.active a {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #f2f2f2), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: -o-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: -ms-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: linear-gradient(to bottom, #f2f2f2 37%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='darken($color, 10%)', endColorstr='$color', GradientType=0 );
+}
+/* line 19, ../sass/components/modules/_tabs.scss */
 .tabs.no-brdr {
   border-bottom: 0 none;
 }
-/* line 15, ../sass/components/modules/_tabs.scss */
+/* line 20, ../sass/components/modules/_tabs.scss */
 .tabs dt, .tabs li.section-title {
   color: #b3b3b3;
   cursor: default;
@@ -8729,164 +8757,134 @@ div.button-bar ul.button-group:last-child {
   width: auto;
   text-transform: uppercase;
 }
-/* line 16, ../sass/components/modules/_tabs.scss */
+/* line 21, ../sass/components/modules/_tabs.scss */
 .tabs dt:first-child, .tabs li.section-title:first-child {
   padding: 0;
   padding-right: 9px;
 }
-/* line 19, ../sass/components/modules/_tabs.scss */
+/* line 24, ../sass/components/modules/_tabs.scss */
 .tabs dd, .tabs li {
   display: block;
   float: left;
   padding: 0;
   margin: 0;
-  border: 1px solid #f2f2f2;
-  margin-top: -3px;
-  -moz-border-radius: 3px;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
 }
-/* line 20, ../sass/components/modules/_tabs.scss */
+/* line 25, ../sass/components/modules/_tabs.scss */
 .tabs dd a, .tabs li a {
-  -moz-border-radius: 3px 0;
-  -webkit-border-radius: 3px 0;
-  border-radius: 3px 0;
   background: #f2f2f2;
   color: #3bb4ff;
-  border-top: 1px solid white;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
   display: block;
   font-size: 14px;
   height: 40px;
   line-height: 40px;
   padding: 0px 23.8px;
 }
-/* line 21, ../sass/components/modules/_tabs.scss */
+/* line 26, ../sass/components/modules/_tabs.scss */
 .tabs dd a:focus, .tabs li a:focus {
   font-weight: bold;
   color: #3bb4ff;
 }
-/* line 23, ../sass/components/modules/_tabs.scss */
-.tabs dd.active, .tabs li.active {
-  border-bottom: 1px solid white;
-  border-top: 1px solid #f2f2f2;
-  padding-bottom: 1px;
-}
-/* line 24, ../sass/components/modules/_tabs.scss */
+/* line 29, ../sass/components/modules/_tabs.scss */
 .tabs dd.active a, .tabs li.active a {
   cursor: default;
   color: #4d4d4d;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #f2f2f2), color-stop(100%, white));
-  background: -webkit-linear-gradient(top, #f2f2f2 37%, white 100%);
-  background: -o-linear-gradient(top, #f2f2f2 37%, white 100%);
-  background: -ms-linear-gradient(top, #f2f2f2 37%, white 100%);
-  background: linear-gradient(to bottom, #f2f2f2 37%, #ffffff 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='darken($color, 10%)', endColorstr='$color', GradientType=0 );
-  border-left: 1px solid white;
-  border-right: 1px solid white;
   font-weight: bold;
 }
-/* line 26, ../sass/components/modules/_tabs.scss */
+/* line 31, ../sass/components/modules/_tabs.scss */
 .tabs dd:first-child, .tabs li:first-child {
   margin-left: 0;
 }
-/* line 29, ../sass/components/modules/_tabs.scss */
+/* line 34, ../sass/components/modules/_tabs.scss */
 .tabs.vertical {
   height: auto;
   border-bottom: 1px solid #e6e6e6;
 }
-/* line 30, ../sass/components/modules/_tabs.scss */
+/* line 35, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dt, .tabs.vertical dd, .tabs.vertical li {
   float: none;
   height: auto;
 }
-/* line 32, ../sass/components/modules/_tabs.scss */
+/* line 37, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd, .tabs.vertical li {
-  border-left: 3px solid #cccccc;
+  border-left: 3px solid #a0a0a0;
 }
-/* line 33, ../sass/components/modules/_tabs.scss */
+/* line 38, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd a, .tabs.vertical li a {
-  background: #f2f2f2;
-  border: 1px solid white;
+  background: #474747;
+  border: solid #a0a0a0;
   border-width: 1px 1px 0 0;
-  color: #555;
+  color: white;
   display: block;
   font-size: 14px;
   height: auto;
   line-height: 1;
   padding: 16px 20px;
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
 }
-/* line 35, ../sass/components/modules/_tabs.scss */
+/* line 40, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active, .tabs.vertical li.active {
   margin-top: 0;
-  border-top: 1px solid #4d4d4d;
-  border-left: 4px solid #1a1a1a;
+  border-top: 1px solid #474747;
+  border-left: 4px solid #3bb4ff;
 }
-/* line 36, ../sass/components/modules/_tabs.scss */
+/* line 41, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active a, .tabs.vertical li.active a {
-  background: #4d4d4d;
+  background: #f2f2f2;
   border: none;
-  color: #fff;
+  border-top: 1px solid white;
+  color: #3bb4ff;
   height: auto;
   margin: 0;
   position: static;
   top: 0;
-  -webkit-box-shadow: 0 0 0;
-  -moz-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
 }
-/* line 38, ../sass/components/modules/_tabs.scss */
+/* line 43, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd:first-child a.active, .tabs.vertical li:first-child a.active {
   margin: 0;
 }
-/* line 42, ../sass/components/modules/_tabs.scss */
+/* line 47, ../sass/components/modules/_tabs.scss */
 .tabs.pill {
   border-bottom: none;
   margin-bottom: 10px;
 }
-/* line 43, ../sass/components/modules/_tabs.scss */
+/* line 48, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd, .tabs.pill li {
   margin-right: 10px;
 }
-/* line 44, ../sass/components/modules/_tabs.scss */
+/* line 49, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd:last-child, .tabs.pill li:last-child {
   margin-right: 0;
 }
-/* line 45, ../sass/components/modules/_tabs.scss */
+/* line 50, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd a, .tabs.pill li a {
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   background: #d9d9d9;
   height: 26px;
   line-height: 26px;
   color: #666;
 }
-/* line 47, ../sass/components/modules/_tabs.scss */
+/* line 52, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd.active, .tabs.pill li.active {
   border: none;
   margin-top: 0;
 }
-/* line 48, ../sass/components/modules/_tabs.scss */
+/* line 53, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd.active a, .tabs.pill li.active a {
   background-color: #3bb4ff;
   border: none;
   color: #fff;
 }
-/* line 51, ../sass/components/modules/_tabs.scss */
+/* line 56, ../sass/components/modules/_tabs.scss */
 .tabs.pill.contained {
   border-bottom: solid 1px #eeeeee;
   margin-bottom: 0;
 }
-/* line 53, ../sass/components/modules/_tabs.scss */
+/* line 58, ../sass/components/modules/_tabs.scss */
 .tabs.pill.two-up dd, .tabs.pill.two-up li, .tabs.pill.three-up dd, .tabs.pill.three-up li, .tabs.pill.four-up dd, .tabs.pill.four-up li, .tabs.pill.five-up dd, .tabs.pill.five-up li {
   margin-right: 0;
 }
-/* line 56, ../sass/components/modules/_tabs.scss */
+/* line 61, ../sass/components/modules/_tabs.scss */
 .tabs.small {
   border-bottom: 0 none;
   height: 22px;
@@ -8896,66 +8894,66 @@ div.button-bar ul.button-group:last-child {
   margin-top: 18px;
   float: right;
 }
-/* line 58, ../sass/components/modules/_tabs.scss */
+/* line 63, ../sass/components/modules/_tabs.scss */
 .tabs.small dd a {
   padding: 0 8px;
   font-size: 12px;
   line-height: 22px;
   height: 22px;
 }
-/* line 62, ../sass/components/modules/_tabs.scss */
+/* line 67, ../sass/components/modules/_tabs.scss */
 .tabs.two-up dt a, .tabs.two-up dd a, .tabs.two-up li a, .tabs.three-up dt a, .tabs.three-up dd a, .tabs.three-up li a, .tabs.four-up dt a, .tabs.four-up dd a, .tabs.four-up li a, .tabs.five-up dt a, .tabs.five-up dd a, .tabs.five-up li a {
   padding: 0 17px;
   text-align: center;
   overflow: hidden;
 }
-/* line 64, ../sass/components/modules/_tabs.scss */
+/* line 69, ../sass/components/modules/_tabs.scss */
 .tabs.two-up dt, .tabs.two-up dd, .tabs.two-up li {
   width: 50%;
 }
-/* line 65, ../sass/components/modules/_tabs.scss */
+/* line 70, ../sass/components/modules/_tabs.scss */
 .tabs.three-up dt, .tabs.three-up dd, .tabs.two-up li {
   width: 33.33%;
 }
-/* line 66, ../sass/components/modules/_tabs.scss */
+/* line 71, ../sass/components/modules/_tabs.scss */
 .tabs.four-up dt, .tabs.four-up dd, .tabs.two-up li {
   width: 25%;
 }
-/* line 67, ../sass/components/modules/_tabs.scss */
+/* line 72, ../sass/components/modules/_tabs.scss */
 .tabs.five-up dt, .tabs.five-up dd, .tabs.two-up li {
   width: 20%;
 }
 
-/* line 70, ../sass/components/modules/_tabs.scss */
+/* line 75, ../sass/components/modules/_tabs.scss */
 ul.tabs-content {
   display: block;
   margin: 0 0 20px;
   padding: 0;
 }
-/* line 71, ../sass/components/modules/_tabs.scss */
+/* line 76, ../sass/components/modules/_tabs.scss */
 ul.tabs-content > li {
   display: none;
 }
-/* line 72, ../sass/components/modules/_tabs.scss */
+/* line 77, ../sass/components/modules/_tabs.scss */
 ul.tabs-content > li.active {
   display: block;
 }
-/* line 74, ../sass/components/modules/_tabs.scss */
+/* line 79, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained {
   padding: 0;
 }
-/* line 75, ../sass/components/modules/_tabs.scss */
+/* line 80, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained > li {
   border: solid 0 #e6e6e6;
   border-width: 0 1px 1px 1px;
   padding: 20px;
 }
-/* line 76, ../sass/components/modules/_tabs.scss */
+/* line 81, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained.vertical > li {
   border-width: 1px 1px 1px 1px;
 }
 
-/* line 80, ../sass/components/modules/_tabs.scss */
+/* line 85, ../sass/components/modules/_tabs.scss */
 .no-js ul.tabs-content > li {
   display: block;
 }
