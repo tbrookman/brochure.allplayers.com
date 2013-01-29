@@ -5,24 +5,29 @@
   <header>
     {% include header.snippet %} 
   </header>
-  <!-- // One column template with hero --> 
+  
   {% if page.layout_keyword == 'one_column' %}
-    <section id="hero-wrapper">
-      {% include hero.snippet %}
-    </section>
+  <!-- // One column template with hero --> 
+    {% if page.hero_image != null %}
+      <section id="hero-wrapper">
+        {% include hero.snippet %}
+      </section>
+    {% endif %}
     <section>
       <div class="row">
         <div class="twelve columns">
-          {% include find-group.snippet %}
+          {% if page.hero_image != null %}
+            {% include find-group.snippet %}
+          {% endif %}
           {{ content }}
         </div>
       </div>
     </section>
-  {% endif %}
   <!-- // END One columns template with hero -->
-
-  <!-- // Basic informational page tempalte with right column and hero --> 
+  {% endif %}
+  
   {% if page.layout_keyword == 'basic_info' %}
+  <!-- // Basic informational page tempalte with right column and hero --> 
     <section id="info-hero-wrapper">
       {% include hero.snippet %}
     </section>
@@ -36,11 +41,11 @@
         </div>
       </div>
     </section>
-  {% endif %}
   <!-- // END Basic informational page template with right column and hero -->
-
-  <!-- // Features page template with right column and hero -->
+  {% endif %}
+  
   {% if page.layout_keyword == 'feature' %}
+  <!-- // Features page template with right column and hero -->
     <section id="feature-hero-wrapper">
       {% include hero.snippet %}
     </section>
@@ -54,8 +59,9 @@
         </div>
       </div>
     </section>
-  {% endif %}
   <!-- // END Features page template with right column and hero -->
+  {% endif %}
+  
   {% include demo.snippet %}
   <footer>
     {% include footer.snippet %}
