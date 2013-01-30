@@ -21,5 +21,13 @@
   <script src="js/foundation/jquery.js"></script>
   <script src="js/foundation/foundation.min.js"></script>
   <script src="js/foundation/app.js"></script>
+  <script>
+     $(document).ready(function(){
+        $('fieldset.accordion legend').click(function(){
+            $(this).siblings('.fieldset-wrapper').slideToggle();
+            $(this).toggleClass('closed');
+        });
+    });
+  </script>
   <title>AllPlayers.com</title>
 </head>

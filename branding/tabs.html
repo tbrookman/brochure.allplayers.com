@@ -4,15 +4,21 @@ layout_keyword: sub_page
 title: Tabs
 group: branding
 weight: 5
+submenu:
+  - { hook: "simple-tabs", title: "Simple Tabs" }
+  - { hook: "tab-sizing", title: "Tab Sizing" }
+  - { hook: "contained-tabs", title: "Prefix Labels" }
+  - { hook: "pill-nav", title: "Pill Navigation" }
+  - { hook: "vertical-tabs", title: "Vertical Tabs" }
 ---
 
 <h1>{{ page.title }}</h1>
 
-          <div class="row tabs">
+          <div class="row">
             <div class="eight columns">
-              <h3>Simple Tabs</h3>
+              <a name="simple-tabs"><h3>Simple Tabs</h3>
             </div>
-            <div class="four columns tabs">
+            <div class="four columns">
               <dl class="tabs pill small">
                 <dd class="active"><a href="#tabsEx">Example</a></dd>
                 <dd><a href="#tabsCode">Code</a></dd>
@@ -51,12 +57,13 @@ weight: 5
 
   				<hr>
 
-          <div class="row tabs">
+          <div class="row">
             <div class="eight columns">
-              <a name="tab-sizing"></a>
+              <a name="tab-sizing">
               <h4>Tab Sizing</h4>
+              </a>
             </div>
-            <div class="four columns tabs">
+            <div class="four columns">
               <dl class="tabs pill small">
                 <dd class="active"><a href="#tabszEx">Example</a></dd>
                 <dd><a href="#tabszCode">Code</a></dd>
@@ -100,12 +107,13 @@ weight: 5
 
   				<hr>
 
-          <div class="row tabs">
+          <div class="row">
             <div class="eight columns">
-              <a name="contained-tabs"></a>
+              <a name="contained-tabs">
               <h4>Contained Tabs</h4>
+              </a>
             </div>
-            <div class="four columns tabs">
+            <div class="four columns">
               <dl class="tabs pill small">
                 <dd class="active"><a href="#contEx">Example</a></dd>
                 <dd><a href="#contCode">Code</a></dd>
@@ -148,12 +156,13 @@ weight: 5
 
   				<hr>
 
-          <div class="row tabs">
+          <div class="row">
             <div class="eight columns">
-              <a name="pill-nav"></a>
+              <a name="pill-nav">
               <h4>Pill-Style Tabs</h4>
+              </a>
             </div>
-            <div class="four columns tabs">
+            <div class="four columns">
               <dl class="tabs pill small">
                 <dd class="active"><a href="#pillEx">Example</a></dd>
                 <dd><a href="#pillCode">Code</a></dd>
@@ -181,12 +190,13 @@ weight: 5
 
   				<hr>
 
-          <div class="row tabs">
+          <div class="row">
             <div class="eight columns">
-              <a name="vertical-tabs"></a>
+              <a name="vertical-tabs">
               <h4>Vertical Tabs</h4>
+              </a>
             </div>
-            <div class="four columns tabs">
+            <div class="four columns">
               <dl class="tabs pill small">
                 <dd class="active"><a href="#vertTabsEx">Example</a></dd>
                 <dd><a href="#vertTabsCode">Code</a></dd>
@@ -199,6 +209,14 @@ weight: 5
               <dl class="vertical tabs">
                 <dd class="active"><a href="#vertical1">Vertical Tab 1</a></dd>
                 <dd><a href="#vertical2">Vertical Tab 2</a></dd>
+                <dd><a href="#vertical3">Vertical Tab 3</a></dd>
+              </dl>
+            </li>
+
+            <li class="active" id="vertTabsExTab">
+              <dl class="vertical tabs four">
+                <dd><a href="#vertical1">Vertical Tab 1</a></dd>
+                <dd class="active"><a href="#vertical2">Vertical Tab 2</a></dd>
                 <dd><a href="#vertical3">Vertical Tab 3</a></dd>
               </dl>
             </li>
