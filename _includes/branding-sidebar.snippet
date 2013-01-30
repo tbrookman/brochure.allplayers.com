@@ -1,5 +1,30 @@
-<ul class="tabs vertical">
-  {% assign pages_list = site.pages %}
-  {% assign group = 'branding' %}
-  {% include pages_list %}
-</ul>
+{% assign pages_list = site.pages %}
+{% assign group = 'branding' %}
+{% for weight in (0..20) %}
+  {% for node in pages_list %}
+    {% if node.title != null %}
+      {% assign nodeweight = node.weight; %}
+      {% if (nodeweight == null) %}
+        {% assign nodeweight = 0 %}
+      {% endif %}
+      {% if weight == nodeweight %}
+        {% if group == null or group == node.group %}
+          <div class="{% if page.url == node.url %}active {% endif %}{% if node.title == "Tabs" %}tabs-notmenu{% else %}{{ node.title | replace:' ','-' | downcase }}{% endif %}">
+	          {% if node.title == "Branding Guide" %}{% else %}
+	          	<h5><a href="{{ node.url }}">{{ node.title }}</a></h5>
+	          {% endif %}
+	          {% if node.submenu %}
+          	<ul>
+	          	{% for item in node.submenu %}
+	          		<li><a href="{{ node.url }}#{{ item.hook }}">{{ item.title }}</a></li>
+	          	{% endfor %}
+	          </ul>
+	          {% endif %}
+          </div>
+        {% endif %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+{% assign pages_list = nil %}
+{% assign group = nil %}

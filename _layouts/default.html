@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 {% include head-tag.snippet %}
-<body>
+<body style="padding-top: 35px;">
   <header>
     {% include header.snippet %} 
   </header>
-  
   {% if page.layout_keyword == 'one_column' %}
   <!-- // One column template with hero --> 
     {% if page.hero_image != null %}
@@ -61,7 +60,6 @@
     </section>
   <!-- // END Features page template with right column and hero -->
   {% endif %}
-  
   {% include demo.snippet %}
   <footer>
     {% include footer.snippet %}

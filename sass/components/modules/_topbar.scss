@@ -16,7 +16,7 @@
   .top-bar-js-breakpoint { width: $topBarBreakPoint !important; visibility: hidden; }
 
   /* Wrapped around .top-bar to contain to grid width */
-  .contain-to-grid { width: 100%; background: $topBarBgColor; }
+  .contain-to-grid { width: 100%; background: $secondaryColor; }
 
   /* Wrapped around .top-bar to make it fixed at the top */
   .fixed { width: 100%; left: 0; position: fixed; top: 0; z-index: 99; }
@@ -30,7 +30,9 @@
     &>ul {
       .name {
         h1 { line-height: $topBarHeight; margin: 0;
-          a { font-weight: $topBarTitleWeight; padding: 0 $topBarHeight / 2; font-size: $topBarTitleSize !important; }
+          a { font-weight: $topBarTitleWeight; padding: 0 $topBarHeight / 2; font-size: $topBarTitleSize !important; 
+            img { margin-top: 3px; }
+          }
         }
         img { margin-top: -5px; vertical-align: middle; }
       }

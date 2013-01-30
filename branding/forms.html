@@ -4,17 +4,26 @@ layout_keyword: sub_page
 title: Forms
 group: branding
 description: Forms help users take advantage of what your site has to offer.
-weight: 3
+weight: 6
+submenu:
+  - { hook: "form-layout", title: "Form Layout" }
+  - { hook: "fieldsets", title: "Fieldsets" }
+  - { hook: "prefix-labels", title: "Prefix Labels" }
+  - { hook: "errors", title: "Errors" }
+  - { hook: "large-forms", title: "Large Forms" }
+  - { hook: "custom-inputs", title: "Custom Inputs" }
+  - { hook: "rd-btns-checkboxes", title: "Radio Buttons and Checkboxes" }
 ---
   <h2>{{ page.title }}</h2>
   <h4 class="subheader">{{ page.description }}</h4>
   <hr>
-  <div class="row tabs">
+  <div class="row">
     <div class="eight columns">
-      <a name="form-layout"></a>
+      <a name="form-layout">
       <h3>Row Layouts</h2>
+      </a>
     </div>
-    <div class="four columns tabs no-brdr">
+    <div class="four columns no-brdr">
       <dl class="tabs pill small">
         <dd class="active"><a href="#rowEx">Example</a></dd>
         <dd><a href="#rowCode">Code</a></dd>
@@ -124,12 +133,13 @@ weight: 3
             </ul>
 
   <hr>
-  <div class="row tabs">
+  <div class="row">
     <div class="eight columns">
-      <a name="fieldsets"></a>
+      <a name="fieldsets">
       <h3>Fieldsets</h3>
+      </a>
     </div>
-    <div class="four columns tabs no-brdr">
+    <div class="four columns no-brdr">
       <dl class="tabs pill small">
         <dd class="active"><a href="#fieldEx">Example</a></dd>
         <dd><a href="#fieldCode">Code</a></dd>
@@ -142,7 +152,7 @@ weight: 3
       <form>
         <fieldset>
 
-          <legend>Fieldset Name</legend>
+          <legend>Simple Fieldset</legend>
 
           <label>This is a label.</label>
           <input type="text" placeholder="Standard Input" />
@@ -150,6 +160,22 @@ weight: 3
           <label>Address</label>
           <input type="text" />
           <input type="text" class="six" />
+
+        </fieldset>
+      </form>
+
+       <form>
+        <fieldset class="accordion">
+
+          <legend><h5>Accordion Fieldset</h5></legend>
+          <div class="fieldset-wrapper">
+            <label>This is a label.</label>
+            <input type="text" placeholder="Standard Input" />
+
+            <label>Address</label>
+            <input type="text" />
+            <input type="text" class="six" />
+          </div>
 
         </fieldset>
       </form>
@@ -175,12 +201,13 @@ weight: 3
 
             <hr>
 
-    <div class="row tabs">
+    <div class="row">
       <div class="eight columns">
-        <a name="prefix-labels"></a>
+        <a name="prefix-labels">
         <h3>Pre/Postfix Labels &amp; Actions</h3>
+        </a>
       </div>
-      <div class="four columns tabs no-brdr">
+      <div class="four columns no-brdr">
         <dl class="tabs pill small">
           <dd class="active"><a href="#postEx">Example</a></dd>
           <dd><a href="#postCode">Code</a></dd>
@@ -282,12 +309,13 @@ weight: 3
 
     <hr>
 
-    <div class="row tabs">
+    <div class="row">
       <div class="eight columns">
-        <a name="errors"></a>
+        <a name="errors">
         <h3>Error States</h3>
+        </a>
       </div>
-      <div class="four columns tabs no-brdr">
+      <div class="four columns no-brdr">
         <dl class="tabs pill small">
           <dd class="active"><a href="#errorEx">Example</a></dd>
           <dd><a href="#errorCode">Code</a></dd>
@@ -333,11 +361,13 @@ weight: 3
 
     <hr>
 
-    <div class="row tabs">
+    <div class="row">
       <div class="eight columns">
+        <a name="large-forms">
         <h3>Large Forms</h3>
+        </a>
       </div>
-      <div class="four columns tabs no-brdr">
+      <div class="four columns no-brdr">
         <dl class="tabs pill small">
           <dd class="active"><a href="#lrgEx">Example</a></dd>
           <dd><a href="#lrgCode">Code</a></dd>
@@ -493,12 +523,13 @@ weight: 3
 
       <hr>
 
-      <div class="row tabs">
+      <div class="row">
         <div class="eight columns">
-          <a name="custom-inputs"></a>
+          <a name="custom-inputs">
           <h3>Custom Inputs</h3>
+          </a>
         </div>
-        <div class="four columns tabs no-brdr">
+        <div class="four columns no-brdr">
           <dl class="tabs pill small">
             <dd class="active"><a href="#custEx">Explanation</a></dd>
             <dd><a href="#custCode">Code</a></dd>
@@ -543,11 +574,11 @@ weight: 3
   </code></pre>            </li>
     </ul>
 
-    <div class="row tabs">
+    <div class="row">
       <div class="eight columns">
-        <h3>Radio Buttons and Checkboxes</h3>
+        <a name="rd-btns-checkboxes"><h3>Radio Buttons and Checkboxes</h3></a>
       </div>
-      <div class="four columns tabs no-brdr">
+      <div class="four columns no-brdr">
         <dl class="tabs pill small">
           <dd class="active"><a href="#radEx">Example</a></dd>
           <dd><a href="#radCode">Code</a></dd>
