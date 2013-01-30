@@ -10,6 +10,12 @@
 // $mobileTotalColumns: 4;
 // $blockGridElements: 12; // Highest number of block grid elements, Maximum of 24 supported
 
+// Media Queries
+
+   $screenSmall: 768px !default;
+   $screenMedium: 1279px !default;
+   $screenXlarge: 1441px !default;
+
 // Padding Settings
 
    $paddingTen: 10px;
@@ -17,7 +23,7 @@
 // Colors Settings
 
    $mainColor: #3bb4ff;
-   $secondaryColor: #ab1d37;
+   $secondaryColor: #474747;
    $standardAlertColor: #D9EDF7;
    $standardAlertTextColor: #3A87AD;
    $alertColor: #FCF8E3;
@@ -39,6 +45,7 @@
 
 // $fontSmoothing: antialiased;
    $headerFontFamily: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
+   $lowerHeaderFontFamily: "Helvetica Neue", Helvetica, Arial, sans-serif;
    $headerFontWeight: normal;
 // $headerFontStyle: normal;
 // $headerFontColor: #222;
@@ -54,7 +61,7 @@
 // Button Settings
 
 // $buttonRadius: 3px;
- $btnBase: 10px;
+   $btnBase: 10px;
 
 // $tinyBtnBase: $btnBase - 5;
 // $smallBtnBase: $btnBase - 3;
@@ -65,7 +72,7 @@
 // $formSpacing: 12px;
 // $labelFontWeight: 500;
 // $labelFontColor: lighten(#000, 30%);
-// $labelBtmMargin: 3px;
+   $labelBtmMargin: 5px;
 // $inputFontColor: rgba(0,0,0,0.75);
 // $inputFontSize: 14px;
 // $inputBgColor: #fff;
@@ -122,7 +129,7 @@
 // $topBarDropToggleColor: #fff;
 // $topBarDropToggleAlpha: 0.5;
 // $topBarSearchWidth: 200px;
-// $topBarBreakPoint: 940px; // Change to 9999px for always mobile layout
+   $topBarBreakPoint: $screenSmall; // Change to 9999px for always mobile layout
 // $topBarNavToggleSize: 8px;
 
 // UI Settings
@@ -243,6 +250,7 @@
 // $tipCloseSize: 20px;
 // $tipCloseWeight: normal;
 // $tipScreenFill: rgba(0,0,0,0.5);
+
 
 // Modular Scale Settings
 

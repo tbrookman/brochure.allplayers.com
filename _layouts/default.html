@@ -2,20 +2,69 @@
 <html>
 {% include head-tag.snippet %}
 <body>
-  {% include header.snippet %}
-  <div class="container">
-    <section class="hero">
-      {% include hero.snippet %}
-    </section>
+  <header>
+    {% include header.snippet %} 
+  </header>
+  
+  {% if page.layout_keyword == 'one_column' %}
+  <!-- // One column template with hero --> 
+    {% if page.hero_image != null %}
+      <section id="hero-wrapper">
+        {% include hero.snippet %}
+      </section>
+    {% endif %}
     <section>
       <div class="row">
         <div class="twelve columns">
+          {% if page.hero_image != null %}
+            {% include find-group.snippet %}
+          {% endif %}
           {{ content }}
         </div>
       </div>
     </section>
-  </div>
+  <!-- // END One columns template with hero -->
+  {% endif %}
+  
+  {% if page.layout_keyword == 'basic_info' %}
+  <!-- // Basic informational page tempalte with right column and hero --> 
+    <section id="info-hero-wrapper">
+      {% include hero.snippet %}
+    </section>
+    <section class="row" id="info-content">
+      <div class="twelve columns">
+        <div class="eight columns">
+          {{ content }} 
+        </div>
+        <div class="four columns">
+          {% include info-right-col.snippet %}
+        </div>
+      </div>
+    </section>
+  <!-- // END Basic informational page template with right column and hero -->
+  {% endif %}
+  
+  {% if page.layout_keyword == 'feature' %}
+  <!-- // Features page template with right column and hero -->
+    <section id="feature-hero-wrapper">
+      {% include hero.snippet %}
+    </section>
+    <section class="row" id="feature-content">
+      <div class="twelve columns">
+        <div class="nine columns">
+          {{ content }} 
+        </div>
+        <div class="three columns">
+          {% include feature-nav.snippet %}
+        </div>
+      </div>
+    </section>
+  <!-- // END Features page template with right column and hero -->
+  {% endif %}
+  
   {% include demo.snippet %}
-  {% include footer.snippet %}
+  <footer>
+    {% include footer.snippet %}
+  </footer>
 </body>
 </html>
