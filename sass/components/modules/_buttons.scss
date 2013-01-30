@@ -1,6 +1,6 @@
 /* Normal Buttons ---------------------- */
 
-  .button { text-shadow: 1px 1px darken($mainColor, 20%); font-family: $headerFontFamily; width: auto; @include simpleGradient(lighten($mainColor, 10%)); @include border-radius(3px); border: 1px solid darken(($mainColor), 15%); @include box-shadow(0 1px 0 $shinyEdge inset); color: $white; cursor: pointer; display: inline-block; font-size: ms(1); font-weight: bold; line-height: .75; margin: 0; padding: $btnBase ($btnBase * 2) $btnBase; position: relative; text-align: center; @include single-transition(background-color, .15s, ease-in-out);
+  .button { font-family: $headerFontFamily; width: auto; @include simpleGradient(lighten($mainColor, 10%)); @include border-radius(3px); border: 1px solid darken(($mainColor), 15%); @include box-shadow(0 1px 0 $shinyEdge inset); color: $white; cursor: pointer; display: inline-block; font-size: ms(1); font-weight: bold; line-height: .75; margin: 0; padding: $btnBase ($btnBase * 2) $btnBase; position: relative; text-align: center; @include single-transition(background-color, .15s, ease-in-out);
 
     /* Hovers */
     &:hover, &:focus { color: $white; @include simpleGradient($mainColor); text-decoration: none; }
@@ -14,17 +14,17 @@
     &.expand    { width: 100%; text-align: center; }
 
     /* Colors */
-    &.primary { background-color: $mainColor; border: 1px solid darken(($mainColor), 15%);
+    &.primary { text-shadow: 1px 1px darken($mainColor, 20%); background-color: $mainColor; border: 1px solid darken(($mainColor), 15%);
       &:hover, &:focus { background-color: darken(($mainColor), 10%); }
     }
-    &.success { @include simpleGradient($successTextColor);  background-color: $successColor; border: 1px solid darken(($successColor), 15%);
-      &:hover, &:focus { background-color: darken(($successColor), 10%); }
+    &.success { text-shadow: 1px 1px darken($successTextColor, 20%); @include simpleGradient(darken($successColor, 30%));  background-color: $successColor; border: 1px solid darken($successColor, 30%);
+      &:hover, &:focus { background-color: darken(($successColor), 10%); @include simpleGradient(darken($successColor, 40%)); }
     }
-    &.alert { @include simpleGradient(darken($alertColor, 40%)); border: 1px solid darken(($alertColor), 15%); color: darken($alertTextColor,20%);
-      &:hover, &:focus { background-color: darken(($alertColor), 10%); }
+    &.alert { text-shadow: 1px 1px darken($alertColor, 20%); @include simpleGradient($alertColor); border: 1px solid darken(($alertColor), 15%); color: $white;
+      &:hover, &:focus { background-color: darken(($alertColor), 10%); @include simpleGradient(darken($alertColor, 10%)); }
     }
-    &.secondary { @include simpleGradient($secondaryColor); color: $white; border: 1px solid darken(($secondaryColor), 15%);
-      &:hover, &:focus { background-color: darken(($secondaryColor), 10%); }
+    &.secondary { text-shadow: 1px 1px darken($secondaryColor, 20%); @include simpleGradient($secondaryColor); color: $white; border: 1px solid darken(($secondaryColor), 15%);
+      &:hover, &:focus { background-color: darken(($secondaryColor), 10%); @include simpleGradient(darken($secondaryColor, 30%)); }
     }
 
     /* Radii */
