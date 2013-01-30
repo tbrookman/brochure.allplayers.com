@@ -4,6 +4,12 @@ layout_keyword: sub_page
 title: Navigation
 group: branding
 weight: 4
+submenu:
+  - { hook: "header-styles", title: "Header Styles" }
+  - { hook: "vertical-nav", title: "Vertical Navigation" }
+  - { hook: "subnav", title: "Sub Navigaion" }
+  - { hook: "pagination", title: "Pagination" }
+  - { hook: "breadcrumbs", title: "Breadcrumbs" }
 ---
 
 <h1>{{ page.title }}</h1>
@@ -11,7 +17,7 @@ weight: 4
 <hr>
 <div class="row tabs">
   <div class="eight columns">
-    <h3>Header Styles</h3>
+    <a name="header-styles"><h3>Header Styles</h3></a>
   </div>
   <div class="four columns tabs no-brdr">
     <dl class="tabs pill small">
@@ -187,8 +193,9 @@ weight: 4
 <hr>
 <div class="row tabs">
             <div class="eight columns">
-              <a name="vertical-nav"></a>
+              <a name="vertical-nav">
               <h3>Vertical Nav</h3>
+              </a>
             </div>
             <div class="four columns tabs">
               <dl class="tabs pill small">
@@ -283,8 +290,9 @@ weight: 4
 
 <div class="row tabs">
             <div class="eight columns">
-              <a name="side-nav"></a>
+              <a name="side-nav">
               <h3>Side Nav</h3>
+              </a>
             </div>
             <div class="four columns tabs">
               <dl class="tabs pill small">
@@ -320,8 +328,9 @@ weight: 4
 
           <div class="row tabs">
             <div class="eight columns">
-              <a name="subnav"></a>
+              <a name="subnav">
               <h3>Sub Nav</h3>
+              </a>
             </div>
             <div class="four columns tabs">
               <dl class="tabs pill small">
@@ -357,8 +366,9 @@ weight: 4
 
           <div class="row tabs">
             <div class="eight columns">
-              <a name="pagination"></a>
+              <a name="pagination">
               <h3>Pagination</h3>
+              </a>
             </div>
             <div class="four columns tabs">
               <dl class="tabs pill small">
@@ -402,8 +412,9 @@ weight: 4
 
           <div class="row tabs">
             <div class="eight columns">
-              <a name="breadcrumbs"></a>
+              <a name="breadcrumbs">
               <h3>Breadcrumbs</h3>
+              </a>
             </div>
             <div class="four columns tabs">
               <dl class="tabs pill small">
