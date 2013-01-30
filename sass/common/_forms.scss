@@ -40,8 +40,24 @@
   select { width: 100%; }
 
   /* Fieldsets */
-  fieldset { border: solid 1px #ddd; @include border-radius($fieldsetBorderRadius); padding: 12px 12px 0; margin: 18px 0;
+  fieldset{ border: solid 1px #ddd; @include border-radius($fieldsetBorderRadius); padding: 12px 12px 0; margin: 18px 0;
+    &.accordion {margin: 0; border: 0 none; padding: 0; @include border-radius(0);
+      
+      legend {width: 100%; cursor: pointer; background: $white; padding: 10px; margin: 0; position: relative; border: solid $fieldBorderColor; border-width: 1px 1px 0;
 
+        h1, h2, h3, h4, h5 { margin: 0; color: $mainColor;}
+          &:after { @include cssTriangle(6px, darken($secondaryColor, 30%), top); position: absolute; #{$defaultOpposite}: 15px; top: 15px; }
+      
+      &.closed {background: $secondaryColor; @include single-transition(0.15s, background, linear); border-width: 1px;
+
+        h1, h2, h3, h4, h5 { margin: 0; color: $white; }
+        &:after { @include cssTriangle(6px, $white, $defaultFloat); }
+      }
+
+      }
+
+      .fieldset-wrapper {padding: 15px; border: solid $fieldBorderColor; border-width: 0 1px 1px;}
+    }
     legend { font-size: ms(2); font-family: $headerFontFamily; color: $secondaryColor; font-weight: bold; background: transparent none; padding: 0 3px; margin: 0; margin-#{$defaultFloat}: -3px; }
   }
 
