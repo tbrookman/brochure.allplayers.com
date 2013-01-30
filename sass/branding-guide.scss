@@ -23,7 +23,8 @@ body.branding-guide {background: $secondaryColor;}
 /**~Footer~**/
 footer { background-color: lighten($secondaryColor, 15%); z-index: 0; position: relative;
 	ul {list-style-type: none;
-		li {font-weight: bold; font-size: 95%;}
+		li {font-weight: bold; font-size: 85%;}
 	}
 	.footer-branding {margin: $columnGutter;}
+	.section-wrapper {}
 }
