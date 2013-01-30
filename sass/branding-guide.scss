@@ -1,3 +1,5 @@
+/**~Custom Branding-guide Styles~**/
+
 /**~Header/Nav~**/
 body.branding-guide {background: $secondaryColor;}
 .contain-to-grid {
@@ -19,6 +21,10 @@ body.branding-guide {background: $secondaryColor;}
 /**~Main~**/
 .branding-wrapper {background: $white; border-bottom: 4px solid $grey; z-index: 1; position: relative;}
 
+/*add styles for grid layout*/
+#gridBasicsTab .row { margin-left: 10px;
+	.columns {background: $lightGrey; margin-bottom: 10px; padding: 5px; border: 1px solid $white;}
+	}
 
 /**~Footer~**/
 footer { background-color: lighten($secondaryColor, 15%); z-index: 0; position: relative;
@@ -26,5 +32,4 @@ footer { background-color: lighten($secondaryColor, 15%); z-index: 0; position: 
 		li {font-weight: bold; font-size: 85%;}
 	}
 	.footer-branding {margin: $columnGutter;}
-	.section-wrapper {}
 }
