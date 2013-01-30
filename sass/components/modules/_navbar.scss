@@ -47,9 +47,9 @@
 
   }
 
-  .flyout { background: darken($white, 5%); padding: $navBarHeight / 2; margin: 0; border: 1px solid darken($white, 15%); position: absolute; top: $navBarHeight - 1; #{$defaultFloat}: -1px; width: $navFlyoutBaseWidth; z-index: 40; @include box-shadow(0 1px 5px rgba(#000, .1));
+  .flyout { background: lighten($secondaryColor, 20%); padding: $navBarHeight / 2; margin: 0; border: 1px solid darken($white, 15%); position: absolute; top: $navBarHeight - 1; #{$defaultFloat}: -1px; width: $navFlyoutBaseWidth; z-index: 40; @include box-shadow(0 1px 5px rgba(#000, .1));
 
-    p { line-height: 1.2; font-size: ms(0) - 1; }
+    p { line-height: 1.2; font-size: ms(0) - 1; color: $white;}
     *:first-child { margin-top: 0; } /* remove margin on any first-child element */
     *:last-child { margin-bottom: 0; } /* remove margin on last element */
 
@@ -64,9 +64,9 @@
 
   ul.flyout, .nav-bar li ul { padding: 0; list-style: none;
 
-    li { border-#{$defaultFloat}: solid 3px #CCC;
-      a { background: darken($white, 5%); border: 1px solid darken($white, 10%); border-width: 1px 1px 0 0; color: #555; display: block; font-size: ms(0); height: auto; line-height: 1; padding: (($navBarHeight / 2) - 5) ($navBarHeight / 2); @include box-shadow(0 1px 0 $shinyEdge inset);
-        &:hover, &:focus { background: darken($white, 8%); color: #333; }
+    li { border-#{$defaultFloat}: 0 none; border: 0 none;
+      a { background: lighten($secondaryColor, 20%); border: 0 none; color: $white; display: block; font-size: ms(0); height: auto; line-height: 1; padding: ($navBarHeight / 4); @include box-shadow(0 0 0);
+        &:hover, &:focus { background: lighten($secondaryColor, 10%); color: $mainColor; }
       }
       &.active { margin-top: 0; border-top: 1px solid lighten($black, 30%); border-#{$defaultFloat}: 4px solid lighten($black, 10%);
         a { background: lighten($black, 30%); border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; @include box-shadow(0 0 0); }

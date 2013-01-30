@@ -9810,7 +9810,7 @@ div.progress.success .meter {
 }
 /* line 270, ../sass/components/modules/_ui.scss */
 div.progress.alert .meter {
-  background: #dff0d8;
+  background: #f3656a;
 }
 /* line 273, ../sass/components/modules/_ui.scss */
 div.progress.radius {
@@ -10467,7 +10467,7 @@ pre {
 
 /* line 50, ../sass/components/modules/_navbar.scss */
 .flyout {
-  background: #f2f2f2;
+  background: #7a7a7a;
   padding: 20px;
   margin: 0;
   border: 1px solid #d9d9d9;
@@ -10486,6 +10486,7 @@ pre {
 .flyout p {
   line-height: 1.2;
   font-size: 13px;
+  color: white;
 }
 /* line 53, ../sass/components/modules/_navbar.scss */
 .flyout *:first-child {
@@ -10526,27 +10527,27 @@ ul.flyout, .nav-bar li ul {
 }
 /* line 67, ../sass/components/modules/_navbar.scss */
 ul.flyout li, .nav-bar li ul li {
-  border-left: solid 3px #cccccc;
+  border-left: 0 none;
+  border: 0 none;
 }
 /* line 68, ../sass/components/modules/_navbar.scss */
 ul.flyout li a, .nav-bar li ul li a {
-  background: #f2f2f2;
-  border: 1px solid #e6e6e6;
-  border-width: 1px 1px 0 0;
-  color: #555;
+  background: #7a7a7a;
+  border: 0 none;
+  color: white;
   display: block;
   font-size: 14px;
   height: auto;
   line-height: 1;
-  padding: 15px 20px;
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  padding: 10px;
+  -webkit-box-shadow: 0 0 0;
+  -moz-box-shadow: 0 0 0;
+  box-shadow: 0 0 0;
 }
 /* line 69, ../sass/components/modules/_navbar.scss */
 ul.flyout li a:hover, ul.flyout li a:focus, .nav-bar li ul li a:hover, .nav-bar li ul li a:focus {
-  background: #ebebeb;
-  color: #333;
+  background: #616161;
+  color: #3bb4ff;
 }
 /* line 71, ../sass/components/modules/_navbar.scss */
 ul.flyout li.active, .nav-bar li ul li.active {
