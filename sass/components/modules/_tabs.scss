@@ -37,8 +37,8 @@
       dd, li { border-#{$defaultFloat}: 3px solid $midGrey;
         a { background: $secondaryColor; border: solid $midGrey; border-width: 1px 1px 0 0; color: $white; display: block; font-size: ms(0); height: auto; line-height: 1; padding: 16px 20px;
         }
-        &.active { margin-top: 0; border-top: 1px solid $secondaryColor; border-#{$defaultFloat}: 4px solid $mainColor;
-          a { background: $lightGrey; border: none; border-top: 1px solid $white; color: $mainColor; height: auto; margin: 0; position: static; top: 0; }
+        &.active { margin-top: 0; border-top: 1px solid $mainColor; border-bottom: 1px solid $mainColor; border-#{$defaultFloat}: 4px solid $mainColor;
+          a { background: $lightGrey; border: 1px solid $white; color: $mainColor; height: auto; margin: 0; position: static; top: 0; }
         }
         &:first-child a.active { margin: 0; }
       }

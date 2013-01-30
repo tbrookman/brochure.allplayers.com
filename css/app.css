@@ -7566,7 +7566,73 @@ fieldset {
   padding: 12px 12px 0;
   margin: 18px 0;
 }
-/* line 45, ../sass/common/_forms.scss */
+/* line 44, ../sass/common/_forms.scss */
+fieldset.accordion {
+  margin: 0;
+  border: 0 none;
+  padding: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+/* line 46, ../sass/common/_forms.scss */
+fieldset.accordion legend {
+  width: 100%;
+  cursor: pointer;
+  background: white;
+  padding: 10px;
+  margin: 0;
+  position: relative;
+  border: solid #dddddd;
+  border-width: 1px 1px 0;
+}
+/* line 48, ../sass/common/_forms.scss */
+fieldset.accordion legend h1, fieldset.accordion legend h2, fieldset.accordion legend h3, fieldset.accordion legend h4, fieldset.accordion legend h5 {
+  margin: 0;
+  color: #3bb4ff;
+}
+/* line 49, ../sass/common/_forms.scss */
+fieldset.accordion legend:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: solid 6px;
+  border-color: black transparent transparent transparent;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+/* line 51, ../sass/common/_forms.scss */
+fieldset.accordion legend.closed {
+  background: #474747;
+  -webkit-transition: 0.15s background linear;
+  -moz-transition: 0.15s background linear;
+  -o-transition: 0.15s background linear;
+  transition: 0.15s background linear;
+  border-width: 1px;
+}
+/* line 53, ../sass/common/_forms.scss */
+fieldset.accordion legend.closed h1, fieldset.accordion legend.closed h2, fieldset.accordion legend.closed h3, fieldset.accordion legend.closed h4, fieldset.accordion legend.closed h5 {
+  margin: 0;
+  color: white;
+}
+/* line 54, ../sass/common/_forms.scss */
+fieldset.accordion legend.closed:after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border: solid 6px;
+  border-color: transparent transparent transparent white;
+}
+/* line 59, ../sass/common/_forms.scss */
+fieldset.accordion .fieldset-wrapper {
+  padding: 15px;
+  border: solid #dddddd;
+  border-width: 0 1px 1px;
+}
+/* line 61, ../sass/common/_forms.scss */
 fieldset legend {
   font-size: 23px;
   font-family: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
@@ -7579,18 +7645,18 @@ fieldset legend {
 }
 
 /* Errors */
-/* line 49, ../sass/common/_forms.scss */
+/* line 65, ../sass/common/_forms.scss */
 .error input, input.error, .error textarea, textarea.error {
   border-color: #f3656a;
   background-color: rgba(243, 101, 106, 0.1);
 }
 
-/* line 50, ../sass/common/_forms.scss */
+/* line 66, ../sass/common/_forms.scss */
 .error label, label.error {
   color: #f3656a;
 }
 
-/* line 51, ../sass/common/_forms.scss */
+/* line 67, ../sass/common/_forms.scss */
 .error small, small.error {
   display: block;
   padding: 6px 4px;
@@ -7608,18 +7674,18 @@ fieldset legend {
   border-bottom-right-radius: 2px;
 }
 
-/* line 53, ../sass/common/_forms.scss */
+/* line 69, ../sass/common/_forms.scss */
 .error textarea:focus, textarea.error:focus {
   background: #fafafa;
   border-color: #b3b3b3;
 }
 
 /* Custom Forms ---------------------- */
-/* line 57, ../sass/common/_forms.scss */
+/* line 73, ../sass/common/_forms.scss */
 form.custom {
   /* Custom input, disabled */
 }
-/* line 59, ../sass/common/_forms.scss */
+/* line 75, ../sass/common/_forms.scss */
 form.custom span.custom {
   display: inline-block;
   width: 16px;
@@ -7629,13 +7695,13 @@ form.custom span.custom {
   border: solid 1px #cccccc;
   background: white;
 }
-/* line 61, ../sass/common/_forms.scss */
+/* line 77, ../sass/common/_forms.scss */
 form.custom span.custom.radio {
   -moz-border-radius: 100px;
   -webkit-border-radius: 100px;
   border-radius: 100px;
 }
-/* line 63, ../sass/common/_forms.scss */
+/* line 79, ../sass/common/_forms.scss */
 form.custom span.custom.checkbox:before {
   content: "";
   display: block;
@@ -7649,7 +7715,7 @@ form.custom span.custom.checkbox:before {
   font-size: 14px;
   color: #fff;
 }
-/* line 66, ../sass/common/_forms.scss */
+/* line 82, ../sass/common/_forms.scss */
 form.custom span.custom.radio.checked:before {
   content: "";
   display: block;
@@ -7663,12 +7729,12 @@ form.custom span.custom.radio.checked:before {
   top: 3px;
   left: 3px;
 }
-/* line 69, ../sass/common/_forms.scss */
+/* line 85, ../sass/common/_forms.scss */
 form.custom span.custom.checkbox.checked:before {
   content: "\00d7";
   color: #222222;
 }
-/* line 72, ../sass/common/_forms.scss */
+/* line 88, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown {
   display: block;
   position: relative;
@@ -7679,12 +7745,12 @@ form.custom div.custom.dropdown {
   z-index: 999;
   position: relative;
 }
-/* line 74, ../sass/common/_forms.scss */
+/* line 90, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul {
   overflow-y: auto;
   max-height: 200px;
 }
-/* line 75, ../sass/common/_forms.scss */
+/* line 91, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown a.current {
   display: block;
   width: auto;
@@ -7698,7 +7764,7 @@ form.custom div.custom.dropdown a.current {
   background-color: white;
   white-space: nowrap;
 }
-/* line 76, ../sass/common/_forms.scss */
+/* line 92, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown a.selector {
   position: absolute;
   width: 27px;
@@ -7708,7 +7774,7 @@ form.custom div.custom.dropdown a.selector {
   top: 0;
   border: solid 1px #dddddd;
 }
-/* line 77, ../sass/common/_forms.scss */
+/* line 93, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown a.selector:after {
   content: "";
   display: block;
@@ -7724,7 +7790,7 @@ form.custom div.custom.dropdown a.selector:after {
   margin-top: -2px;
   margin-left: -5px;
 }
-/* line 80, ../sass/common/_forms.scss */
+/* line 96, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown:hover a.selector:after, form.custom div.custom.dropdown.open a.selector:after {
   content: "";
   display: block;
@@ -7733,44 +7799,44 @@ form.custom div.custom.dropdown:hover a.selector:after, form.custom div.custom.d
   border: solid 5px;
   border-color: #222222 transparent transparent transparent;
 }
-/* line 83, ../sass/common/_forms.scss */
+/* line 99, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.open ul {
   display: block;
   z-index: 10;
 }
-/* line 85, ../sass/common/_forms.scss */
+/* line 101, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.small {
   width: 134px !important;
 }
-/* line 86, ../sass/common/_forms.scss */
+/* line 102, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.medium {
   width: 254px !important;
 }
-/* line 87, ../sass/common/_forms.scss */
+/* line 103, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.large {
   width: 434px !important;
 }
-/* line 88, ../sass/common/_forms.scss */
+/* line 104, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.expand {
   width: 100% !important;
 }
-/* line 90, ../sass/common/_forms.scss */
+/* line 106, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.open.small ul {
   width: 134px !important;
 }
-/* line 91, ../sass/common/_forms.scss */
+/* line 107, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.open.medium ul {
   width: 254px !important;
 }
-/* line 92, ../sass/common/_forms.scss */
+/* line 108, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.open.large ul {
   width: 434px !important;
 }
-/* line 93, ../sass/common/_forms.scss */
+/* line 109, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown.open.expand ul {
   width: 100% !important;
 }
-/* line 96, ../sass/common/_forms.scss */
+/* line 112, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul {
   position: absolute;
   width: auto;
@@ -7784,7 +7850,7 @@ form.custom div.custom.dropdown ul {
   background: rgba(255, 255, 255, 0.95);
   border: solid 1px #cccccc;
 }
-/* line 98, ../sass/common/_forms.scss */
+/* line 114, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul li {
   color: #555555;
   font-size: 13px;
@@ -7798,57 +7864,57 @@ form.custom div.custom.dropdown ul li {
   white-space: nowrap;
   list-style: none;
 }
-/* line 99, ../sass/common/_forms.scss */
+/* line 115, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul li.selected {
   background: white;
   color: black;
 }
-/* line 100, ../sass/common/_forms.scss */
+/* line 116, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul li.selected:after {
   content: "\2013";
   position: absolute;
   right: 10px;
 }
-/* line 102, ../sass/common/_forms.scss */
+/* line 118, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul li:hover {
   background-color: white;
   color: black;
 }
-/* line 103, ../sass/common/_forms.scss */
+/* line 119, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul li:hover:after {
   content: "\2013";
   position: absolute;
   right: 10px;
   color: #e6e6e6;
 }
-/* line 105, ../sass/common/_forms.scss */
+/* line 121, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul li.selected:hover {
   background: white;
   cursor: default;
   color: black;
 }
-/* line 106, ../sass/common/_forms.scss */
+/* line 122, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul li.selected:hover:after {
   color: black;
 }
-/* line 108, ../sass/common/_forms.scss */
+/* line 124, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul.show {
   display: block;
 }
-/* line 112, ../sass/common/_forms.scss */
+/* line 128, ../sass/common/_forms.scss */
 form.custom .custom.disabled {
   background-color: #dddddd;
 }
 
 /* Correct FF custom dropdown height */
 @-moz-document url-prefix() {
-  /* line 117, ../sass/common/_forms.scss */
+  /* line 133, ../sass/common/_forms.scss */
   form.custom div.custom.dropdown a.selector {
     height: 30px;
   }
 }
 
-/* line 119, ../sass/common/_forms.scss */
+/* line 135, ../sass/common/_forms.scss */
 .lt-ie9 form.custom div.custom.dropdown a.selector {
   height: 30px;
 }
@@ -8834,14 +8900,14 @@ div.button-bar ul.button-group:last-child {
 /* line 40, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active, .tabs.vertical li.active {
   margin-top: 0;
-  border-top: 1px solid #474747;
+  border-top: 1px solid #3bb4ff;
+  border-bottom: 1px solid #3bb4ff;
   border-left: 4px solid #3bb4ff;
 }
 /* line 41, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active a, .tabs.vertical li.active a {
   background: #f2f2f2;
-  border: none;
-  border-top: 1px solid white;
+  border: 1px solid white;
   color: #3bb4ff;
   height: auto;
   margin: 0;
