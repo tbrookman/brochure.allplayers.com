@@ -10,3 +10,11 @@
     background: linear-gradient(to bottom,  $color 0%,darken($color,20%) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
   }
+  @mixin tabsGradient($color, $drkcolor) {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(37%, $drkcolor), color-stop(100%, $color));
+    background: -webkit-linear-gradient(top, $drkcolor 37%, $color 100%);
+    background: -o-linear-gradient(top, $drkcolor 37%, $color 100%);
+    background: -ms-linear-gradient(top, $drkcolor 37%, $color 100%);
+    background: linear-gradient(to bottom, $drkcolor 37%, $color 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='darken($color, 10%)', endColorstr='$color', GradientType=0 );
+  }
