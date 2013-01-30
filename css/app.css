@@ -9842,7 +9842,7 @@ pre {
 /* line 19, ../sass/components/modules/_topbar.scss */
 .contain-to-grid {
   width: 100%;
-  background: #222222;
+  background: black;
 }
 
 /* Wrapped around .top-bar to make it fixed at the top */
