@@ -28,7 +28,7 @@
   h4, h5, h6 { font-weight: bold;
     }
   h4 { 
-    font: {family: $lowerHeaderFontFamily;}
+    font: {family: $headerFontFamily;}
   }
   h5 {text-transform: uppercase;
     &.subheader {font-weight: bold;}
