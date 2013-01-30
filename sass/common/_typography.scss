@@ -24,14 +24,10 @@
   }
 
   h1, h2, h3 { font-weight: $headerFontWeight; font-style: $headerFontStyle;
-    }
+  }
   h4, h5, h6 { font-weight: bold;
-    }
-  h4 { 
-    font: {family: $headerFontFamily;}
   }
   h5 {text-transform: uppercase;
-    &.subheader {font-weight: bold;}
   }
 
   h1 { font-size: ms(5); }

@@ -613,13 +613,13 @@ fieldset legend {
 /* Errors */
 /* line 49, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/common/_forms.scss */
 .error input, input.error, .error textarea, textarea.error {
-  border-color: #fcf8e3;
-  background-color: rgba(252, 248, 227, 0.1);
+  border-color: #f3656a;
+  background-color: rgba(243, 101, 106, 0.1);
 }
 
 /* line 50, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/common/_forms.scss */
 .error label, label.error {
-  color: #fcf8e3;
+  color: #f3656a;
 }
 
 /* line 51, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/common/_forms.scss */
@@ -628,7 +628,7 @@ fieldset legend {
   padding: 6px 4px;
   margin-top: -13px;
   margin-bottom: 12px;
-  background: #fcf8e3;
+  background: #f3656a;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
@@ -1446,12 +1446,12 @@ that IE7/8 do not support :nth-child.
 }
 /* line 23, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.alert {
-  background-color: #fcf8e3;
-  border: 1px solid #f5e79e;
+  background-color: #f3656a;
+  border: 1px solid #ed1e25;
 }
 /* line 24, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.alert:hover, .button.alert:focus {
-  background-color: #f7ecb5;
+  background-color: #ef363c;
 }
 /* line 26, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.secondary {
@@ -1515,11 +1515,11 @@ that IE7/8 do not support :nth-child.
 }
 /* line 45, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.disabled.alert, .button[disabled].alert {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
 }
 /* line 46, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
   outline: none;
 }
 /* line 48, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
@@ -1717,7 +1717,7 @@ input[type=submit].button, button.button {
 }
 /* line 105, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.alert:hover, .button.dropdown.split.alert:focus {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
 }
 /* line 106, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.success:hover, .button.dropdown.split.success:focus {
@@ -1852,8 +1852,8 @@ input[type=submit].button, button.button {
 }
 /* line 133, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.alert > span {
-  background-color: #fcf8e3;
-  border-left-color: #f5e79e;
+  background-color: #f3656a;
+  border-left-color: #ed1e25;
 }
 /* line 134, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.success > span {
@@ -1871,7 +1871,7 @@ input[type=submit].button, button.button {
 }
 /* line 138, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.alert > a:hover, .button.dropdown.split.alert > span:hover, .button.dropdown.split.alert > a:focus, .button.dropdown.split.alert > span:focus {
-  background-color: #f7ecb5;
+  background-color: #ef363c;
 }
 /* line 139, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_buttons.scss */
 .button.dropdown.split.success > a:hover, .button.dropdown.split.success > span:hover, .button.dropdown.split.success > a:focus, .button.dropdown.split.success > span:focus {
@@ -3669,7 +3669,7 @@ div.alert-box.success {
 }
 /* line 30, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 div.alert-box.alert {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
   color: #fff;
   text-shadow: 0 -1px rgba(0, 0, 0, 0.3);
 }
@@ -3729,7 +3729,7 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 46, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 .label.alert {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
 }
 /* line 47, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 .label.success {
@@ -4373,7 +4373,7 @@ div.progress.success .meter {
 }
 /* line 267, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 div.progress.alert .meter {
-  background: #fcf8e3;
+  background: #f3656a;
 }
 /* line 270, ../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-3.2.3/scss/foundation/components/modules/_ui.scss */
 div.progress.radius {
@@ -6793,50 +6793,41 @@ h4, h5, h6 {
 }
 
 /* line 30, ../sass/common/_typography.scss */
-h4 {
-  font-family: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
-}
-
-/* line 33, ../sass/common/_typography.scss */
 h5 {
   text-transform: uppercase;
 }
-/* line 34, ../sass/common/_typography.scss */
-h5.subheader {
-  font-weight: bold;
-}
 
-/* line 37, ../sass/common/_typography.scss */
+/* line 33, ../sass/common/_typography.scss */
 h1 {
   font-size: 44px;
 }
 
-/* line 38, ../sass/common/_typography.scss */
+/* line 34, ../sass/common/_typography.scss */
 h2 {
   font-size: 37px;
 }
 
-/* line 39, ../sass/common/_typography.scss */
+/* line 35, ../sass/common/_typography.scss */
 h3 {
   font-size: 27px;
 }
 
-/* line 40, ../sass/common/_typography.scss */
+/* line 36, ../sass/common/_typography.scss */
 h4 {
   font-size: 23px;
 }
 
-/* line 41, ../sass/common/_typography.scss */
+/* line 37, ../sass/common/_typography.scss */
 h5 {
   font-size: 17px;
 }
 
-/* line 42, ../sass/common/_typography.scss */
+/* line 38, ../sass/common/_typography.scss */
 h6 {
   font-size: 14px;
 }
 
-/* line 44, ../sass/common/_typography.scss */
+/* line 40, ../sass/common/_typography.scss */
 hr {
   border: solid #f2f2f2;
   border-width: 1px 0 0;
@@ -6845,7 +6836,7 @@ hr {
   height: 0;
 }
 
-/* line 46, ../sass/common/_typography.scss */
+/* line 42, ../sass/common/_typography.scss */
 .subheader {
   line-height: 1.3;
   color: #6f6f6f;
@@ -6853,32 +6844,32 @@ hr {
   margin-bottom: 17px;
 }
 
-/* line 47, ../sass/common/_typography.scss */
+/* line 43, ../sass/common/_typography.scss */
 em, i {
   font-style: italic;
   line-height: inherit;
 }
 
-/* line 48, ../sass/common/_typography.scss */
+/* line 44, ../sass/common/_typography.scss */
 strong, b {
   font-weight: bold;
   line-height: inherit;
 }
 
-/* line 49, ../sass/common/_typography.scss */
+/* line 45, ../sass/common/_typography.scss */
 small {
   font-size: 60%;
   line-height: inherit;
 }
 
-/* line 50, ../sass/common/_typography.scss */
+/* line 46, ../sass/common/_typography.scss */
 code {
   font-weight: bold;
   background: transparent;
 }
 
 /* Lists ---------------------- */
-/* line 53, ../sass/common/_typography.scss */
+/* line 49, ../sass/common/_typography.scss */
 ul, ol, dl {
   font-size: 14px;
   line-height: 1.6;
@@ -6886,87 +6877,87 @@ ul, ol, dl {
   list-style-position: outside;
 }
 
-/* line 56, ../sass/common/_typography.scss */
+/* line 52, ../sass/common/_typography.scss */
 ul li ul, ul li ol {
   margin-left: 20px;
   margin-bottom: 0;
 }
-/* line 58, ../sass/common/_typography.scss */
+/* line 54, ../sass/common/_typography.scss */
 ul.square, ul.circle, ul.disc {
   margin-left: 17px;
 }
-/* line 59, ../sass/common/_typography.scss */
+/* line 55, ../sass/common/_typography.scss */
 ul.square {
   list-style-type: square;
 }
-/* line 60, ../sass/common/_typography.scss */
+/* line 56, ../sass/common/_typography.scss */
 ul.square li ul {
   list-style: inherit;
 }
-/* line 62, ../sass/common/_typography.scss */
+/* line 58, ../sass/common/_typography.scss */
 ul.circle {
   list-style-type: circle;
 }
-/* line 63, ../sass/common/_typography.scss */
+/* line 59, ../sass/common/_typography.scss */
 ul.circle li ul {
   list-style: inherit;
 }
-/* line 65, ../sass/common/_typography.scss */
+/* line 61, ../sass/common/_typography.scss */
 ul.disc {
   list-style-type: disc;
 }
-/* line 66, ../sass/common/_typography.scss */
+/* line 62, ../sass/common/_typography.scss */
 ul.disc li ul {
   list-style: inherit;
 }
-/* line 68, ../sass/common/_typography.scss */
+/* line 64, ../sass/common/_typography.scss */
 ul.no-bullet {
   list-style: none;
 }
-/* line 69, ../sass/common/_typography.scss */
+/* line 65, ../sass/common/_typography.scss */
 ul.large li {
   line-height: 21px;
 }
 
-/* line 71, ../sass/common/_typography.scss */
+/* line 67, ../sass/common/_typography.scss */
 ol {
   margin-left: 20px;
 }
-/* line 73, ../sass/common/_typography.scss */
+/* line 69, ../sass/common/_typography.scss */
 ol li ul, ol li ol {
   margin-left: 20px;
   margin-bottom: 0;
 }
 
 /* Blockquotes ---------------------- */
-/* line 78, ../sass/common/_typography.scss */
+/* line 74, ../sass/common/_typography.scss */
 blockquote, blockquote p {
   line-height: 1.5;
   color: #6f6f6f;
 }
 
-/* line 79, ../sass/common/_typography.scss */
+/* line 75, ../sass/common/_typography.scss */
 blockquote {
   margin: 0 0 17px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #dddddd;
 }
-/* line 80, ../sass/common/_typography.scss */
+/* line 76, ../sass/common/_typography.scss */
 blockquote cite {
   display: block;
   font-size: 13px;
   color: #555555;
 }
-/* line 81, ../sass/common/_typography.scss */
+/* line 77, ../sass/common/_typography.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
-/* line 82, ../sass/common/_typography.scss */
+/* line 78, ../sass/common/_typography.scss */
 blockquote cite a, blockquote cite a:visited {
   color: #555555;
 }
 
-/* line 86, ../sass/common/_typography.scss */
+/* line 82, ../sass/common/_typography.scss */
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
@@ -6975,7 +6966,7 @@ abbr, acronym {
   cursor: help;
 }
 
-/* line 87, ../sass/common/_typography.scss */
+/* line 83, ../sass/common/_typography.scss */
 abbr {
   text-transform: none;
 }
@@ -6986,13 +6977,13 @@ abbr {
  * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
  * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */
-/* line 95, ../sass/common/_typography.scss */
+/* line 91, ../sass/common/_typography.scss */
 .print-only {
   display: none !important;
 }
 
 @media print {
-  /* line 97, ../sass/common/_typography.scss */
+  /* line 93, ../sass/common/_typography.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -7003,45 +6994,45 @@ abbr {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 98, ../sass/common/_typography.scss */
+  /* line 94, ../sass/common/_typography.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 99, ../sass/common/_typography.scss */
+  /* line 95, ../sass/common/_typography.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 100, ../sass/common/_typography.scss */
+  /* line 96, ../sass/common/_typography.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 101, ../sass/common/_typography.scss */
+  /* line 97, ../sass/common/_typography.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 102, ../sass/common/_typography.scss */
+  /* line 98, ../sass/common/_typography.scss */
   pre, blockquote {
     border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
-  /* line 103, ../sass/common/_typography.scss */
+  /* line 99, ../sass/common/_typography.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 104, ../sass/common/_typography.scss */
+  /* line 100, ../sass/common/_typography.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 105, ../sass/common/_typography.scss */
+  /* line 101, ../sass/common/_typography.scss */
   img {
     max-width: 100% !important;
   }
@@ -7050,33 +7041,33 @@ abbr {
     margin: 0.5cm;
 }
 
-  /* line 107, ../sass/common/_typography.scss */
+  /* line 103, ../sass/common/_typography.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 108, ../sass/common/_typography.scss */
+  /* line 104, ../sass/common/_typography.scss */
   h2, h3 {
     page-break-after: avoid;
   }
 
-  /* line 109, ../sass/common/_typography.scss */
+  /* line 105, ../sass/common/_typography.scss */
   .hide-on-print {
     display: none !important;
   }
 
-  /* line 110, ../sass/common/_typography.scss */
+  /* line 106, ../sass/common/_typography.scss */
   .print-only {
     display: block !important;
   }
 
-  /* line 111, ../sass/common/_typography.scss */
+  /* line 107, ../sass/common/_typography.scss */
   .hide-for-print {
     display: none !important;
   }
 
-  /* line 112, ../sass/common/_typography.scss */
+  /* line 108, ../sass/common/_typography.scss */
   .show-for-print {
     display: inherit !important;
   }
@@ -7144,50 +7135,41 @@ h4, h5, h6 {
 }
 
 /* line 30, ../sass/common/_typography.scss */
-h4 {
-  font-family: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
-}
-
-/* line 33, ../sass/common/_typography.scss */
 h5 {
   text-transform: uppercase;
 }
-/* line 34, ../sass/common/_typography.scss */
-h5.subheader {
-  font-weight: bold;
-}
 
-/* line 37, ../sass/common/_typography.scss */
+/* line 33, ../sass/common/_typography.scss */
 h1 {
   font-size: 44px;
 }
 
-/* line 38, ../sass/common/_typography.scss */
+/* line 34, ../sass/common/_typography.scss */
 h2 {
   font-size: 37px;
 }
 
-/* line 39, ../sass/common/_typography.scss */
+/* line 35, ../sass/common/_typography.scss */
 h3 {
   font-size: 27px;
 }
 
-/* line 40, ../sass/common/_typography.scss */
+/* line 36, ../sass/common/_typography.scss */
 h4 {
   font-size: 23px;
 }
 
-/* line 41, ../sass/common/_typography.scss */
+/* line 37, ../sass/common/_typography.scss */
 h5 {
   font-size: 17px;
 }
 
-/* line 42, ../sass/common/_typography.scss */
+/* line 38, ../sass/common/_typography.scss */
 h6 {
   font-size: 14px;
 }
 
-/* line 44, ../sass/common/_typography.scss */
+/* line 40, ../sass/common/_typography.scss */
 hr {
   border: solid #f2f2f2;
   border-width: 1px 0 0;
@@ -7196,7 +7178,7 @@ hr {
   height: 0;
 }
 
-/* line 46, ../sass/common/_typography.scss */
+/* line 42, ../sass/common/_typography.scss */
 .subheader {
   line-height: 1.3;
   color: #6f6f6f;
@@ -7204,32 +7186,32 @@ hr {
   margin-bottom: 17px;
 }
 
-/* line 47, ../sass/common/_typography.scss */
+/* line 43, ../sass/common/_typography.scss */
 em, i {
   font-style: italic;
   line-height: inherit;
 }
 
-/* line 48, ../sass/common/_typography.scss */
+/* line 44, ../sass/common/_typography.scss */
 strong, b {
   font-weight: bold;
   line-height: inherit;
 }
 
-/* line 49, ../sass/common/_typography.scss */
+/* line 45, ../sass/common/_typography.scss */
 small {
   font-size: 60%;
   line-height: inherit;
 }
 
-/* line 50, ../sass/common/_typography.scss */
+/* line 46, ../sass/common/_typography.scss */
 code {
   font-weight: bold;
   background: transparent;
 }
 
 /* Lists ---------------------- */
-/* line 53, ../sass/common/_typography.scss */
+/* line 49, ../sass/common/_typography.scss */
 ul, ol, dl {
   font-size: 14px;
   line-height: 1.6;
@@ -7237,87 +7219,87 @@ ul, ol, dl {
   list-style-position: outside;
 }
 
-/* line 56, ../sass/common/_typography.scss */
+/* line 52, ../sass/common/_typography.scss */
 ul li ul, ul li ol {
   margin-left: 20px;
   margin-bottom: 0;
 }
-/* line 58, ../sass/common/_typography.scss */
+/* line 54, ../sass/common/_typography.scss */
 ul.square, ul.circle, ul.disc {
   margin-left: 17px;
 }
-/* line 59, ../sass/common/_typography.scss */
+/* line 55, ../sass/common/_typography.scss */
 ul.square {
   list-style-type: square;
 }
-/* line 60, ../sass/common/_typography.scss */
+/* line 56, ../sass/common/_typography.scss */
 ul.square li ul {
   list-style: inherit;
 }
-/* line 62, ../sass/common/_typography.scss */
+/* line 58, ../sass/common/_typography.scss */
 ul.circle {
   list-style-type: circle;
 }
-/* line 63, ../sass/common/_typography.scss */
+/* line 59, ../sass/common/_typography.scss */
 ul.circle li ul {
   list-style: inherit;
 }
-/* line 65, ../sass/common/_typography.scss */
+/* line 61, ../sass/common/_typography.scss */
 ul.disc {
   list-style-type: disc;
 }
-/* line 66, ../sass/common/_typography.scss */
+/* line 62, ../sass/common/_typography.scss */
 ul.disc li ul {
   list-style: inherit;
 }
-/* line 68, ../sass/common/_typography.scss */
+/* line 64, ../sass/common/_typography.scss */
 ul.no-bullet {
   list-style: none;
 }
-/* line 69, ../sass/common/_typography.scss */
+/* line 65, ../sass/common/_typography.scss */
 ul.large li {
   line-height: 21px;
 }
 
-/* line 71, ../sass/common/_typography.scss */
+/* line 67, ../sass/common/_typography.scss */
 ol {
   margin-left: 20px;
 }
-/* line 73, ../sass/common/_typography.scss */
+/* line 69, ../sass/common/_typography.scss */
 ol li ul, ol li ol {
   margin-left: 20px;
   margin-bottom: 0;
 }
 
 /* Blockquotes ---------------------- */
-/* line 78, ../sass/common/_typography.scss */
+/* line 74, ../sass/common/_typography.scss */
 blockquote, blockquote p {
   line-height: 1.5;
   color: #6f6f6f;
 }
 
-/* line 79, ../sass/common/_typography.scss */
+/* line 75, ../sass/common/_typography.scss */
 blockquote {
   margin: 0 0 17px;
   padding: 9px 20px 0 19px;
   border-left: 1px solid #dddddd;
 }
-/* line 80, ../sass/common/_typography.scss */
+/* line 76, ../sass/common/_typography.scss */
 blockquote cite {
   display: block;
   font-size: 13px;
   color: #555555;
 }
-/* line 81, ../sass/common/_typography.scss */
+/* line 77, ../sass/common/_typography.scss */
 blockquote cite:before {
   content: "\2014 \0020";
 }
-/* line 82, ../sass/common/_typography.scss */
+/* line 78, ../sass/common/_typography.scss */
 blockquote cite a, blockquote cite a:visited {
   color: #555555;
 }
 
-/* line 86, ../sass/common/_typography.scss */
+/* line 82, ../sass/common/_typography.scss */
 abbr, acronym {
   text-transform: uppercase;
   font-size: 90%;
@@ -7326,7 +7308,7 @@ abbr, acronym {
   cursor: help;
 }
 
-/* line 87, ../sass/common/_typography.scss */
+/* line 83, ../sass/common/_typography.scss */
 abbr {
   text-transform: none;
 }
@@ -7337,13 +7319,13 @@ abbr {
  * Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
  * Credit to Paul Irish and HTML5 Boilerplate (html5boilerplate.com)
 */
-/* line 95, ../sass/common/_typography.scss */
+/* line 91, ../sass/common/_typography.scss */
 .print-only {
   display: none !important;
 }
 
 @media print {
-  /* line 97, ../sass/common/_typography.scss */
+  /* line 93, ../sass/common/_typography.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -7354,45 +7336,45 @@ abbr {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 98, ../sass/common/_typography.scss */
+  /* line 94, ../sass/common/_typography.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 99, ../sass/common/_typography.scss */
+  /* line 95, ../sass/common/_typography.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 100, ../sass/common/_typography.scss */
+  /* line 96, ../sass/common/_typography.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 101, ../sass/common/_typography.scss */
+  /* line 97, ../sass/common/_typography.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 102, ../sass/common/_typography.scss */
+  /* line 98, ../sass/common/_typography.scss */
   pre, blockquote {
     border: 1px solid #999999;
     page-break-inside: avoid;
   }
 
-  /* line 103, ../sass/common/_typography.scss */
+  /* line 99, ../sass/common/_typography.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 104, ../sass/common/_typography.scss */
+  /* line 100, ../sass/common/_typography.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 105, ../sass/common/_typography.scss */
+  /* line 101, ../sass/common/_typography.scss */
   img {
     max-width: 100% !important;
   }
@@ -7401,33 +7383,33 @@ abbr {
     margin: 0.5cm;
 }
 
-  /* line 107, ../sass/common/_typography.scss */
+  /* line 103, ../sass/common/_typography.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 108, ../sass/common/_typography.scss */
+  /* line 104, ../sass/common/_typography.scss */
   h2, h3 {
     page-break-after: avoid;
   }
 
-  /* line 109, ../sass/common/_typography.scss */
+  /* line 105, ../sass/common/_typography.scss */
   .hide-on-print {
     display: none !important;
   }
 
-  /* line 110, ../sass/common/_typography.scss */
+  /* line 106, ../sass/common/_typography.scss */
   .print-only {
     display: block !important;
   }
 
-  /* line 111, ../sass/common/_typography.scss */
+  /* line 107, ../sass/common/_typography.scss */
   .hide-for-print {
     display: none !important;
   }
 
-  /* line 112, ../sass/common/_typography.scss */
+  /* line 108, ../sass/common/_typography.scss */
   .show-for-print {
     display: inherit !important;
   }
@@ -7586,8 +7568,11 @@ fieldset {
 }
 /* line 45, ../sass/common/_forms.scss */
 fieldset legend {
+  font-size: 23px;
+  font-family: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
+  color: #474747;
   font-weight: bold;
-  background: white;
+  background: transparent none;
   padding: 0 3px;
   margin: 0;
   margin-left: -3px;
@@ -7596,13 +7581,13 @@ fieldset legend {
 /* Errors */
 /* line 49, ../sass/common/_forms.scss */
 .error input, input.error, .error textarea, textarea.error {
-  border-color: #fcf8e3;
-  background-color: rgba(252, 248, 227, 0.1);
+  border-color: #f3656a;
+  background-color: rgba(243, 101, 106, 0.1);
 }
 
 /* line 50, ../sass/common/_forms.scss */
 .error label, label.error {
-  color: #fcf8e3;
+  color: #f3656a;
 }
 
 /* line 51, ../sass/common/_forms.scss */
@@ -7611,7 +7596,7 @@ fieldset legend {
   padding: 6px 4px;
   margin-top: -13px;
   margin-bottom: 12px;
-  background: #fcf8e3;
+  background: #f3656a;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
@@ -7691,6 +7676,8 @@ form.custom div.custom.dropdown {
   height: 28px;
   margin-bottom: 9px;
   margin-top: 2px;
+  z-index: 999;
+  position: relative;
 }
 /* line 74, ../sass/common/_forms.scss */
 form.custom div.custom.dropdown ul {
@@ -8076,6 +8063,7 @@ section#info-hero-wrapper #info-image img {
 }
 /* line 10, ../sass/components/modules/_buttons.scss */
 .button.large {
+  font-family: "PT Sans Narrow", "Helvetica", Helvetica, Arial, sans-serif;
   font-size: 23px;
   padding: 13px 26px 14px;
 }
@@ -8126,20 +8114,20 @@ section#info-hero-wrapper #info-image img {
 }
 /* line 23, ../sass/components/modules/_buttons.scss */
 .button.alert {
-  background: #e8ca2b;
-  background: -moz-linear-gradient(top, #e8ca2b 0%, #9c8611 100%);
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e8ca2b), color-stop(100%, #9c8611));
-  background: -webkit-linear-gradient(top, #e8ca2b 0%, #9c8611 100%);
-  background: -o-linear-gradient(top, #e8ca2b 0%, #9c8611 100%);
-  background: -ms-linear-gradient(top, #e8ca2b 0%, #9c8611 100%);
-  background: linear-gradient(to bottom, #e8ca2b 0%, #9c8611 100%);
+  background: #820a0e;
+  background: -moz-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #820a0e), color-stop(100%, #230304));
+  background: -webkit-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: -o-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: -ms-linear-gradient(top, #820a0e 0%, #230304 100%);
+  background: linear-gradient(to bottom, #820a0e 0%, #230304 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color', endColorstr='darken($color,20%)',GradientType=0 );
-  border: 1px solid #f5e79e;
-  color: #7f612e;
+  border: 1px solid #ed1e25;
+  color: #070101;
 }
 /* line 24, ../sass/components/modules/_buttons.scss */
 .button.alert:hover, .button.alert:focus {
-  background-color: #f7ecb5;
+  background-color: #ef363c;
 }
 /* line 26, ../sass/components/modules/_buttons.scss */
 .button.secondary {
@@ -8206,11 +8194,11 @@ section#info-hero-wrapper #info-image img {
 }
 /* line 45, ../sass/components/modules/_buttons.scss */
 .button.disabled.alert, .button[disabled].alert {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
 }
 /* line 46, ../sass/components/modules/_buttons.scss */
 .button.disabled.alert:hover, .button.disabled.alert:focus, .button[disabled].alert:hover, .button[disabled].alert:focus {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
   outline: none;
 }
 /* line 48, ../sass/components/modules/_buttons.scss */
@@ -8408,7 +8396,7 @@ input[type=submit].button, button.button {
 }
 /* line 105, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.alert:hover, .button.dropdown.split.alert:focus {
-  background-color: #fcf8e3;
+  background-color: #f3656a;
 }
 /* line 106, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.success:hover, .button.dropdown.split.success:focus {
@@ -8561,8 +8549,8 @@ input[type=submit].button, button.button {
 }
 /* line 140, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.alert > span {
-  background-color: #fcf8e3;
-  border-left-color: #f5e79e;
+  background-color: #f3656a;
+  border-left-color: #ed1e25;
 }
 /* line 141, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.success > span {
@@ -8580,7 +8568,7 @@ input[type=submit].button, button.button {
 }
 /* line 145, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.alert > a:hover, .button.dropdown.split.alert > span:hover, .button.dropdown.split.alert > a:focus, .button.dropdown.split.alert > span:focus {
-  background-color: #f7ecb5;
+  background-color: #ef363c;
 }
 /* line 146, ../sass/components/modules/_buttons.scss */
 .button.dropdown.split.success > a:hover, .button.dropdown.split.success > span:hover, .button.dropdown.split.success > a:focus, .button.dropdown.split.success > span:focus {
@@ -8728,11 +8716,43 @@ div.button-bar ul.button-group:last-child {
   margin-bottom: 0;
   margin-left: 0;
 }
-/* line 11, ../sass/components/modules/_tabs.scss */
+/* line 12, ../sass/components/modules/_tabs.scss */
+.tabs:not(.pill):not(.vertical) dd, .tabs:not(.pill):not(.vertical) li {
+  border: 1px solid #f2f2f2;
+  margin-top: -3px;
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+}
+/* line 13, ../sass/components/modules/_tabs.scss */
+.tabs:not(.pill):not(.vertical) dd a, .tabs:not(.pill):not(.vertical) li a {
+  -moz-border-radius: 3px 3px 0 0;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+/* line 14, ../sass/components/modules/_tabs.scss */
+.tabs:not(.pill):not(.vertical) dd.active, .tabs:not(.pill):not(.vertical) li.active {
+  border-bottom: 1px solid white;
+  border-top: 1px solid #f2f2f2;
+  padding-bottom: 1px;
+}
+/* line 15, ../sass/components/modules/_tabs.scss */
+.tabs:not(.pill):not(.vertical) dd.active a, .tabs:not(.pill):not(.vertical) li.active a {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(37%, #f2f2f2), color-stop(100%, white));
+  background: -webkit-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: -o-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: -ms-linear-gradient(top, #f2f2f2 37%, white 100%);
+  background: linear-gradient(to bottom, #f2f2f2 37%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='darken($color, 10%)', endColorstr='$color', GradientType=0 );
+}
+/* line 19, ../sass/components/modules/_tabs.scss */
 .tabs.no-brdr {
   border-bottom: 0 none;
 }
-/* line 12, ../sass/components/modules/_tabs.scss */
+/* line 20, ../sass/components/modules/_tabs.scss */
 .tabs dt, .tabs li.section-title {
   color: #b3b3b3;
   cursor: default;
@@ -8748,147 +8768,134 @@ div.button-bar ul.button-group:last-child {
   width: auto;
   text-transform: uppercase;
 }
-/* line 13, ../sass/components/modules/_tabs.scss */
+/* line 21, ../sass/components/modules/_tabs.scss */
 .tabs dt:first-child, .tabs li.section-title:first-child {
   padding: 0;
   padding-right: 9px;
 }
-/* line 16, ../sass/components/modules/_tabs.scss */
+/* line 24, ../sass/components/modules/_tabs.scss */
 .tabs dd, .tabs li {
   display: block;
   float: left;
   padding: 0;
   margin: 0;
 }
-/* line 17, ../sass/components/modules/_tabs.scss */
+/* line 25, ../sass/components/modules/_tabs.scss */
 .tabs dd a, .tabs li a {
-  color: gray;
+  background: #f2f2f2;
+  color: #3bb4ff;
   display: block;
   font-size: 14px;
   height: 40px;
   line-height: 40px;
   padding: 0px 23.8px;
 }
-/* line 18, ../sass/components/modules/_tabs.scss */
+/* line 26, ../sass/components/modules/_tabs.scss */
 .tabs dd a:focus, .tabs li a:focus {
   font-weight: bold;
   color: #3bb4ff;
 }
-/* line 20, ../sass/components/modules/_tabs.scss */
-.tabs dd.active, .tabs li.active {
-  border-top: 3px solid #3bb4ff;
-  margin-top: -3px;
-}
-/* line 21, ../sass/components/modules/_tabs.scss */
+/* line 29, ../sass/components/modules/_tabs.scss */
 .tabs dd.active a, .tabs li.active a {
   cursor: default;
   color: #4d4d4d;
-  background: #fff;
-  border-left: 1px solid #e6e6e6;
-  border-right: 1px solid #e6e6e6;
   font-weight: bold;
 }
-/* line 23, ../sass/components/modules/_tabs.scss */
+/* line 31, ../sass/components/modules/_tabs.scss */
 .tabs dd:first-child, .tabs li:first-child {
   margin-left: 0;
 }
-/* line 26, ../sass/components/modules/_tabs.scss */
+/* line 34, ../sass/components/modules/_tabs.scss */
 .tabs.vertical {
   height: auto;
   border-bottom: 1px solid #e6e6e6;
 }
-/* line 27, ../sass/components/modules/_tabs.scss */
+/* line 35, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dt, .tabs.vertical dd, .tabs.vertical li {
   float: none;
   height: auto;
 }
-/* line 29, ../sass/components/modules/_tabs.scss */
+/* line 37, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd, .tabs.vertical li {
-  border-left: 3px solid #cccccc;
+  border-left: 3px solid #a0a0a0;
 }
-/* line 30, ../sass/components/modules/_tabs.scss */
+/* line 38, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd a, .tabs.vertical li a {
-  background: #f2f2f2;
-  border: none;
-  border: 1px solid #e6e6e6;
+  background: #474747;
+  border: solid #a0a0a0;
   border-width: 1px 1px 0 0;
-  color: #555;
+  color: white;
   display: block;
   font-size: 14px;
   height: auto;
   line-height: 1;
-  padding: 15px 20px;
-  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
-  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  padding: 16px 20px;
 }
-/* line 32, ../sass/components/modules/_tabs.scss */
+/* line 40, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active, .tabs.vertical li.active {
   margin-top: 0;
-  border-top: 1px solid #4d4d4d;
-  border-left: 4px solid #1a1a1a;
+  border-top: 1px solid #474747;
+  border-left: 4px solid #3bb4ff;
 }
-/* line 33, ../sass/components/modules/_tabs.scss */
+/* line 41, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd.active a, .tabs.vertical li.active a {
-  background: #4d4d4d;
+  background: #f2f2f2;
   border: none;
-  color: #fff;
+  border-top: 1px solid white;
+  color: #3bb4ff;
   height: auto;
   margin: 0;
   position: static;
   top: 0;
-  -webkit-box-shadow: 0 0 0;
-  -moz-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
 }
-/* line 35, ../sass/components/modules/_tabs.scss */
+/* line 43, ../sass/components/modules/_tabs.scss */
 .tabs.vertical dd:first-child a.active, .tabs.vertical li:first-child a.active {
   margin: 0;
 }
-/* line 39, ../sass/components/modules/_tabs.scss */
+/* line 47, ../sass/components/modules/_tabs.scss */
 .tabs.pill {
   border-bottom: none;
   margin-bottom: 10px;
 }
-/* line 40, ../sass/components/modules/_tabs.scss */
+/* line 48, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd, .tabs.pill li {
   margin-right: 10px;
 }
-/* line 41, ../sass/components/modules/_tabs.scss */
+/* line 49, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd:last-child, .tabs.pill li:last-child {
   margin-right: 0;
 }
-/* line 42, ../sass/components/modules/_tabs.scss */
+/* line 50, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd a, .tabs.pill li a {
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
-  border-radius: 8px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
   background: #d9d9d9;
   height: 26px;
   line-height: 26px;
   color: #666;
 }
-/* line 44, ../sass/components/modules/_tabs.scss */
+/* line 52, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd.active, .tabs.pill li.active {
   border: none;
   margin-top: 0;
 }
-/* line 45, ../sass/components/modules/_tabs.scss */
+/* line 53, ../sass/components/modules/_tabs.scss */
 .tabs.pill dd.active a, .tabs.pill li.active a {
   background-color: #3bb4ff;
   border: none;
   color: #fff;
 }
-/* line 48, ../sass/components/modules/_tabs.scss */
+/* line 56, ../sass/components/modules/_tabs.scss */
 .tabs.pill.contained {
   border-bottom: solid 1px #eeeeee;
   margin-bottom: 0;
 }
-/* line 50, ../sass/components/modules/_tabs.scss */
+/* line 58, ../sass/components/modules/_tabs.scss */
 .tabs.pill.two-up dd, .tabs.pill.two-up li, .tabs.pill.three-up dd, .tabs.pill.three-up li, .tabs.pill.four-up dd, .tabs.pill.four-up li, .tabs.pill.five-up dd, .tabs.pill.five-up li {
   margin-right: 0;
 }
-/* line 53, ../sass/components/modules/_tabs.scss */
+/* line 61, ../sass/components/modules/_tabs.scss */
 .tabs.small {
   border-bottom: 0 none;
   height: 22px;
@@ -8898,66 +8905,66 @@ div.button-bar ul.button-group:last-child {
   margin-top: 18px;
   float: right;
 }
-/* line 55, ../sass/components/modules/_tabs.scss */
+/* line 63, ../sass/components/modules/_tabs.scss */
 .tabs.small dd a {
   padding: 0 8px;
   font-size: 12px;
   line-height: 22px;
   height: 22px;
 }
-/* line 59, ../sass/components/modules/_tabs.scss */
+/* line 67, ../sass/components/modules/_tabs.scss */
 .tabs.two-up dt a, .tabs.two-up dd a, .tabs.two-up li a, .tabs.three-up dt a, .tabs.three-up dd a, .tabs.three-up li a, .tabs.four-up dt a, .tabs.four-up dd a, .tabs.four-up li a, .tabs.five-up dt a, .tabs.five-up dd a, .tabs.five-up li a {
   padding: 0 17px;
   text-align: center;
   overflow: hidden;
 }
-/* line 61, ../sass/components/modules/_tabs.scss */
+/* line 69, ../sass/components/modules/_tabs.scss */
 .tabs.two-up dt, .tabs.two-up dd, .tabs.two-up li {
   width: 50%;
 }
-/* line 62, ../sass/components/modules/_tabs.scss */
+/* line 70, ../sass/components/modules/_tabs.scss */
 .tabs.three-up dt, .tabs.three-up dd, .tabs.two-up li {
   width: 33.33%;
 }
-/* line 63, ../sass/components/modules/_tabs.scss */
+/* line 71, ../sass/components/modules/_tabs.scss */
 .tabs.four-up dt, .tabs.four-up dd, .tabs.two-up li {
   width: 25%;
 }
-/* line 64, ../sass/components/modules/_tabs.scss */
+/* line 72, ../sass/components/modules/_tabs.scss */
 .tabs.five-up dt, .tabs.five-up dd, .tabs.two-up li {
   width: 20%;
 }
 
-/* line 67, ../sass/components/modules/_tabs.scss */
+/* line 75, ../sass/components/modules/_tabs.scss */
 ul.tabs-content {
   display: block;
   margin: 0 0 20px;
   padding: 0;
 }
-/* line 68, ../sass/components/modules/_tabs.scss */
+/* line 76, ../sass/components/modules/_tabs.scss */
 ul.tabs-content > li {
   display: none;
 }
-/* line 69, ../sass/components/modules/_tabs.scss */
+/* line 77, ../sass/components/modules/_tabs.scss */
 ul.tabs-content > li.active {
   display: block;
 }
-/* line 71, ../sass/components/modules/_tabs.scss */
+/* line 79, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained {
   padding: 0;
 }
-/* line 72, ../sass/components/modules/_tabs.scss */
+/* line 80, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained > li {
   border: solid 0 #e6e6e6;
   border-width: 0 1px 1px 1px;
   padding: 20px;
 }
-/* line 73, ../sass/components/modules/_tabs.scss */
+/* line 81, ../sass/components/modules/_tabs.scss */
 ul.tabs-content.contained.vertical > li {
   border-width: 1px 1px 1px 1px;
 }
 
-/* line 77, ../sass/components/modules/_tabs.scss */
+/* line 85, ../sass/components/modules/_tabs.scss */
 .no-js ul.tabs-content > li {
   display: block;
 }
@@ -8993,7 +9000,7 @@ div.alert-box {
   font-weight: bold;
   font-size: 14px;
   color: #3a87ad;
-  background-color: #d9edf7;
+  background-color: aliceblue;
   border: 1px solid rgba(58, 135, 173, 0.1);
   margin-bottom: 12px;
   -moz-border-radius: 3px;
@@ -9010,14 +9017,14 @@ div.alert-box.success {
 }
 /* line 30, ../sass/components/modules/_ui.scss */
 div.alert-box.alert {
-  background-color: #fcf8e3;
-  color: #c09853;
+  background-color: #f3656a;
+  color: #66080b;
   text-shadow: 0 -1px rgba(255, 255, 255, 0.3);
 }
 /* line 31, ../sass/components/modules/_ui.scss */
 div.alert-box.secondary {
-  background-color: #f7ecb5;
-  color: #c09853;
+  background-color: #ffd748;
+  color: #846800;
   text-shadow: 0 1px rgba(255, 255, 255, 0.3);
 }
 /* line 33, ../sass/components/modules/_ui.scss */
@@ -9070,9 +9077,9 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 46, ../sass/components/modules/_ui.scss */
 .label.alert {
-  background-color: #fcf8e3;
-  border: 1px solid #f7ecb5;
-  color: #c09853;
+  background-color: #f3656a;
+  border: 1px solid #ef363c;
+  color: #66080b;
 }
 /* line 47, ../sass/components/modules/_ui.scss */
 .label.success {
@@ -9082,9 +9089,9 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 48, ../sass/components/modules/_ui.scss */
 .label.secondary {
-  background-color: #d9edf7;
+  background-color: aliceblue;
   color: #3a87ad;
-  border: 1px solid #afd9ee;
+  border: 1px solid #bde0ff;
 }
 
 /* Tooltips ---------------------- */
@@ -9206,9 +9213,9 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 }
 /* line 86, ../sass/components/modules/_ui.scss */
 .panel.callout {
-  background: #d9edf7;
+  background: aliceblue;
   color: #3a87ad;
-  border-color: #afd9ee;
+  border-color: #bde0ff;
   -webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5);
   -moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.5);
@@ -9243,24 +9250,24 @@ div.alert-box a.close:hover, div.alert-box a.close:focus {
 /* line 101, ../sass/components/modules/_ui.scss */
 ul.accordion {
   margin: 0 0 22px 0;
-  border-bottom: 1px solid #3bb4ff;
+  border-bottom: 1px solid #dddddd;
 }
 /* line 103, ../sass/components/modules/_ui.scss */
 ul.accordion > li {
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid #3bb4ff;
+  border-top: 1px solid #dddddd;
 }
 /* line 105, ../sass/components/modules/_ui.scss */
 ul.accordion > li > div.title {
   cursor: pointer;
-  background: #3bb4ff;
-  padding: 15px;
+  background: #474747;
+  padding: 10px;
   margin: 0;
   position: relative;
-  border-left: 1px solid #3bb4ff;
-  border-right: 1px solid #3bb4ff;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
   -webkit-transition: 0.15s background linear;
   -moz-transition: 0.15s background linear;
   -o-transition: 0.15s background linear;
@@ -9278,10 +9285,10 @@ ul.accordion > li > div.title:after {
   width: 0;
   height: 0;
   border: solid 6px;
-  border-color: transparent white transparent transparent;
+  border-color: transparent transparent transparent white;
   position: absolute;
   right: 15px;
-  top: 21px;
+  top: 15px;
 }
 /* line 111, ../sass/components/modules/_ui.scss */
 ul.accordion > li .content {
@@ -9290,7 +9297,7 @@ ul.accordion > li .content {
 }
 /* line 113, ../sass/components/modules/_ui.scss */
 ul.accordion > li.active {
-  border-top: 3px solid #3bb4ff;
+  border-top: 1px solid #dddddd;
 }
 /* line 115, ../sass/components/modules/_ui.scss */
 ul.accordion > li.active .title {
@@ -9314,8 +9321,8 @@ ul.accordion > li.active .title:after {
 ul.accordion > li.active .content {
   background: white;
   display: block;
-  border-left: 1px solid #3bb4ff;
-  border-right: 1px solid #3bb4ff;
+  border-left: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
 }
 
 /* Side Nav ---------------------- */
@@ -9716,7 +9723,7 @@ div.progress.success .meter {
 }
 /* line 270, ../sass/components/modules/_ui.scss */
 div.progress.alert .meter {
-  background: #c09853;
+  background: #66080b;
 }
 /* line 273, ../sass/components/modules/_ui.scss */
 div.progress.radius {
@@ -9842,7 +9849,7 @@ pre {
 /* line 19, ../sass/components/modules/_topbar.scss */
 .contain-to-grid {
   width: 100%;
-  background: black;
+  background: #474747;
 }
 
 /* Wrapped around .top-bar to make it fixed at the top */
@@ -12658,7 +12665,7 @@ table.hide-for-medium {
 /**~Header/Nav~**/
 /* line 2, ../sass/branding-guide.scss */
 body.branding-guide {
-  background: #474747 !important;
+  background: #474747;
 }
 
 /* line 4, ../sass/branding-guide.scss */
@@ -12691,12 +12698,16 @@ body.branding-guide {
 .branding-wrapper {
   background: white;
   border-bottom: 4px solid #cccccc;
+  z-index: 1;
+  position: relative;
 }
 
 /**~Footer~**/
 /* line 24, ../sass/branding-guide.scss */
 footer {
   background-color: #6d6d6d;
+  z-index: 0;
+  position: relative;
 }
 /* line 25, ../sass/branding-guide.scss */
 footer ul {
