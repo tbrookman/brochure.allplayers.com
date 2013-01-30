@@ -4,15 +4,24 @@ layout_keyword: sub_page
 title: Forms
 group: branding
 description: Forms help users take advantage of what your site has to offer.
-weight: 3
+weight: 6
+submenu:
+  - { hook: "form-layout", title: "Form Layout" }
+  - { hook: "fieldsets", title: "Fieldsets" }
+  - { hook: "prefix-labels", title: "Prefix Labels" }
+  - { hook: "errors", title: "Errors" }
+  - { hook: "large-forms", title: "Large Forms" }
+  - { hook: "custom-inputs", title: "Custom Inputs" }
+  - { hook: "rd-btns-checkboxes", title: "Radio Buttons and Checkboxes" }
 ---
   <h2>{{ page.title }}</h2>
   <h4 class="subheader">{{ page.description }}</h4>
   <hr>
   <div class="row">
     <div class="eight columns">
-      <a name="form-layout"></a>
+      <a name="form-layout">
       <h3>Row Layouts</h2>
+      </a>
     </div>
     <div class="four columns no-brdr">
       <dl class="tabs pill small">
@@ -126,8 +135,9 @@ weight: 3
   <hr>
   <div class="row">
     <div class="eight columns">
-      <a name="fieldsets"></a>
+      <a name="fieldsets">
       <h3>Fieldsets</h3>
+      </a>
     </div>
     <div class="four columns no-brdr">
       <dl class="tabs pill small">
@@ -193,8 +203,9 @@ weight: 3
 
     <div class="row">
       <div class="eight columns">
-        <a name="prefix-labels"></a>
+        <a name="prefix-labels">
         <h3>Pre/Postfix Labels &amp; Actions</h3>
+        </a>
       </div>
       <div class="four columns no-brdr">
         <dl class="tabs pill small">
@@ -300,8 +311,9 @@ weight: 3
 
     <div class="row">
       <div class="eight columns">
-        <a name="errors"></a>
+        <a name="errors">
         <h3>Error States</h3>
+        </a>
       </div>
       <div class="four columns no-brdr">
         <dl class="tabs pill small">
@@ -351,7 +363,9 @@ weight: 3
 
     <div class="row">
       <div class="eight columns">
+        <a name="large-forms">
         <h3>Large Forms</h3>
+        </a>
       </div>
       <div class="four columns no-brdr">
         <dl class="tabs pill small">
@@ -511,8 +525,9 @@ weight: 3
 
       <div class="row">
         <div class="eight columns">
-          <a name="custom-inputs"></a>
+          <a name="custom-inputs">
           <h3>Custom Inputs</h3>
+          </a>
         </div>
         <div class="four columns no-brdr">
           <dl class="tabs pill small">
@@ -561,7 +576,7 @@ weight: 3
 
     <div class="row">
       <div class="eight columns">
-        <h3>Radio Buttons and Checkboxes</h3>
+        <a name="rd-btns-checkboxes"><h3>Radio Buttons and Checkboxes</h3></a>
       </div>
       <div class="four columns no-brdr">
         <dl class="tabs pill small">

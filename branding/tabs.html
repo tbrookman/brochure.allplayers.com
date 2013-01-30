@@ -4,13 +4,19 @@ layout_keyword: sub_page
 title: Tabs
 group: branding
 weight: 5
+submenu:
+  - { hook: "simple-tabs", title: "Simple Tabs" }
+  - { hook: "tab-sizing", title: "Tab Sizing" }
+  - { hook: "contained-tabs", title: "Prefix Labels" }
+  - { hook: "pill-nav", title: "Pill Navigation" }
+  - { hook: "vertical-tabs", title: "Vertical Tabs" }
 ---
 
 <h1>{{ page.title }}</h1>
 
           <div class="row">
             <div class="eight columns">
-              <h3>Simple Tabs</h3>
+              <a name="simple-tabs"><h3>Simple Tabs</h3>
             </div>
             <div class="four columns">
               <dl class="tabs pill small">
@@ -53,8 +59,9 @@ weight: 5
 
           <div class="row">
             <div class="eight columns">
-              <a name="tab-sizing"></a>
+              <a name="tab-sizing">
               <h4>Tab Sizing</h4>
+              </a>
             </div>
             <div class="four columns">
               <dl class="tabs pill small">
@@ -102,8 +109,9 @@ weight: 5
 
           <div class="row">
             <div class="eight columns">
-              <a name="contained-tabs"></a>
+              <a name="contained-tabs">
               <h4>Contained Tabs</h4>
+              </a>
             </div>
             <div class="four columns">
               <dl class="tabs pill small">
@@ -150,8 +158,9 @@ weight: 5
 
           <div class="row">
             <div class="eight columns">
-              <a name="pill-nav"></a>
+              <a name="pill-nav">
               <h4>Pill-Style Tabs</h4>
+              </a>
             </div>
             <div class="four columns">
               <dl class="tabs pill small">
@@ -183,8 +192,9 @@ weight: 5
 
           <div class="row">
             <div class="eight columns">
-              <a name="vertical-tabs"></a>
+              <a name="vertical-tabs">
               <h4>Vertical Tabs</h4>
+              </a>
             </div>
             <div class="four columns">
               <dl class="tabs pill small">

@@ -4,14 +4,20 @@ layout_keyword: sub_page
 title: Typography
 group: branding
 description: One of the most important features, Typography helps establish brand identity.
-weight: 1
+weight: 3
+submenu:
+  - { hook: "header-styles", title: "Header Styles" }
+  - { hook: "paragraphs", title: "Paragraphs" }
+  - { hook: "links", title: "Links" }
+  - { hook: "lists", title: "Lists" }
+  - { hook: "blockquotes", title: "Blockquotes" }
 ---
   <h2>{{ page.title }}</h1>
   <h4 class="subheader">{{ page.description }}</h4>
   <hr>
   <div class="row">
     <div class="eight columns">
-      <h3>Header Styles</h3>
+      <a name="header-styles"><h3>Header Styles</h3></a>
     </div>
     <div class="four columns no-brdr">
       <dl class="tabs pill small">
@@ -77,7 +83,7 @@ weight: 1
   <hr>
   <div class="row">
     <div class="eight columns">
-      <h3>Paragraphs</h3>
+      <a name="paragraphs"><h3>Paragraphs</h3></a>
     </div>
     <div class="four columns no-brdr">
       <dl class="tabs pill small">
@@ -120,7 +126,7 @@ weight: 1
   <hr>
   <div class="row">
     <div class="eight columns">
-      <h3>Links</h3>
+      <a name="links"><h3>Links</h3></a>
     </div>
     <div class="four columns no-brdr">
       <dl class="tabs pill small">
@@ -152,7 +158,7 @@ weight: 1
 
   <div class="row">
     <div class="eight columns">
-      <h3>Lists</h3>
+      <a name="lists"><h3>Lists</h3></a>
     </div>
     <div class="four columns no-brdr">
       <dl class="tabs pill small">
@@ -301,7 +307,7 @@ weight: 1
   <hr>
   <div class="row">
     <div class="eight columns">
-      <h3>Blockquotes</h3>
+      <a name="blockquotes"><h3>Blockquotes</h3></a>
     </div>
     <div class="four columns no-brdr">
       <dl class="tabs pill small">

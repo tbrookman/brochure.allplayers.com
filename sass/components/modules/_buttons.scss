@@ -1,6 +1,6 @@
 /* Normal Buttons ---------------------- */
 
-  .button { width: auto; @include simpleGradient(lighten($mainColor, 10%)); @include border-radius(3px); border: 1px solid darken(($mainColor), 15%); @include box-shadow(0 1px 0 $shinyEdge inset); color: $white; cursor: pointer; display: inline-block; font-size: ms(0); font-weight: bold; line-height: .75; margin: 0; padding: $btnBase ($btnBase * 2) $btnBase; position: relative; text-align: center; @include single-transition(background-color, .15s, ease-in-out);
+  .button { text-shadow: 1px 1px darken($mainColor, 20%); font-family: $headerFontFamily; width: auto; @include simpleGradient(lighten($mainColor, 10%)); @include border-radius(3px); border: 1px solid darken(($mainColor), 15%); @include box-shadow(0 1px 0 $shinyEdge inset); color: $white; cursor: pointer; display: inline-block; font-size: ms(1); font-weight: bold; line-height: .75; margin: 0; padding: $btnBase ($btnBase * 2) $btnBase; position: relative; text-align: center; @include single-transition(background-color, .15s, ease-in-out);
 
     /* Hovers */
     &:hover, &:focus { color: $white; @include simpleGradient($mainColor); text-decoration: none; }
