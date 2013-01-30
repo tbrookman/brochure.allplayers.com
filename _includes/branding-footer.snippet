@@ -2,43 +2,38 @@
 	<div class="three columns">
 		<img class="footer-branding" src="images/allplayers.com_ICON.png">
 	</div>
-	<div class="three columns">
-		<a href="forms.html"><h5 class="white">Forms</h5></a>
-		<ul>
-			<li><a href="forms.html#rowExTab">Row Layouts</a></li>
-			<li><a href="forms.html#fieldExTab">Fieldsets</a></li>
-			<li><a href="forms.html#postExTab">Pre/Postfix Labels & Actions</a></li>
-			<li><a href="forms.html#errorExTab">Error States</a></li>
-			<li><a href="forms.html#lrgExTab">Large Forms</a></li>
-			<li><a href="forms.html#custExTab">Custom Inputs</a></li>
-			<li><a href="forms.html#radExTab">Radio Buttons & Checkboxes</a></li>
-		</ul>
-		<a href="grid.html"><h5 class="white">Grid</h5></a>
-	</div>
-	<div class="three columns">
-		<a href="navigation.html"><h5 class="white">Navigation</h5></a>
-		<ul>
-			<li><a href="typography.html#tabsExTab">Header Styles</a></li>
-			<li><a href="typography.html#pgExTab">Paragraphs</a></li>
-			<li><a href="typography.html#linksExTab">Links</a></li>
-			<li><a href="typography.html#listsExTab">Lists</a></li>
-			<li><a href="typography.html#bqExTab">Blockquotes</a></li>
-		</ul>
-		<a href="tabs.html"><h5 class="white">Tabs</h5></a>
-	</div>
-	<div class="three columns">
-		<a href="buttons.html"><h5 class="white">Buttons</h5></a>
-		<ul>
-			<li><a href="buttons.html#btnExTab">Styles, Sizes & Options</a></li>
-		</ul>
-		<a href="elements.html"><h5 class="white">Elements</h5></a>
-		<a href="typography.html"><h5 class="white">Typography</h5></a>
-		<ul>
-			<li><a href="typography.html#tabsExTab">Header Styles</a></li>
-			<li><a href="typography.html#pgExTab">Paragraphs</a></li>
-			<li><a href="typography.html#linksExTab">Links</a></li>
-			<li><a href="typography.html#lsExTab">Lists</a></li>
-		</ul>
+	<div class="nine columns row end">
+		{% assign pages_list = site.pages %}
+		{% assign group = 'branding' %}
+		{% for weight in (0..20) %}
+		  {% for node in pages_list %}
+		    {% if node.title != null %}
+		      {% assign nodeweight = node.weight; %}
+		      {% if (nodeweight == null) %}
+		        {% assign nodeweight = 0 %}
+		      {% endif %}
+		      {% if weight == nodeweight %}
+		        {% if group == null or group == node.group %}
+			          {% if node.title == "Branding Guide" %}{% else %}
+			          <div class="section-wrapper three columns left {% if page.url == node.url %}active {% endif %}{% if node.title == "Tabs" %}tabs-notmenu{% else %}{{ node.title | replace:' ','-' | downcase }}{% endif %}">
+
+			          	<h5 class="white"><a href="{{ node.url }}">{{ node.title }}</a></h5>
+			          {% endif %}
+			          {% if node.submenu %}
+		          		<ul>
+				          	{% for item in node.submenu %}
+				          		<li><a href="{{ node.url }}#{{ item.hook }}">{{ item.title }}</a></li>
+				          	{% endfor %}
+			          	</ul>
+		          		</div>
+			          {% endif %}
+		        {% endif %}
+		      {% endif %}
+		    {% endif %}
+		  {% endfor %}
+		{% endfor %}
+		{% assign pages_list = nil %}
+		{% assign group = nil %}
 	</div>
 </div>
 <div class="twelve columns">
