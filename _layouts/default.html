@@ -68,9 +68,18 @@
       $(document).ready(function(){
         $('#features').click(function(){
           $("#joyRideTipContent").joyride({
-          /* Options will go here */
+
+          });
+          
+          $('a.joyride-next-tip').click(function(){
+            var data = $(this).closest('.joyride-tip-guide').attr('data-index');
+
+            if(data == 1) {
+              $('.enterprise-tab a').click();
+            }
           });
         });
+
       });
     </script>
 </body>
