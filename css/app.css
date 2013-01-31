@@ -1,11 +1,8 @@
 /*
-Syntax error: Invalid CSS after "...t-weight: bold;": expected "}", was "<<<<<<< HEAD"
-        on line 29 of /Users/tbrookman/Documents/brochure.allplayers.com/sass/common/_typography.scss
-        from line 40 of /Users/tbrookman/Documents/brochure.allplayers.com/sass/app.scss
 
 Backtrace:
-/Users/tbrookman/Documents/brochure.allplayers.com/sass/common/_typography.scss:29
-/Users/tbrookman/Documents/brochure.allplayers.com/sass/app.scss:40
+/Users/lfisher/Documents/brochure.allplayers.com/sass/common/_typography.scss:29
+/Users/lfisher/Documents/brochure.allplayers.com/sass/app.scss:40
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/scss/parser.rb:1136:in `expected'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/scss/parser.rb:1072:in `expected'
 /Library/Ruby/Gems/1.8/gems/sass-3.2.5/lib/sass/../sass/scss/parser.rb:1067:in `tok!'
@@ -79,4 +76,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...t-weight: bold;\": expected \"}\", was \"<<<<<<< HEAD\"\A         on line 29 of /Users/tbrookman/Documents/brochure.allplayers.com/sass/common/_typography.scss\A         from line 40 of /Users/tbrookman/Documents/brochure.allplayers.com/sass/app.scss"; }
+  content:  }
