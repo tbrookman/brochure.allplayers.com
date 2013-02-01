@@ -8012,7 +8012,7 @@ section#info-hero-wrapper #info-image img {
 }
 /* line 3, ../sass/components/modules/_findgroup.scss */
 #findGroup .twelve.columns.container {
-  background: #474747;
+  background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
