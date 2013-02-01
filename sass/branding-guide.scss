@@ -1,7 +1,26 @@
 /**~Custom Branding-guide Styles~**/
 
 /**~Header/Nav~**/
-body.branding-guide {background: $secondaryColor;}
+body.branding-guide {background: $secondaryColor;
+	.branding-wrapper {background: $white; border-bottom: 4px solid $grey; z-index: 1; position: relative; overflow: visible;}
+ &.front {
+
+ 	.branding {border-bottom: 0 none;}
+
+ 	.branding-wrapper {
+		#feature-hero {background: url("../images/branding/bgnoise.png");
+			.color-overlay {background-color: $mainColorRBGA; border-top: 10px solid lighten($secondaryColor, 50%);}
+			h1, h2, h3, h4, h5 {@include shadow($white,$grey);}
+		}
+
+		#banner-shading {
+			div:first-child {@include cssScaleneTriangle(0 15px 20px 0, darken($grey, 20%), right);}
+			div:last-child {@include cssScaleneTriangle(20px 15px 0 0, darken($grey, 20%), top);}
+
+		}
+	}
+ }
+}
 .contain-to-grid {
 	&.branding {background: transparent none;}
 }
@@ -19,7 +38,7 @@ body.branding-guide {background: $secondaryColor;}
 	}
 }
 /**~Main~**/
-.branding-wrapper {background: $white; border-bottom: 4px solid $grey; z-index: 1; position: relative;}
+
 
 /*add styles for grid layout*/
 #gridBasicsTab .row { margin-left: 10px;
