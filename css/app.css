@@ -12819,10 +12819,14 @@ body.branding-guide.front .branding-wrapper #feature-hero .color-overlay {
   border-top: 10px solid #c7c7c7;
 }
 /* line 13, ../sass/branding-guide.scss */
-body.branding-guide.front .branding-wrapper #feature-hero h1, body.branding-guide.front .branding-wrapper #feature-hero h2, body.branding-guide.front .branding-wrapper #feature-hero h3, body.branding-guide.front .branding-wrapper #feature-hero h4, body.branding-guide.front .branding-wrapper #feature-hero h5 {
-  text-shadow: 1px 1px white, 4px 4px 0px #e6e6e6;
+body.branding-guide.front .branding-wrapper #feature-hero h1 {
+  font-weight: bold;
 }
-/* line 17, ../sass/branding-guide.scss */
+/* line 14, ../sass/branding-guide.scss */
+body.branding-guide.front .branding-wrapper #feature-hero h1, body.branding-guide.front .branding-wrapper #feature-hero h2, body.branding-guide.front .branding-wrapper #feature-hero h3, body.branding-guide.front .branding-wrapper #feature-hero h4, body.branding-guide.front .branding-wrapper #feature-hero h5 {
+  text-shadow: 2px 1px white, 4px 4px 0px transparent;
+}
+/* line 18, ../sass/branding-guide.scss */
 body.branding-guide.front .branding-wrapper #banner-shading div:first-child {
   content: "";
   display: block;
@@ -12832,7 +12836,7 @@ body.branding-guide.front .branding-wrapper #banner-shading div:first-child {
   border-width: 0 15px 20px 0;
   border-color: transparent #999999 transparent transparent;
 }
-/* line 18, ../sass/branding-guide.scss */
+/* line 19, ../sass/branding-guide.scss */
 body.branding-guide.front .branding-wrapper #banner-shading div:last-child {
   content: "";
   display: block;
@@ -12843,26 +12847,26 @@ body.branding-guide.front .branding-wrapper #banner-shading div:last-child {
   border-color: #999999 transparent transparent transparent;
 }
 
-/* line 25, ../sass/branding-guide.scss */
+/* line 26, ../sass/branding-guide.scss */
 .contain-to-grid.branding {
   background: transparent none;
 }
 
-/* line 28, ../sass/branding-guide.scss */
+/* line 29, ../sass/branding-guide.scss */
 .top-bar.branding {
   background: #474747;
   border-bottom: 3px solid #cccccc;
 }
-/* line 31, ../sass/branding-guide.scss */
+/* line 32, ../sass/branding-guide.scss */
 .top-bar.branding ul li:hover, .top-bar.branding ul li.active {
   background: transparent none;
 }
-/* line 32, ../sass/branding-guide.scss */
+/* line 33, ../sass/branding-guide.scss */
 .top-bar.branding ul li a.branding-guide {
   background: url("../images/home-icon.png") no-repeat center;
   padding: auto 10px;
 }
-/* line 33, ../sass/branding-guide.scss */
+/* line 34, ../sass/branding-guide.scss */
 .top-bar.branding ul li a.branding-guide:hover, .top-bar.branding ul li a.branding-guide.active {
   background: transparent url("../images/home-icon-active.png") no-repeat center;
   padding: auto 10px;
@@ -12870,11 +12874,11 @@ body.branding-guide.front .branding-wrapper #banner-shading div:last-child {
 
 /**~Main~**/
 /*add styles for grid layout*/
-/* line 44, ../sass/branding-guide.scss */
+/* line 45, ../sass/branding-guide.scss */
 #gridBasicsTab .row {
   margin-left: 10px;
 }
-/* line 45, ../sass/branding-guide.scss */
+/* line 46, ../sass/branding-guide.scss */
 #gridBasicsTab .row .columns {
   background: #f2f2f2;
   margin-bottom: 10px;
@@ -12883,22 +12887,22 @@ body.branding-guide.front .branding-wrapper #banner-shading div:last-child {
 }
 
 /**~Footer~**/
-/* line 49, ../sass/branding-guide.scss */
+/* line 50, ../sass/branding-guide.scss */
 footer {
   background-color: #6d6d6d;
   z-index: 0;
   position: relative;
 }
-/* line 50, ../sass/branding-guide.scss */
+/* line 51, ../sass/branding-guide.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 51, ../sass/branding-guide.scss */
+/* line 52, ../sass/branding-guide.scss */
 footer ul li {
   font-weight: bold;
   font-size: 85%;
 }
-/* line 53, ../sass/branding-guide.scss */
+/* line 54, ../sass/branding-guide.scss */
 footer .footer-branding {
   margin: 30px;
 }

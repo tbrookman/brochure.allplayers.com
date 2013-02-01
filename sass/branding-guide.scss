@@ -8,9 +8,10 @@ body.branding-guide {background: $secondaryColor;
  	.branding {border-bottom: 0 none;}
 
  	.branding-wrapper {
-		#feature-hero {background: url("../images/branding/bgnoise.png");
+		#feature-hero {background: url("../images/branding/bgnoise.png"); 
 			.color-overlay {background-color: $mainColorRBGA; border-top: 10px solid lighten($secondaryColor, 50%);}
-			h1, h2, h3, h4, h5 {@include shadow($white,$grey);}
+			h1 {font-weight: bold;}
+			h1, h2, h3, h4, h5 {@include shadow($white,transparent);}
 		}
 
 		#banner-shading {

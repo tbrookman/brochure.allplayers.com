@@ -15,10 +15,10 @@
   {% if page.layout_keyword == 'front' %}
     <div class="row branding-wrapper">
       {% include branding-hero.snippet %}
-      <section role="main" class="twelve columns hide-extras">
-          {{ content }} 
-      </section>
-    </div>
+      <div class="row">
+            {{ content }} 
+      </div>
+  </div>
   {% endif %}
   <!-- END Front page layout for brochure branding site -->
 
