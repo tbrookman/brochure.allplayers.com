@@ -8087,6 +8087,7 @@ section#info-hero-wrapper #info-image img {
   -moz-transition: background-color 0.15s ease-in-out;
   -o-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
+  line-height: 1;
   /* Hovers */
   /* Sizes */
   /* Colors */
@@ -12812,7 +12813,7 @@ body.branding-guide.front .branding-wrapper #feature-hero .color-overlay {
 /* line 13, ../sass/branding-guide.scss */
 body.branding-guide.front .branding-wrapper #feature-hero h1 {
   font-weight: bold;
-  border-bottom: 1px solid #cccccc;
+  border-bottom: 1px solid white;
 }
 /* line 14, ../sass/branding-guide.scss */
 body.branding-guide.front .branding-wrapper #feature-hero h1, body.branding-guide.front .branding-wrapper #feature-hero h2, body.branding-guide.front .branding-wrapper #feature-hero h3, body.branding-guide.front .branding-wrapper #feature-hero h4, body.branding-guide.front .branding-wrapper #feature-hero h5 {
@@ -12853,31 +12854,35 @@ body.branding-guide.front .branding-wrapper #branding-job {
   border-top: 1px solid #bde0ff;
   border-bottom: 1px solid #bde0ff;
 }
+/* line 28, ../sass/branding-guide.scss */
+body.branding-guide #sidebar1 .panel {
+  margin-top: 30px;
+}
 
-/* line 29, ../sass/branding-guide.scss */
+/* line 32, ../sass/branding-guide.scss */
 .contain-to-grid.branding {
   background: transparent none;
 }
 
-/* line 32, ../sass/branding-guide.scss */
+/* line 35, ../sass/branding-guide.scss */
 .top-bar.branding {
   background: #474747;
   border-bottom: 3px solid #cccccc;
 }
-/* line 35, ../sass/branding-guide.scss */
+/* line 38, ../sass/branding-guide.scss */
 .top-bar.branding ul li:hover, .top-bar.branding ul li.active {
   background: transparent none;
 }
-/* line 36, ../sass/branding-guide.scss */
+/* line 39, ../sass/branding-guide.scss */
 .top-bar.branding ul li a.tabs {
   border-bottom: none;
 }
-/* line 37, ../sass/branding-guide.scss */
+/* line 40, ../sass/branding-guide.scss */
 .top-bar.branding ul li a.branding-guide {
   background: url("../images/home-icon.png") no-repeat center;
   padding: auto 10px;
 }
-/* line 38, ../sass/branding-guide.scss */
+/* line 41, ../sass/branding-guide.scss */
 .top-bar.branding ul li a.branding-guide:hover, .top-bar.branding ul li a.branding-guide.active {
   background: transparent url("../images/home-icon-active.png") no-repeat center;
   padding: auto 10px;
@@ -12885,11 +12890,11 @@ body.branding-guide.front .branding-wrapper #branding-job {
 
 /**~Main~**/
 /*add styles for grid layout*/
-/* line 49, ../sass/branding-guide.scss */
+/* line 52, ../sass/branding-guide.scss */
 #gridBasicsTab .row {
   margin-left: 10px;
 }
-/* line 50, ../sass/branding-guide.scss */
+/* line 53, ../sass/branding-guide.scss */
 #gridBasicsTab .row .columns {
   background: #f2f2f2;
   margin-bottom: 10px;
@@ -12898,22 +12903,22 @@ body.branding-guide.front .branding-wrapper #branding-job {
 }
 
 /**~Footer~**/
-/* line 54, ../sass/branding-guide.scss */
+/* line 57, ../sass/branding-guide.scss */
 footer {
   background-color: #6d6d6d;
   z-index: 0;
   position: relative;
 }
-/* line 55, ../sass/branding-guide.scss */
+/* line 58, ../sass/branding-guide.scss */
 footer ul {
   list-style-type: none;
 }
-/* line 56, ../sass/branding-guide.scss */
+/* line 59, ../sass/branding-guide.scss */
 footer ul li {
   font-weight: bold;
   font-size: 85%;
 }
-/* line 58, ../sass/branding-guide.scss */
+/* line 61, ../sass/branding-guide.scss */
 footer .footer-branding {
   margin: 30px;
 }

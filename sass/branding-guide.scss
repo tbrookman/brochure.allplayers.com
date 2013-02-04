@@ -3,14 +3,14 @@
 /**~Header/Nav~**/
 body.branding-guide {background: $secondaryColor;
 	.branding-wrapper {background: $white; border-bottom: 4px solid $grey; z-index: 1; position: relative; overflow: visible;}
- &.front {
+	&.front {
 
  	.branding {border-bottom: 0 none;}
 
  	.branding-wrapper {
 		#feature-hero {background: url("../images/branding/bgnoise.png"); 
 			.color-overlay {background-color: $mainColorRBGA; border-top: 10px solid lighten($secondaryColor, 50%); padding-top: $columnGutter;}
-			h1 {font-weight: bold; border-bottom: 1px solid $grey;}
+			h1 {font-weight: bold; border-bottom: 1px solid $white;}
 			h1, h2, h3, h4, h5 {@include shadow($white,transparent);}
 		}
 
@@ -23,6 +23,9 @@ body.branding-guide {background: $secondaryColor;
 		}
 		#branding-job {background: $standardAlertColor; padding: $columnGutter 0 !important; border-top: 1px solid darken($standardAlertColor, 10%); border-bottom: 1px solid darken($standardAlertColor, 10%);}
 	}
+ }
+ #sidebar1 {
+ 	.panel {margin-top: $columnGutter;}
  }
 }
 .contain-to-grid {
