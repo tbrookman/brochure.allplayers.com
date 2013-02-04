@@ -22,7 +22,9 @@ body.branding-guide {background: $secondaryColor;
 		h1, h2, h3, h4, h5 {@include shadow($white,transparent);}
 		}
 		#branding-job {background: $standardAlertColor; padding: $columnGutter 0 !important; border-top: 1px solid darken($standardAlertColor, 10%); border-bottom: 1px solid darken($standardAlertColor, 10%);}
+		#feature-team img {border:3px solid $grey;}
 	}
+
  }
  #sidebar1 {
  	.panel {margin-top: $columnGutter;}
@@ -42,7 +44,6 @@ body.branding-guide {background: $secondaryColor;
 				}
 			}
 		}
-
 	}
 }
 /**~Main~**/
