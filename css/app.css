@@ -6005,7 +6005,7 @@ table.hide-for-medium {
 
 /* line 30, ../sass/site.scss */
 #footer {
-  background: #f2f2f2;
+  background: url("../images/global/bg/grey_bg.png") repeat 0 0;
 }
 /* line 31, ../sass/site.scss */
 #footer h2 {
@@ -6138,6 +6138,25 @@ section#info-content .ten.columns p {
 /* line 90, ../sass/site.scss */
 section#info-content .ten.columns h3 {
   margin-bottom: 0;
+}
+
+/* line 94, ../sass/site.scss */
+#knowledge-block {
+  background: #f2f2f2;
+  position: absolute;
+  right: 0;
+  top: 35px;
+  padding: 5px;
+  border: 1px solid #e5e5e5;
+}
+/* line 95, ../sass/site.scss */
+#knowledge-block p {
+  margin: 0;
+  font-size: 11px;
+}
+/* line 96, ../sass/site.scss */
+#knowledge-block p a {
+  font-weight: bold;
 }
 
 /* Requires: normalize.css */
@@ -8002,7 +8021,7 @@ section#info-hero-wrapper #info-image img {
 }
 /* line 3, ../sass/components/modules/_findgroup.scss */
 #findGroup .twelve.columns.container {
-  background: #474747;
+  background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;

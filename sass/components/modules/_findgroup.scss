@@ -1,6 +1,6 @@
 #findGroup {
 		h2 {margin: 10px 0 10px 0;}
-		.twelve.columns.container {background: $darkGrey; @include border-radius(3px); padding: 10px 0;
+		.twelve.columns.container {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0; @include border-radius(3px); padding: 10px 0;
 						.three.columns {padding-right: 0;
 							.nine.columns {padding: 0;
 								  select {-webkit-appearance: menulist-button; font-size: ms(1); height: 35px;}
