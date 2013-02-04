@@ -1,33 +1,38 @@
 <!DOCTYPE html>
 <html>
 {% include branding-head-tag.snippet %}
-<body class="branding-guide">
+{% if page.layout_keyword == 'front' %}
+  <body class="branding-guide front">
+{% else %}
+  <body class="branding-guide">
+{% endif; %}
 <!-- Header and Nav -->
-<header class="contain-to-grid fixed">
+<header class="contain-to-grid branding">
   {% include branding-header.snippet %} 
 </header>
 <!-- End Header and Nav -->
 <!-- Front page layout for brochure branding site -->
-{% if page.layout_keyword == 'front' %}
-  {% include branding-hero.snippet %}
-  <div class="row branding-wrapper">
-    <section role="main" class="twelve columns hide-extras">
-        {{ content }} 
-    </section>
-  </div>
-{% endif %}
-<!-- END Front page layout for brochure branding site -->
+  {% if page.layout_keyword == 'front' %}
+    <div class="row branding-wrapper">
+      {% include branding-hero.snippet %}
+      <div class="row">
+        {{ content }}
+      </div>
+    </div>
+  {% endif %}
+  <!-- END Front page layout for brochure branding site -->
 
-<!-- Sub page layout for brochure branding site -->
-{% if page.layout_keyword == 'sub_page' %}
+  <!-- Sub page layout for brochure branding site -->
+  {% if page.layout_keyword == 'sub_page' %}
   <div class="row branding-wrapper">
     <section class="eight columns">
       {{ content }}
     </section>
     <section id="sidebar1" class="four columns" role="complementary">
+      {% include info-right-col.snippet %}
     </section>
   </div>
-{% endif %}
+  {% endif %}
 <!-- END Sub page layout for brochure branding site -->
 <footer class="branding-guide row">
   <div class="twelve columns">
