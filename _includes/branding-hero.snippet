@@ -27,17 +27,19 @@
 </div>
 {% endif %}
 
-{% if page.layout_keyword == 'feature' %}
-<div class="row" id="feature-hero">
-  <div class="twelve columns">
-    <div class="six mobile-two columns">
-      <h1>{{ page.title }}</h1>
-      <h2>{{ page.tagline }}</h2>
-    </div>
-    <div class="six hide-for-small columns" id="feature-image">
+{% if page.layout_keyword == 'feature' or 'front' %}
+<div class="row centered" id="feature-hero">
+  <div class="color-overlay left">
+    <div class="five hide-for-small columns" id="feature-image">
       <img src="{{ page.feature_image }}" />
+    </div>
+    <div class="seven mobile-two columns">
+      <h1>{{ page.title }}</h1>
+      <h2 class="subheader">{{ page.tagline }}</h2>
+      <h4>{{ page.info }}</h4>
     </div>
   </div>
 </div>
+<div class="row" id="banner-shading"><div class="left one"></div> <div class="right one"></div></div>
 {% endif %}
 

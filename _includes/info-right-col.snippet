@@ -2,7 +2,11 @@
   {% if node.block %}
     {% for block in page.right_col_blocks %}
       {% if block == node.block %}
+        {% if page.layout_keyword == 'front' %}
+        <div class="left" id="branding-job">
+        {% else %}
         <div class="panel">
+        {% endif %}
           {{ node.content }}
         </div>
       {% endif %}

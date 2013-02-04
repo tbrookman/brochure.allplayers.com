@@ -1,3 +1,6 @@
-	@mixin shadow($color) {
-		text-shadow: -1px -1px $color, 1px 1px $color;
-	}
+@mixin shadow($colorA, $colorB) {
+    text-shadow: 1px 1px $colorA,4px 4px 0px $colorB;
+    }
+@mixin drop_shdw($color) {
+	box-shadow: 0 6px 4px $color;
+}
