@@ -1,0 +1,13 @@
+---
+block: group_admin_videos
+---
+<h4>Group admin videos</h4>
+<div class="row" id="video-block">
+	{% for video in site.group_admin_videos limit:5 %}
+	<div class="twelve columns">
+		<img class="left" src="{{ video.thumbnail }}" />
+		<h6><a href="#">{{ video.title }}</a></h6>
+		<p>{{ video.description }}</p>
+	</div>
+	{% endfor %}
+</div>

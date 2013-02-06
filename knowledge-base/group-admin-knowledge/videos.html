@@ -1,0 +1,21 @@
+---
+layout: default
+layout_keyword: knowledge_base
+title: Knowledge base
+
+right_col_blocks: [popular_user_topics]
+---
+<div class="row">
+	<div class="twelve columns">
+		<h2>Group admin video tutorials</h2>
+		<div class="row" id="video-block">
+			{% for video in site.group_admin_videos %}
+			<div class="three columns">
+				<img src="{{ video.thumbnail }}" />
+				<h6><a href="#">{{ video.title }}</a></h6>
+				<p>{{ video.description }}</p>
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

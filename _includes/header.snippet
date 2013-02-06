@@ -52,12 +52,42 @@
               <li><a href="features/coppa-compliant.html">COPPA Compliance</a></li>
             </ul>
         </li>
-        <li><a href="#">Uses</a></li>
-        <li><a href="#">Help</a></li>
+        <li class="has-dropdown">
+            <a class="active" href="knowledge-base">Knowledge base</a>
+            <ul class="dropdown">
+              <li class="has-dropdown">
+                <a href="">Basic user knowledge</a>
+                <ul class="dropdown">
+                  {% for page in site.pages %}
+                    {% if page.tags == 'basic_user_pages' %}
+                      {% if page.root == 'enabled' %}
+                        <li><a href="{{ page.url }}"><label>{{ page.title }}</label></a></li>
+                      {% else %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+              <li class="has-dropdown">
+                <a href="">Group admin knowledge</a>
+                <ul class="dropdown">
+                  {% for page in site.pages %}
+                    {% if page.tags == 'group_admin_pages' %}
+                      {% if page.root == 'enabled' %}
+                        <li><a href="{{ page.url }}"><label>{{ page.title }}</label></a></li>
+                      {% else %}
+                        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                      {% endif %}
+                    {% endif %}
+                  {% endfor %}
+                </ul>
+              </li>
+            </ul>
+        </li>
         <li><a href="#">Login</a></li>
       </ul>
       </section>
-      <div id="knowledge-block"><p>Need some help? Check out our <a href="#">Knowledge Base</a></p></div>
     </nav>
   </div>
 </div>

@@ -6257,6 +6257,197 @@ section#info-content .ten.columns h3 {
   font-weight: bold;
 }
 
+/* line 102, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block {
+  margin-top: 20px;
+}
+/* line 103, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block h4 {
+  color: #474747;
+  border-bottom: 5px solid #f2f2f2;
+  margin-bottom: 0;
+}
+/* line 104, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block h4 a {
+  font-size: 14px;
+  line-height: 30px;
+}
+/* line 106, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block h5 {
+  color: #474747;
+  border-bottom: 1px solid #f2f2f2;
+  margin-bottom: 10px;
+}
+/* line 108, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block .six.columns ul.totals {
+  background: #f2f2f2;
+  list-style-type: none;
+  margin: 0;
+  clear: both;
+  height: 25px;
+  padding: 5px 0 8px 0;
+}
+/* line 109, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block .six.columns ul.totals li {
+  float: left;
+  padding-left: 20px;
+  font-size: 11px;
+  margin-left: 10px;
+}
+/* line 110, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block .six.columns ul.totals li.pages {
+  background: url("../images/global/icons/page-icon-small.png") no-repeat left 0;
+}
+/* line 111, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block .six.columns ul.totals li.videos {
+  background: url("../images/global/icons/video-icon-small.png") no-repeat left 0;
+  padding-left: 25px;
+}
+/* line 115, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block ul {
+  list-style-type: none;
+}
+/* line 116, ../sass/site.scss */
+section#knowledge-content #knowledge-hp-block ul li {
+  padding-left: 20px;
+  background: url("../images/global/icons/light-page-icon-small.png") no-repeat left 0;
+}
+/* line 120, ../sass/site.scss */
+section#knowledge-content ul.section-list {
+  list-style-type: none;
+  margin-top: 10px;
+}
+/* line 121, ../sass/site.scss */
+section#knowledge-content ul.section-list li {
+  padding-left: 20px;
+  background: url("../images/global/icons/light-page-icon-small.png") no-repeat left 0;
+}
+/* line 126, ../sass/site.scss */
+section#knowledge-content div.panel {
+  margin: 20px 0 0 0;
+}
+/* line 127, ../sass/site.scss */
+section#knowledge-content div.panel h4 {
+  color: #474747;
+}
+
+/* line 132, ../sass/site.scss */
+#video-block .panel {
+  padding: 10px;
+}
+/* line 134, ../sass/site.scss */
+#video-block .panel h4 a {
+  font-size: 17px;
+  line-height: 30px;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-left: 1px solid #e5e5e5;
+}
+/* line 136, ../sass/site.scss */
+#video-block .panel .twelve.columns {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+/* line 137, ../sass/site.scss */
+#video-block .panel .twelve.columns img {
+  margin-right: 10px;
+}
+/* line 138, ../sass/site.scss */
+#video-block .panel .twelve.columns h6 {
+  margin: 0;
+}
+/* line 139, ../sass/site.scss */
+#video-block .panel .twelve.columns p {
+  font-size: 11px;
+}
+/* line 141, ../sass/site.scss */
+#video-block .panel .twelve.columns .three.columns {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+/* line 142, ../sass/site.scss */
+#video-block .panel .twelve.columns .three.columns img {
+  margin-right: 10px;
+}
+/* line 143, ../sass/site.scss */
+#video-block .panel .twelve.columns .three.columns h6 {
+  margin: 0;
+}
+/* line 144, ../sass/site.scss */
+#video-block .panel .twelve.columns .three.columns p {
+  font-size: 11px;
+}
+/* line 148, ../sass/site.scss */
+#video-block .twelve.columns {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+/* line 149, ../sass/site.scss */
+#video-block .twelve.columns img {
+  margin-right: 10px;
+}
+/* line 150, ../sass/site.scss */
+#video-block .twelve.columns h6 {
+  margin: 0;
+}
+/* line 151, ../sass/site.scss */
+#video-block .twelve.columns p {
+  font-size: 11px;
+}
+/* line 154, ../sass/site.scss */
+#video-block .three.columns {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+/* line 155, ../sass/site.scss */
+#video-block .three.columns img {
+  margin-right: 10px;
+}
+/* line 156, ../sass/site.scss */
+#video-block .three.columns h6 {
+  margin: 0;
+}
+/* line 157, ../sass/site.scss */
+#video-block .three.columns p {
+  font-size: 11px;
+}
+
+/* line 161, ../sass/site.scss */
+#knowledge_left_nav {
+  padding-left: 0;
+}
+/* line 162, ../sass/site.scss */
+#knowledge_left_nav .panel {
+  padding: 10px;
+}
+/* line 163, ../sass/site.scss */
+#knowledge_left_nav ul {
+  list-style-type: none;
+}
+/* line 164, ../sass/site.scss */
+#knowledge_left_nav ul li {
+  padding-left: 20px;
+  background: url("../images/global/icons/light-page-icon-small.png") no-repeat left 0;
+}
+/* line 165, ../sass/site.scss */
+#knowledge_left_nav ul li.active {
+  padding-left: 20px;
+  background: url("../images/global/icons/active-page-icon-small.png") no-repeat left 0;
+}
+/* line 166, ../sass/site.scss */
+#knowledge_left_nav ul li.active a {
+  font-weight: bold;
+}
+/* line 168, ../sass/site.scss */
+#knowledge_left_nav ul h5 {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* line 169, ../sass/site.scss */
+#knowledge_left_nav ul h5:first-child {
+  margin-top: 0;
+}
+
 /* Requires: normalize.css */
 /* Global Reset & Standards ---------------------- */
 /* line 5, ../sass/common/_globals.scss */
@@ -8117,6 +8308,30 @@ section#info-hero-wrapper #info-image img {
   position: absolute;
   top: 70px;
   right: 160px;
+}
+
+/* line 32, ../sass/components/modules/_hero.scss */
+section#knowledge-hero-wrapper {
+  background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
+}
+/* line 33, ../sass/components/modules/_hero.scss */
+section#knowledge-hero-wrapper #knowledge-base-hero {
+  height: 126px;
+  background: url("../images/knowledge/knowledge-base-hero-bg.png") no-repeat right center;
+}
+/* line 35, ../sass/components/modules/_hero.scss */
+section#knowledge-hero-wrapper #knowledge-base-hero h1 {
+  color: white;
+  font-size: 71px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  line-height: 60px;
+}
+/* line 36, ../sass/components/modules/_hero.scss */
+section#knowledge-hero-wrapper #knowledge-base-hero h2 {
+  color: white;
+  font-size: 37px;
+  margin: 0;
 }
 
 /* line 2, ../sass/components/modules/_findgroup.scss */
@@ -10318,7 +10533,13 @@ pre {
 .top-bar ul > li.has-dropdown .dropdown li a:hover, .top-bar ul > li.has-dropdown .dropdown li a:focus {
   background: #3c3c3c;
 }
-/* line 92, ../sass/components/modules/_topbar.scss */
+/* line 91, ../sass/components/modules/_topbar.scss */
+.top-bar ul > li.has-dropdown .dropdown li a label {
+  color: #3bb4ff;
+  font-weight: bold;
+  padding: 0;
+}
+/* line 93, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li label {
   color: #6f6f6f;
   font-size: 10px;
@@ -10327,7 +10548,7 @@ pre {
   padding-left: 11.66667px;
   text-transform: uppercase;
 }
-/* line 93, ../sass/components/modules/_topbar.scss */
+/* line 94, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.divider {
   border-top: solid 1px black;
   -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset;
@@ -10337,72 +10558,72 @@ pre {
   padding: 0;
   width: 100%;
 }
-/* line 94, ../sass/components/modules/_topbar.scss */
+/* line 95, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li:last-child {
   padding-bottom: 10px;
 }
-/* line 95, ../sass/components/modules/_topbar.scss */
+/* line 96, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.active a {
   background: black;
 }
-/* line 101, ../sass/components/modules/_topbar.scss */
+/* line 102, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.has-dropdown > a {
   padding-right: 30px;
 }
-/* line 102, ../sass/components/modules/_topbar.scss */
+/* line 103, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.has-dropdown > a:after {
   border: none;
   content: "\00bb";
   right: 5px;
   top: 6px;
 }
-/* line 104, ../sass/components/modules/_topbar.scss */
+/* line 105, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.has-dropdown .dropdown {
   position: absolute;
   left: 100%;
   top: 0;
 }
-/* line 106, ../sass/components/modules/_topbar.scss */
+/* line 107, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.has-dropdown:hover > .dropdown, .top-bar ul > li.has-dropdown .dropdown li.has-dropdown:focus > .dropdown {
   display: block;
 }
-/* line 113, ../sass/components/modules/_topbar.scss */
+/* line 114, ../sass/components/modules/_topbar.scss */
 .top-bar ul.left {
   float: left;
   width: auto;
   margin-bottom: 0;
 }
-/* line 116, ../sass/components/modules/_topbar.scss */
+/* line 117, ../sass/components/modules/_topbar.scss */
 .top-bar ul.right {
   float: right;
   width: auto;
   margin-bottom: 0;
   /* Dropdown Right Side Alignment */
 }
-/* line 118, ../sass/components/modules/_topbar.scss */
+/* line 119, ../sass/components/modules/_topbar.scss */
 .top-bar ul.right .has-dropdown .dropdown {
   left: auto;
   right: -1px;
 }
-/* line 119, ../sass/components/modules/_topbar.scss */
+/* line 120, ../sass/components/modules/_topbar.scss */
 .top-bar ul.right .has-dropdown .dropdown li.has-dropdown > .dropdown {
   right: 100%;
   left: auto;
   width: 100%;
 }
-/* line 124, ../sass/components/modules/_topbar.scss */
+/* line 125, ../sass/components/modules/_topbar.scss */
 .top-bar .js-generated {
   display: none;
 }
 
 /* Firefox Fixes */
 @-moz-document url-prefix() {
-  /* line 129, ../sass/components/modules/_topbar.scss */
+  /* line 130, ../sass/components/modules/_topbar.scss */
   .top-bar ul li .button.small {
     padding-bottom: 6px;
   }
 
-  /* line 130, ../sass/components/modules/_topbar.scss */
+  /* line 131, ../sass/components/modules/_topbar.scss */
   .top-bar ul li.search form input[type=search] {
     font-size: 14px;
     height: 22px;
@@ -10411,7 +10632,7 @@ pre {
 }
 
 /* IE8 Fixes */
-/* line 134, ../sass/components/modules/_topbar.scss */
+/* line 135, ../sass/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li a {
   color: white;
   display: block;
@@ -10421,32 +10642,32 @@ pre {
   line-height: 35px;
   padding: 0 11.66667px;
 }
-/* line 135, ../sass/components/modules/_topbar.scss */
+/* line 136, ../sass/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li a.button {
   height: auto;
   line-height: 30px;
   margin-top: 7px;
 }
-/* line 136, ../sass/components/modules/_topbar.scss */
+/* line 137, ../sass/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li a:hover, .lt-ie9 .top-bar ul li a:focus {
   color: #cccccc;
 }
-/* line 137, ../sass/components/modules/_topbar.scss */
+/* line 138, ../sass/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li a img {
   margin-top: -5px;
   vertical-align: middle;
 }
-/* line 138, ../sass/components/modules/_topbar.scss */
+/* line 139, ../sass/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li a.active {
   background: #151515;
   color: #d9d9d9;
 }
 
-/* line 140, ../sass/components/modules/_topbar.scss */
+/* line 141, ../sass/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li.has-dropdown {
   padding-right: 26.25px;
 }
-/* line 142, ../sass/components/modules/_topbar.scss */
+/* line 143, ../sass/components/modules/_topbar.scss */
 .lt-ie9 .top-bar ul li.has-dropdown > ul li {
   padding-right: 0;
 }

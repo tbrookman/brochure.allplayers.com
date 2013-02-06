@@ -1,0 +1,11 @@
+{% for node in site.pages %}
+  {% if node.block %}
+    {% for block in page.left_col_section_nav %}
+      {% if block == node.block %}
+        <div class="panel">
+          {{ node.content }}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
