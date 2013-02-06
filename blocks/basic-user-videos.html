@@ -1,0 +1,13 @@
+---
+block: basic_user_videos
+---
+<h4>Basic user videos<a href="knowledge-base/basic-user-knowledge/videos.html">View all</a></h4>
+<div class="twelve columns">
+	{% for video in site.basic_user_videos limit:4 %}
+		<div class="three columns">
+			<img class="left" src="{{ video.thumbnail }}" />
+			<h6><a href="#">{{ video.title }}</a></h6>
+			<p>{{ video.description }}</p>
+		</div>
+	{% endfor %}
+</div>

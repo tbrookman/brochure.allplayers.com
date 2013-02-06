@@ -1,0 +1,23 @@
+---
+layout: default
+layout_keyword: knowledge_base
+title: Basic user knowledge
+right_col_blocks: [popular_user_topics]
+---
+
+<div class="row" id="knowledge-hp-block">
+	<div class="twelve columns">
+		<h2>Basic user knowledge</h2>
+		<ul>
+			{% for page in site.pages %}
+				{% if page.tags == 'basic_user_pages' %}
+					{% if page.root == 'enabled' %}
+						<li><h5><a href="{{ page.url }}">{{ page.title }}</a></h5></li>
+					{% else %}
+						<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</div>

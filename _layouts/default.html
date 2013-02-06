@@ -42,6 +42,47 @@
     </section>
   <!-- // END Basic informational page template with right column and hero -->
   {% endif %}
+
+  {% if page.layout_keyword == 'knowledge_base' %}
+  <!-- // Basic informational page tempalte with right column and hero --> 
+    <section id="knowledge-hero-wrapper">
+      {% include hero.snippet %}
+    </section>
+    <section class="row" id="knowledge-content">
+      <div class="twelve columns">
+        <div class="eight columns">
+          {{ content }} 
+        </div>
+        <div class="four columns">
+          {% include info-right-col.snippet %}
+        </div>
+      </div>
+    </section>
+  <!-- // END Basic informational page template with right column and hero -->
+  {% endif %}
+
+  {% if page.layout_keyword == 'knowledge_base_page' %}
+  <!-- // Basic informational page tempalte with right column and hero --> 
+    <section id="knowledge-hero-wrapper">
+      {% include hero.snippet %}
+    </section>
+    <section class="row" id="knowledge-content">
+      <div class="twelve columns" id="video-block">
+        {% include user_help_videos.snippet %}
+      </div>
+      <div class="twelve columns">
+        <div class="three columns" id="knowledge_left_nav">
+          {% if page.tags == 'basic_user_pages' %}{% include basic_user_nav.snippet %}{% endif %}
+          {% if page.tags == 'group_admin_pages' %}{% include admin_user_nav.snippet %}{% endif %}
+        </div>
+        <div class="nine columns">
+          {{ content }} 
+        </div>
+        
+      </div>
+    </section>
+  <!-- // END Basic informational page template with right column and hero -->
+  {% endif %}
   
   {% if page.layout_keyword == 'feature' %}
   <!-- // Features page template with right column and hero -->
