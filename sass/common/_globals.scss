@@ -13,6 +13,9 @@
   a:hover,  a:focus { color: darken($mainColor, 5%); }
   p a, p a:visited { line-height: inherit; }
 
+/* UL ---------------------- */
+  ul.content {margin-left: 30px;}
+
 /* Misc ---------------------- */
 
   .left        { float: left; }

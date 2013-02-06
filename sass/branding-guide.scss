@@ -1,7 +1,35 @@
 /**~Custom Branding-guide Styles~**/
 
 /**~Header/Nav~**/
-body.branding-guide {background: $secondaryColor;}
+body.branding-guide {background: $secondaryColor;
+	.branding-wrapper {background: $white; border-bottom: 4px solid $grey; z-index: 1; position: relative; overflow: visible;}
+	&.front {
+
+ 	.branding {border-bottom: 0 none;}
+
+ 	.branding-wrapper {
+		#feature-hero {background: url("../images/branding/bgnoise.png"); 
+			.color-overlay {background-color: $mainColorRBGA; border-top: 10px solid lighten($secondaryColor, 50%); padding-top: $columnGutter;}
+			h1 {font-weight: bold; border-bottom: 1px solid $white;}
+			h1, h2, h3, h4, h5 {@include shadow($white,transparent);}
+		}
+
+		#banner-shading { margin-bottom: $columnGutter;
+			div:first-child {@include cssScaleneTriangle(0 15px 20px 0, darken($grey, 20%), right);}
+			div:last-child {@include cssScaleneTriangle(20px 15px 0 0, darken($grey, 20%), top);}
+		}
+		.eq-home-feature {
+		h1, h2, h3, h4, h5 {@include shadow($white,transparent);}
+		}
+		#branding-job {background: $standardAlertColor; padding: $columnGutter 0 !important; border-top: 1px solid darken($standardAlertColor, 10%); border-bottom: 1px solid darken($standardAlertColor, 10%);}
+		#feature-team img {border:3px solid $grey;}
+	}
+
+ }
+ #sidebar1 {
+ 	.panel {margin-top: $columnGutter;}
+ }
+}
 .contain-to-grid {
 	&.branding {background: transparent none;}
 }
@@ -10,16 +38,16 @@ body.branding-guide {background: $secondaryColor;}
 		ul {
 			li{
 				&:hover, &.active {background: transparent none;}
+					a.tabs {border-bottom: none;}
 					a.branding-guide {background: url("../images/home-icon.png") no-repeat center; padding: auto 10px;
 						&:hover, &.active {background: transparent url("../images/home-icon-active.png") no-repeat center; padding: auto 10px;}
 				}
 			}
 		}
-
 	}
 }
 /**~Main~**/
-.branding-wrapper {background: $white; border-bottom: 4px solid $grey; z-index: 1; position: relative;}
+
 
 /*add styles for grid layout*/
 #gridBasicsTab .row { margin-left: 10px;
