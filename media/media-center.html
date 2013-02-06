@@ -3,39 +3,33 @@ layout: default
 layout_keyword: feature
 title: Media Center
 tagline: What's happening?
-hero_image: images/features/online-registration.png
+feature_image: images/global/allplayers-hero-icon.png
 ---
-
 <p>Don't be the last to know! Keep up with the latest announcements and news from AllPlayers.com. We'll post the scoop on everything from feature releases to partnerships right here.</p>
 
 <section class="twelve columns">
+	{% for post in site.posts %}
 	<div class="two mobile-one columns">
-		<img src="images/registration-icon.png"/>
+		<img src="{{post.info_image}}"/>
 	</div>
 	<div class="ten mobile-three columns">
-		<h3><a href="media/posts/media-blue-drop-award-2012.html">AllPlayers.com Wins 2012 Blue Drop Award for Best Social Networking Website Built with Drupal</a></h3>
-		<p>(Irving, TX) April 10, 2012 – After more than a month of nominations and community voting, AllPlayers.com has been awarded the 2012 Best Social Networking Website Built with Drupal by the Blue Drop Awards in its inaugural season. The prestigious award was given to AllPlayers.com for their group management and administrative website.</p>
-		<a href="#">Read More</a>
+		<h3><a href="{{ post.url }}">{{ post.article_title }}</a></h3>
+		<p><strong>{{ post.date | date: "%B %e, %Y" }}</strong> - {{ post.tag }} </p>
+		<p>{{post.introduction}}</p>
+		<p><a class="small button" href="{{ post.url }}">Read More</a>
 	</div>
-
+	{% endfor %}
+	{% for post in site.media.posts %}
 	<div class="two mobile-one columns">
-		<img src="images/member-management-icon.png"/>
+		<img src="{{post.info_image}}"/>
 	</div>
 	<div class="ten mobile-three columns">
-		<h3><a href="media/posts/media-quickscores-2012.html">Innovative Group Management Service Joins Forces with Scheduling Powerhouse to Provide Best Possible Suite of Scheduling and Social Network Services</a></h3>
-		<p>Industry Leaders Join Forces to Offer Groups of All Sizes the Absolute Best Options for Schedule Management</p>
-		<a href="#">Read More</a>
+		<h3><a href="{{ post.url }}">{{ post.article_title }}</a></h3>
+		<p><strong>{{ post.date | date: "%B %e, %Y" }}</strong> - {{ post.tag }} </p>
+		<p>{{post.introduction}}</p>
+		<p><a class="small button" href="{{ post.url }}">Read More</a>
 	</div>
-
-	<div class="two mobile-one columns">
-		<img src="images/financial-icon.png"/>
-	</div>
-	<div class="ten mobile-three columns">
-		<h3><a href="media/posts/media-fc-dallas-youth-2012.html">FC Dallas Partners with AllPlayers.com to Streamline Youth Program Management</a></h3>
-		<p>Leading Youth Soccer Program Utilizes Online Open-Source Group Management Service to Coordinate Communications, Scheduling, Registration and More</p>
-		<a href="#">Read More</a>
-	</div>
+	{% endfor %}
 	
 	<div class="two hide-for-mobile columns">
-	
 </section>
