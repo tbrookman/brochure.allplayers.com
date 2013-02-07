@@ -8,7 +8,7 @@ feature_image: images/global/allplayers-hero-icon.png
 <p>Don't be the last to know! Keep up with the latest announcements and news from AllPlayers.com. We'll post the scoop on everything from feature releases to partnerships right here.</p>
 
 <section class="twelve columns">
-		{% for post in paginator.posts %}
+		{% for post in site.posts %}
 	<div class="two mobile-one columns">
 		<img src="{{post.info_image}}"/>
 	</div>
