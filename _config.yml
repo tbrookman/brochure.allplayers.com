@@ -6,8 +6,4 @@ permalink: ./:title.html
 img: images/global/header-logo.png
 site_main: /
 branding_url: branding_index.html
-markdown: rdiscount
-lsi: true
-exclude: ['README.markdown', 'README_FOR_COLLABORATORS.markdown', 'Gemfile.lock', 'Gemfile']
-production: false
-paginate: 3 
+paginate: 2
