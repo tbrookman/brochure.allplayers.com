@@ -6,6 +6,8 @@ permalink: ./:title.html
 img: images/global/header-logo.png
 site_main: /
 branding_url: branding_index.html
+paginate: 2
+
 
 
 basic_user_videos:

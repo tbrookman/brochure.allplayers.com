@@ -1,0 +1,37 @@
+---
+layout: default
+layout_keyword: feature
+title: Media Center
+tagline: What's happening?
+feature_image: images/global/allplayers-hero-icon.png
+---
+<p>Don't be the last to know! Keep up with the latest announcements and news from AllPlayers.com. We'll post the scoop on everything from feature releases to partnerships right here.</p>
+
+<section class="twelve columns">
+		{% for post in site.posts %}
+	<div class="two mobile-one columns">
+		<img src="{{post.info_image}}"/>
+	</div>
+	<div class="ten mobile-three columns">
+		<h3><a href="{{ post.url }}">{{ post.article_title }}</a></h3>
+		<p><strong>{{ post.date | date: "%B %e, %Y" }}</strong> - {{ post.tag }} </p>
+		<p>{{post.introduction}}</p>
+		<p><a class="small button" href="{{ post.url }}">Read More</a>
+	</div>
+	{% endfor %}
+	<!-- Pagination links -->
+	<div class="pagination">
+	  {% if paginator.previous_page %}
+	    <a href="/page{{paginator.posts}}" class="previous">Previous</a>
+	  {% else %}
+	    <span class="previous">Previous</span>
+	  {% endif %}
+	  <span class="page_number ">Page: {{paginator.page}} of {{paginator.total_posts}}</span>
+	  {% if paginator.next_page %}
+	    <a href="/page{{paginator.total_posts}}" class="next ">Next</a>
+	  {% else %}
+	    <span class="next ">Next</span>
+	  {% endif %}
+	</div>
+	<div class="two hide-for-mobile columns">
+</section>
