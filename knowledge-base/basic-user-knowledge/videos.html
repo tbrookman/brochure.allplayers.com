@@ -8,12 +8,11 @@ right_col_blocks: [popular_user_topics]
 	<div class="twelve columns">
 		<h2>Basic user video tutorials</h2>
 		<div class="row" id="video-block">
-			{% for video in site.basic_user_videos %}
-			<div class="three columns">
-				<img src="{{ video.thumbnail }}" />
-				<h6><a href="#">{{ video.title }}</a></h6>
-				<p>{{ video.description }}</p>
-			</div>
+			{% for video in site.pages %}
+				{% if video.group == 'basic_user_video' %}
+					<a href="{{ video.url }}">{{ video.title }}</a>
+					<p>{{ video.description }}</p>
+				{% endif %}
 			{% endfor %}
 		</div>
 	</div>
