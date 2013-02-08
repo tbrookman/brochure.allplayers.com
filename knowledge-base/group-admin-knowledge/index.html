@@ -1,0 +1,22 @@
+---
+layout: default
+layout_keyword: knowledge_base
+title: Knowledge base
+right_col_blocks: [popular_admin_topics]
+---
+<div class="row" id="knowledge-hp-block">
+	<div class="twelve columns">
+		<h2>Group admin knowledge</h2>
+		<ul>
+			{% for page in site.pages %}
+				{% if page.tags == 'group_admin_pages' %}
+					{% if page.root == 'enabled' %}
+						<h5><a href="{{ page.url }}">{{ page.title }}</a></h5>
+					{% else %}
+						<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+					{% endif %}
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</div>
+</div>

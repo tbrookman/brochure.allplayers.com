@@ -1,0 +1,19 @@
+---
+layout: default
+layout_keyword: knowledge_base
+title: Basic user videos
+right_col_blocks: [popular_user_topics]
+---
+<div class="row">
+	<div class="twelve columns">
+		<h2>Basic user video tutorials</h2>
+		<div class="row" id="video-block">
+			{% for video in site.pages %}
+				{% if video.group == 'basic_user_video' %}
+					<a href="{{ video.url }}">{{ video.title }}</a>
+					<p>{{ video.description }}</p>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>

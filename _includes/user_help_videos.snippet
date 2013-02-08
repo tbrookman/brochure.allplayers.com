@@ -1,0 +1,11 @@
+{% for node in site.pages %}
+  {% if node.block %}
+    {% for block in page.user_help_videos %}
+      {% if block == node.block %}
+        <div class="panel left">
+          {{ node.content }}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}

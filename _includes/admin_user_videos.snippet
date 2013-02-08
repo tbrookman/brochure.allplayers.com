@@ -1,0 +1,15 @@
+{% if page.video_tags != null %}
+	<div class="panel twelve columns">
+		<h4>Related videos</h4>
+		{% for video in site.pages %}
+			{% if video.group == 'group_admin_video' %}
+				{% if video.video_tags == page.video_tags %}
+					<div class="three columns">
+						<a href="{{ video.url }}">{{ video.title }}</a>
+						<p>{{ video.description }}</p>
+					</div>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</div>
+{% endif %}

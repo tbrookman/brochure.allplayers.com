@@ -21,5 +21,13 @@
   <script src="js/foundation/jquery.js"></script>
   <script src="js/foundation/foundation.min.js"></script>
   <script src="js/foundation/app.js"></script>
+  {% if page.osmplayer or page.video_url %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css">
+    <!-- Include osmplayer scripts and templates -->
+    {% include osmplayer %}
+    {{OSMPLAYER_SCRIPTS_DEBUG}}
+    {{OSMPLAYER_TEMPLATE_DEFAULT}}
+  {% endif %}  
   <title>AllPlayers.com</title>
 </head>

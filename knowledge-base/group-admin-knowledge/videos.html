@@ -1,0 +1,21 @@
+---
+layout: default
+layout_keyword: knowledge_base
+title: Knowledge base
+right_col_blocks: [popular_user_topics]
+osmplayer:
+  template: default
+---
+<div class="row">
+	<div class="twelve columns">
+		<h2>Group admin video tutorials</h2>
+		<div class="row" id="video-block">
+			{% for video in site.pages %}
+				{% if video.group == 'group_admin_video' %}
+					<a href="{{ video.url }}">{{ video.title }}</a>
+					<p>{{ video.description }}</p>
+				{% endif %}
+			{% endfor %}
+		</div>
+	</div>
+</div>
