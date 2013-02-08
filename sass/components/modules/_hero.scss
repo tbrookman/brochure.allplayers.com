@@ -5,15 +5,12 @@ section#hero-wrapper {background: $darkGrey; background: url(../images/hero/home
          img {margin-top: 30px;}
 }
 
-section#feature-hero-wrapper {background: $lightGrey;
+section#feature-hero-wrapper {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0; padding-bottom: 20px;
 	#feature-hero {
-		min-height: 270px; background: url("../images/features/hero-bg.png") no-repeat right center;
-		h1 {font-size: ms(7); margin-top: 40px; line-height: 60px;}
-		h2 {font-size: ms(3); color: $darkGrey;} 
-	}
-
-	#feature-image {position: relative;
-		img {position: absolute; top: 70px; right: 160px;}
+		min-height: 126px; 
+		h1 {color: $white; font-size: ms(7); margin-top: 20px;  line-height: 60px;}
+		h2 {color: $white; font-size: ms(3);} 
+		img {margin-top: 20px;}
 	}
 }
 

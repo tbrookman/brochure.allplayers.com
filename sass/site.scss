@@ -104,14 +104,18 @@ section#knowledge-content {
 			a {font-size: ms(0); line-height: 30px;}
 		}
 		h5 {color: $secondaryColor; border-bottom: 1px solid $lightGrey; margin-bottom: 10px;}
-		.six.columns {
-			ul.totals { background: $lightGrey; list-style-type: none; margin: 0; clear: both; height: 25px; padding: 5px 0 8px 0;
-				li { float: left; padding-left: 20px; font-size: ms(0) - 3; margin-left: 10px;
-					&.pages {background: url('../images/global/icons/page-icon-small.png') no-repeat left 0}
-					&.videos {background: url('../images/global/icons/video-icon-small.png') no-repeat left 0; padding-left: 25px;}
+		
+		ul.totals { list-style-type: none; margin: 0; clear: both; height: 25px; float: right;
+			li.six.columns { float: left; background: none; padding-left: 0;
+				a.pages {padding-left: 40px; padding-top: 5px; padding-bottom: 10px; background: $lightGrey url('../images/global/icons/page-icon-small.png') no-repeat 50% 50%; margin-right: 10px;
+					&.has-tip {border: none; cursor: pointer;}
+				}
+				a.videos {padding-left: 40px; padding-top: 5px; padding-bottom: 10px; background: $lightGrey url('../images/global/icons/video-icon-small.png') no-repeat 50% 50%;
+					&.has-tip {border: none; cursor: pointer;}
 				}
 			}
 		}
+
 		ul {list-style-type: none;
 			li {padding-left: 20px; background: url('../images/global/icons/light-page-icon-small.png') no-repeat left 0;}
 
@@ -129,7 +133,7 @@ section#knowledge-content {
 }
 
 #video-block {
-	.panel { padding: 10px;
+	.panel { padding: 10px; float: left;
 		h4 {
 			a {font-size: ms(1); line-height: 30px; padding-left: 10px; margin-left: 10px; border-left: 1px solid $midLightGrey;}
 		}
@@ -169,4 +173,7 @@ section#knowledge-content {
 		&:first-child {margin-top: 0;}
 		}
 	}
+}
+
+#video-page {padding: 40px 0;
 }
