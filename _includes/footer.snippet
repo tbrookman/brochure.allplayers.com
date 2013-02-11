@@ -9,9 +9,9 @@
 			<div class="four columns">
 				<h4>This just in!</h4>
 				<ul>
-					<li><a href="">The ECA integrates allplayers.com registration and scores bigtime!</a></li>
-					<li><a href="">Allplayers.com named best social network built on Drupal in 2012.</a></li>
-					<li><a href="">People just want to be efficient.  Here how allplayers.com can help.</a></li>
+					{% for item in site.posts limit: 3 %}
+						<li><a title="{{ item.article_title }}" href="{{ item.url }}">{{ item.article_title | truncate: 85 }}</a></li>
+					{% endfor %}
 				</ul>
 			</div>
 			<div class="four columns">
