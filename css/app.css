@@ -8198,45 +8198,37 @@ section#feature-hero-wrapper #feature-hero img {
 
 /* line 17, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper {
-  background: #f2f2f2;
+  background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
 }
 /* line 18, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper #info-hero {
-  min-height: 270px;
-  background: url("../images/features/hero-bg.png") no-repeat right center;
+  height: 126px;
 }
 /* line 20, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper #info-hero h1 {
   font-size: 71px;
-  margin-top: 40px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 0;
   line-height: 60px;
 }
 /* line 21, ../sass/components/modules/_hero.scss */
 section#info-hero-wrapper #info-hero h2 {
-  font-size: 27px;
-  color: #474747;
-}
-/* line 24, ../sass/components/modules/_hero.scss */
-section#info-hero-wrapper #info-image {
-  position: relative;
-}
-/* line 25, ../sass/components/modules/_hero.scss */
-section#info-hero-wrapper #info-image img {
-  position: absolute;
-  top: 70px;
-  right: 160px;
+  font-size: 37px;
+  color: white;
+  margin: 0;
 }
 
-/* line 29, ../sass/components/modules/_hero.scss */
+/* line 25, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper {
   background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
 }
-/* line 30, ../sass/components/modules/_hero.scss */
+/* line 26, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper #knowledge-base-hero {
   height: 126px;
   background: url("../images/knowledge/knowledge-base-hero-bg.png") no-repeat right center;
 }
-/* line 32, ../sass/components/modules/_hero.scss */
+/* line 28, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper #knowledge-base-hero h1 {
   color: white;
   font-size: 71px;
@@ -8244,7 +8236,7 @@ section#knowledge-hero-wrapper #knowledge-base-hero h1 {
   margin-bottom: 0;
   line-height: 60px;
 }
-/* line 33, ../sass/components/modules/_hero.scss */
+/* line 29, ../sass/components/modules/_hero.scss */
 section#knowledge-hero-wrapper #knowledge-base-hero h2 {
   color: white;
   font-size: 37px;
@@ -10397,6 +10389,7 @@ pre {
 .top-bar ul > li.has-dropdown:hover > .dropdown, .top-bar ul > li.has-dropdown:focus > .dropdown {
   display: block;
   visibility: visible;
+  width: auto !important;
 }
 /* line 83, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown a {
@@ -10418,28 +10411,29 @@ pre {
 }
 /* line 86, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown {
-  background: #222222;
+  background: #f2f2f2;
   left: 0;
   margin: 0;
-  padding: 7px 0 0 0;
+  padding: 0;
   position: absolute;
   visibility: hidden;
   z-index: 99;
 }
 /* line 87, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li {
-  background: #222222;
+  background: #f2f2f2;
+  border-bottom: 1px dotted #a0a0a0;
   line-height: 1;
   min-width: 100%;
-  padding-bottom: 5px;
+  padding-bottom: 0;
 }
 /* line 88, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li a {
-  color: white;
+  color: #474747;
   font-weight: normal;
   height: 100%;
   line-height: 1;
-  padding: 5px 13.66667px 5px 11.66667px;
+  padding: 10px;
   white-space: nowrap;
 }
 /* line 89, ../sass/components/modules/_topbar.scss */
@@ -10448,7 +10442,7 @@ pre {
 }
 /* line 90, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li a:hover, .top-bar ul > li.has-dropdown .dropdown li a:focus {
-  background: #3c3c3c;
+  background: #bfbfbf;
 }
 /* line 91, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li a label {
@@ -10477,7 +10471,7 @@ pre {
 }
 /* line 95, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li:last-child {
-  padding-bottom: 10px;
+  padding-bottom: 0 !important;
 }
 /* line 96, ../sass/components/modules/_topbar.scss */
 .top-bar ul > li.has-dropdown .dropdown li.active a {
@@ -10626,19 +10620,17 @@ pre {
 }
 /* line 8, ../sass/components/modules/_navbar.scss */
 .nav-bar > li.active {
-  background: #474747;
-  border: 1px solid #333333 !important;
+  background: #3bb4ff;
 }
 /* line 9, ../sass/components/modules/_navbar.scss */
 .nav-bar > li.active > a:not(.flyout-toggle) {
-  color: #3bb4ff;
+  color: white;
   font-weight: bold;
   cursor: default;
-  border: 1px solid #a0a0a0;
 }
 /* line 10, ../sass/components/modules/_navbar.scss */
 .nav-bar > li.active:hover {
-  background: #474747;
+  background: #0083d4;
   cursor: default;
 }
 /* line 12, ../sass/components/modules/_navbar.scss */

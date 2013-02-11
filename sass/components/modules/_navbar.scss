@@ -5,9 +5,9 @@
       &:first-child { @include box-shadow(0 0 0); }
       &:last-child { border-#{$defaultOpposite}: solid 1px lighten($black, 20%); @include box-shadow(1px 0 0 fade-out($shinyEdge, .3) inset, 1px 0 0 fade-out($shinyEdge, .3)); }
 
-      &.active { background: $secondaryColor; border: 1px solid lighten($black, 20%) !important;
-        &>a:not(.flyout-toggle) { color: $mainColor; font-weight: bold; cursor: default; border: 1px solid $midGrey;}
-        &:hover { background: $secondaryColor; cursor: default; }
+      &.active { background: $mainColor;
+        &>a:not(.flyout-toggle) { color: $white; font-weight: bold; cursor: default;}
+        &:hover { background: darken($mainColor, 20%); cursor: default; }
       }
       &:hover { background: $secondaryColor; }
 

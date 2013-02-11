@@ -14,15 +14,11 @@ section#feature-hero-wrapper {background: url(../images/global/bg/low_contrast_l
 	}
 }
 
-section#info-hero-wrapper {background: $lightGrey;
+section#info-hero-wrapper {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
 	#info-hero {
-		min-height: 270px; background: url("../images/features/hero-bg.png") no-repeat right center;
-		h1 {font-size: ms(7); margin-top: 40px; line-height: 60px;}
-		h2 {font-size: ms(3); color: $darkGrey;} 
-	}
-
-	#info-image {position: relative;
-		img {position: absolute; top: 70px; right: 160px;}
+		height: 126px;
+		h1 {font-size: ms(7); color: $white; margin-top: 10px; margin-bottom: 0; line-height: 60px;}
+		h2 {font-size: ms(4); color: $white; margin: 0;} 
 	}
 }
 
