@@ -5,7 +5,7 @@ title: Sell Products
 tagline: Learn how to sell products on our site.
 description: This is a video on how you sell products on our site.
 video_tags: [manage_members]
-video_thumb: 
+video_thumb: http://placehold.it/350x200
 video_url: http://www.youtube.com/watch?v=EOdd5mr2zAk&feature=share&list=PLB5617336FA5BC11B
 group: group_admin_video
 osmplayer:
