@@ -1,17 +1,12 @@
-<h3>Our Features</h3>
+<h3>All Features</h3>
+
 <ul class="nav-bar vertical">
-  <li><a href="features/instant-group-creation.html">Instant Group Creation</a></li>
-  <li><a href="features/online-registration.html">Online Registration</a></li>
-  <li><a href="features/financial-management.html">Financial Management</a></li>
-  <li><a href="features/member-management.html">Member Management</a></li>
-  <li><a href="features/instant-communication.html">Instant Communication</a></li>
-  <li><a href="features/coppa-compliant.html">Coppa Compliant</a></li>
-  <li><a href="features/marketplace.html">Market Place</a></li>
-  <li><a href="features/mobile-app.html">Mobile App</a></li>
-  <li><a href="features/tournaments-bracket.html">Tournament Brackets</a></li>
-  <li><a href="features/document-repository.html">Document repository</a></li>
-  <li><a href="features/social-networking.html">Social Networking</a></li>
-  <li><a href="features/store-capabilities.html">Store Capabilities</a></li>
-  <li><a href="features/api-integration.html">API Integration</a></li>
+  {% for item in site.pages %}
+    {% if item.tags contains 'for_you' or item.tags contains 'for_your_enterprise' %}
+      {% if item.root != 'enabled' %}
+        <li {% if item.url == page.url %}class="active"{% endif %}><a href="{{ item.url }}">{{ item.title }}</a></li>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
 </ul>
 

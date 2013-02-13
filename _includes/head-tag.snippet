@@ -15,19 +15,18 @@
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-  <script src="js/jquery-1.9.0.min.js"></script>
+  <script src="js/jquery-1.9.1.min.js"></script>
   <script src="js/app.js"></script>
   <script src="js/foundation/modernizr.foundation.js"></script>
   <script src="js/foundation/jquery.js"></script>
   <script src="js/foundation/foundation.min.js"></script>
   <script src="js/foundation/app.js"></script>
   {% if page.osmplayer or page.video_url %}
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
-    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.0/jquery-ui.min.js"></script>
     <!-- Include osmplayer scripts and templates -->
     {% include osmplayer %}
     {{OSMPLAYER_SCRIPTS_DEBUG}}
     {{OSMPLAYER_TEMPLATE_DEFAULT}}
-  {% endif %}  
+  {% endif %}
   <title>AllPlayers.com</title>
 </head>

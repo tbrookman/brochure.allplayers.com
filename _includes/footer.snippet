@@ -9,19 +9,23 @@
 			<div class="four columns">
 				<h4>This just in!</h4>
 				<ul>
-					<li><a href="">The ECA integrates allplayers.com registration and scores bigtime!</a></li>
-					<li><a href="">Allplayers.com named best social network built on Drupal in 2012.</a></li>
-					<li><a href="">People just want to be efficient.  Here how allplayers.com can help.</a></li>
+					{% for item in site.posts limit: 3 %}
+						<li><a title="{{ item.article_title }}" href="{{ item.url }}">{{ item.article_title | truncate: 85 }}</a></li>
+					{% endfor %}
 				</ul>
 			</div>
 			<div class="four columns">
 				<h4>Look for us here as well!</h4>
-				<ul>
-					<li><a href="" class="google-plus">Add us on google plus</a></li>
-					<li><a href="" class="facebook">Find us on facebook!</a></li>
-					<li><a href="" class="twitter">Follow us on twitter</a></li>
-					<li><a href="" class="github">Fork us on github</a></li>
-				</ul>
+				<!-- AddThis Follow BEGIN -->
+				<div class="addthis_toolbox addthis_vertical_style">
+				<a class="addthis_button_facebook_follow" addthis:userid="allplayers"></a>
+				<a class="addthis_button_twitter_follow" addthis:userid="allplayers"></a>
+				<a class="addthis_button_linkedin_follow" addthis:userid="allplayers.com-inc." addthis:usertype="company"></a>
+				<a class="addthis_button_youtube_follow" addthis:userid="AllPlayersVideos"></a>
+				<a class="addthis_button_vimeo_follow" addthis:userid="allplayers"></a>
+				</div>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-5115484d2aa9ffc8"></script>
+				<!-- AddThis Follow END -->
 			</div>
 		</div>
 	</div>
@@ -32,7 +36,6 @@
 				<h4>About us</h4>
 				<ul>
 					<li><a href="about-us.html">About allplayers.com</a></li>
-					<li><a href="">Features</a></li>
 					<li><a href="benefits/benefits.html">Benefits</a></li>
 					<li><a href="how-to-use.html">How to use</a></li>
 					<li><a href="careers.html">Careers</a></li>
@@ -54,7 +57,7 @@
 			<div class="three columns">
 				<h4>Resources</h4>
 				<ul>
-					<li><a href="resources/become-vender.html">Become a vendor</a></li>
+					<li><a href="resources/become-vendor.html">Become a vendor</a></li>
 					<li><a href="resources/terms-of-use.html">Terms of use</a></li>
 					<li><a href="resources/privacy-policy.html">Privacy policy</a></li>
 					<li><a href="resources/shipping.html">Shipping</a></li>
@@ -62,12 +65,10 @@
 				</ul>
 			</div>
 			<div class="three columns">
-				<h4>Support</h4>
+				<h4>Knowledge base</h4>
 				<ul>
-					<li><a href="support/access-support.html">Access support</a></li>
-					<li><a href="support/user-guide.html">User guide</a></li>
-					<li><a href="support/group-admin-guide.html">Group admin guide</a></li>
-					<li><a href="support/frequently-asked-questions.html">FAQ</a></li>
+					<li><a href="knowledge-base">Knowledge base</a></li>
+					<li><a href="https://support.allplayers.com">Submit a support ticket</a></li>
 				</ul>
 			</div>
 		</div>
