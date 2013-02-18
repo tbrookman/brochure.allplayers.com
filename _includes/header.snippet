@@ -10,7 +10,6 @@
       <section>
       <!-- Right Nav Section -->
       <ul class="right">
-        <li><a href="branding">Branding</a></li>
         <li class="has-dropdown">
             <a class="active" href="#">Features</a>
             <ul class="dropdown">
@@ -44,7 +43,7 @@
             <a class="active" href="knowledge-base">Knowledge base</a>
             <ul class="dropdown">
               <li class="has-dropdown">
-                <a href="">Basic user knowledge</a>
+                <a href="knowledge-base/basic-user-knowledge/">Basic user knowledge</a>
                 <ul class="dropdown">
                   {% for page in site.pages %}
                     {% if page.tags == 'basic_user_pages' %}
@@ -58,7 +57,7 @@
                 </ul>
               </li>
               <li class="has-dropdown">
-                <a href="">Group admin knowledge</a>
+                <a href="knowledge-base/group-admin-knowledge/">Group admin knowledge</a>
                 <ul class="dropdown">
                   {% for page in site.pages %}
                     {% if page.tags == 'group_admin_pages' %}
@@ -71,11 +70,16 @@
                   {% endfor %}
                 </ul>
               </li>
+              <li><a href="knowledge-base/videos.html">Browse video tutorials</a></li>
             </ul>
         </li>
-        <li><a href="#">Login</a></li>
       </ul>
       </section>
+      <div class="auth">
+        <a class="small button secondary" href="">Create account</a>
+        <a class="small button" href="">Login</a>
+      </div>
     </nav>
+    
   </div>
 </div>
