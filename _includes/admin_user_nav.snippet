@@ -1,13 +1,17 @@
 <div class="panel">
 	<ul>
+	    {% assign not_first = false %}
 		{% for node in site.pages %}
 			{% if node.tags == 'group_admin_pages' %}
 				{% if node.root == 'enabled' %}
-					<h5><a href="{{ node.url }}">{{ node.title }}</a></h5>
+				    {% if not_first %}</ul>{% else %}{% assign not_first = true %}{% endif %}
+					<h5><span class="toggler"></span><a href="{{ node.url }}">{{ node.title }}</a></h5>
+					<ul class="sub-menu-list">
 				{% else %}
 					<li {% if node.url == page.url %}class="active"{% endif %}><a href="{{ node.url }}">{{ node.title }}</a></li>
 				{% endif %}
 			{% endif %}
 		{% endfor %}
+		</ul>
 	</ul>
 </div>

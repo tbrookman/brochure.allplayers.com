@@ -1,4 +1,3 @@
- // Create one color gradients
 
  @mixin border-radius($number) {
     -moz-border-radius: $number;
@@ -10,4 +9,10 @@
     -moz-border-radius: $number $number 0 0;
 	-webkit-border-radius: $number $number 0 0;
 	border-radius: $number $number 0 0;
+  }
+
+  @mixin bottom-border-radius($number) {
+    -moz-border-radius: 0 0 $number $number;
+	-webkit-border-radius: 0 0 $number $number;
+	border-radius: 0 0 $number $number;
   }

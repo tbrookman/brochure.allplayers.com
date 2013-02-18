@@ -4,9 +4,12 @@
 		{% for video in site.pages %}
 			{% if video.group == 'group_admin_video' %}
 				{% if video.video_tags == page.video_tags %}
-					<div class="three columns">
-						<a href="{{ video.url }}">{{ video.title }}</a>
-						<p>{{ video.description }}</p>
+					<div class="four columns">
+						<div class="twelve columns">
+							<img src="{{ video.video_thumb }}" />
+							<h5><a href="{{ video.url }}">{{ video.title }}</a></h5>
+							<p>{{ video.description }}</p>
+						</div>
 					</div>
 				{% endif %}
 			{% endif %}

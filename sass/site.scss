@@ -37,7 +37,9 @@
 
 	 }
 
-	 #info-block {padding-top: 20px;}
+	 #info-block {padding-top: 20px;
+	 	h4 {margin-left: 0;}
+	 }
 	 #link-list {padding-bottom: 20px;}
 
 	 .three.columns {
@@ -155,10 +157,10 @@ section#knowledge-content {
 		p {font-size: ms(0) - 3;}
 	}
 
-	.three.columns {margin-bottom: 10px; padding-bottom: 10px;
+	.four.columns {margin-bottom: 10px; padding-bottom: 10px;
 		img {margin-right: 10px;}
-		h6 {margin: 0;}
-		p {font-size: ms(0) - 3;}
+		h5 {margin: 0;}
+		p {font-size: ms(0) - 1;}
 	}
 }
 
@@ -176,4 +178,25 @@ section#knowledge-content {
 }
 
 #video-page {padding: 40px 0;
+}
+
+#all-videos-tabs {margin-top: 20px; border: 1px solid $midLightGrey; background: $lightGrey;
+	h5 {color: $secondaryColor; margin-bottom: 5px; margin-top: 0;}
+	dl.tabs.pill {margin-bottom: 0; margin-top: 15px;}
+}
+
+h5 {
+	span.toggler {width: 20px; height: 20px; cursor: pointer; background: url('../images/global/minus-icon.png') no-repeat 0 0; float: right;
+		&.toggler.collapsed {background: url('../images/global/plus-icon.png') no-repeat 0 0}
+	}
+}
+
+.addthis_toolbox.addthis_vertical_style {width: 100%;
+	a {margin-top: 10px; border-bottom: 1px solid $midLightGrey; }
+}
+
+.auth {background: $secondaryColor; @include bottom-border-radius(5px); padding: 5px; position: absolute; right: 0; top: 35px;
+	.small.button {padding: 5px 10px; font-size: ms(0); float: left;
+		&:first-child {margin-right: 5px;}
+	}
 }
