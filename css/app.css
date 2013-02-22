@@ -10577,228 +10577,6 @@ div.orbit-wrapper span.rotator {
   position: absolute;
   top: 0;
   left: -20px;
-  background: url('/images/foundation/orbit/rotator-black.png?1359134743') no-repeat;
-  z-index: 3;
-}
-/* line 27, ../sass/components/modules/_orbit.scss */
-div.orbit-wrapper span.rotator.move {
-  left: 0;
-}
-/* line 29, ../sass/components/modules/_orbit.scss */
-div.orbit-wrapper span.mask {
-  display: block;
-  width: 20px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 2;
-  overflow: hidden;
-}
-/* line 30, ../sass/components/modules/_orbit.scss */
-div.orbit-wrapper span.mask.move {
-  width: 40px;
-  left: 0;
-  background: url('/images/foundation/orbit/timer-black.png?1359134743') repeat 0 0;
-}
-/* line 32, ../sass/components/modules/_orbit.scss */
-div.orbit-wrapper span.pause {
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: url('/images/foundation/orbit/pause-black.png?1359134743') no-repeat;
-  z-index: 4;
-  opacity: 0;
-}
-/* line 33, ../sass/components/modules/_orbit.scss */
-div.orbit-wrapper span.pause.active {
-  background: url('/images/foundation/orbit/pause-black.png?1359134743') no-repeat 0 -40px;
-}
-
-/* line 43, ../sass/components/modules/_navbar.scss */
-.nav-bar.vertical > li.active {
-  border-right: solid 1px #08a0ff;
-}
-/* line 44, ../sass/components/modules/_navbar.scss */
-.nav-bar.vertical > li:last-child {
-  border-bottom: solid 1px #333333;
-}
-
-/* line 50, ../sass/components/modules/_navbar.scss */
-.flyout {
-  background: #7a7a7a;
-  padding: 20px;
-  margin: 0;
-  border: 1px solid #d9d9d9;
-  position: absolute;
-  top: 39px;
-  left: -1px;
-  width: 250px;
-  z-index: 40;
-  -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-  /* remove margin on any first-child element */
-  /* remove margin on last element */
-}
-/* line 52, ../sass/components/modules/_navbar.scss */
-.flyout p {
-  line-height: 1.2;
-  font-size: 13px;
-  color: white;
-}
-/* line 53, ../sass/components/modules/_navbar.scss */
-.flyout *:first-child {
-  margin-top: 0;
-}
-/* line 54, ../sass/components/modules/_navbar.scss */
-.flyout *:last-child {
-  margin-bottom: 0;
-}
-/* line 56, ../sass/components/modules/_navbar.scss */
-.flyout.small {
-  width: 166.66667px;
-}
-/* line 57, ../sass/components/modules/_navbar.scss */
-.flyout.large {
-  width: 437.5px;
-}
-/* line 59, ../sass/components/modules/_navbar.scss */
-.flyout.right {
-  left: auto;
-  right: -2px;
-}
-/* line 60, ../sass/components/modules/_navbar.scss */
-.flyout.left {
-  right: auto;
-  left: -2px;
-}
-/* line 61, ../sass/components/modules/_navbar.scss */
-.flyout.up {
-  top: auto;
-  bottom: 39px;
-}
-
-/* line 65, ../sass/components/modules/_navbar.scss */
-ul.flyout, .nav-bar li ul {
-  padding: 0;
-  list-style: none;
-}
-/* line 67, ../sass/components/modules/_navbar.scss */
-ul.flyout li, .nav-bar li ul li {
-  border-left: 0 none;
-  border: 0 none;
-}
-/* line 68, ../sass/components/modules/_navbar.scss */
-ul.flyout li a, .nav-bar li ul li a {
-  background: #7a7a7a;
-  border: 0 none;
-  color: white;
-  display: block;
-  font-size: 14px;
-  height: auto;
-  line-height: 1;
-  padding: 10px;
-  -webkit-box-shadow: 0 0 0;
-  -moz-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
-}
-/* line 69, ../sass/components/modules/_navbar.scss */
-ul.flyout li a:hover, ul.flyout li a:focus, .nav-bar li ul li a:hover, .nav-bar li ul li a:focus {
-  background: #616161;
-  color: #3bb4ff;
-}
-/* line 71, ../sass/components/modules/_navbar.scss */
-ul.flyout li.active, .nav-bar li ul li.active {
-  margin-top: 0;
-  border-top: 1px solid #4d4d4d;
-  border-left: 4px solid #1a1a1a;
-}
-/* line 72, ../sass/components/modules/_navbar.scss */
-ul.flyout li.active a, .nav-bar li ul li.active a {
-  background: #4d4d4d;
-  border: none;
-  color: #fff;
-  height: auto;
-  margin: 0;
-  position: static;
-  top: 0;
-  -webkit-box-shadow: 0 0 0;
-  -moz-box-shadow: 0 0 0;
-  box-shadow: 0 0 0;
-}
-
-/* CSS for jQuery Orbit Plugin 1.4.0
- * Maintained for Foundation. foundation.zurb.com
- * Free to use under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
-*/
-/* Container ---------------------- */
-/* line 9, ../sass/components/modules/_orbit.scss */
-.orbit-wrapper {
-  width: 1px;
-  height: 1px;
-  position: relative;
-}
-
-/* line 11, ../sass/components/modules/_orbit.scss */
-.orbit {
-  width: 1px;
-  height: 1px;
-  position: relative;
-  overflow: hidden;
-  margin-bottom: 17px;
-}
-/* line 13, ../sass/components/modules/_orbit.scss */
-.orbit.with-bullets {
-  margin-bottom: 40px;
-}
-/* line 15, ../sass/components/modules/_orbit.scss */
-.orbit .orbit-slide {
-  max-width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-/* line 16, ../sass/components/modules/_orbit.scss */
-.orbit a.orbit-slide {
-  border: none;
-  line-height: 0;
-  display: none;
-}
-/* line 17, ../sass/components/modules/_orbit.scss */
-.orbit div.orbit-slide {
-  width: 100%;
-  height: 100%;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
-  opacity: 0;
-}
-
-/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
-/* Timer ---------------------- */
-/* line 25, ../sass/components/modules/_orbit.scss */
-div.orbit-wrapper div.timer {
-  width: 40px;
-  height: 40px;
-  overflow: hidden;
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  opacity: .6;
-  cursor: pointer;
-  z-index: 31;
-}
-/* line 26, ../sass/components/modules/_orbit.scss */
-div.orbit-wrapper span.rotator {
-  display: block;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  top: 0;
-  left: -20px;
   background: url('/images/foundation/orbit/rotator-black.png?1359130248') no-repeat;
   z-index: 3;
 }
@@ -10839,7 +10617,6 @@ div.orbit-wrapper span.pause {
 div.orbit-wrapper span.pause.active {
   background: url('/images/foundation/orbit/pause-black.png?1359130248') no-repeat 0 -40px;
 }
-
 /* line 35, ../sass/components/modules/_orbit.scss */
 div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper div.timer:focus span.pause, div.orbit-wrapper span.pause.active {
   opacity: 1;
@@ -13065,6 +12842,18 @@ footer .footer-branding {
   margin: 30px;
 }
 
+/**Addthis~**/
+/* line 67, ../sass/branding-guide.scss */
+.addthis_floating_style {
+  background-color: transparent;
+  position: initial;
+}
+
+/* line 68, ../sass/branding-guide.scss */
+.addthis_toolbox.addthis_vertical_style {
+  padding: 8px;
+}
+
 /* line 1, ../sass/site.scss */
 #homepage-intro {
   background: url(../images/global/sep.png) no-repeat center top;
@@ -13568,14 +13357,51 @@ h5 span.toggler.toggler.collapsed {
   margin-right: 5px;
 }
 
-/**Addthis~**/
-/* line 67, ../sass/branding-guide.scss */
-.addthis_floating_style {
-  background-color: transparent;
-  position: initial;
+/* line 204, ../sass/site.scss */
+p.fbanner {
+  background-color: #000;
+  opacity: 0.8;
+  color: #fff;
+  padding: 5px;
+  margin-bottom: 0;
+  margin-left: -15px;
+  border: 1px;
+  font-style: italic;
+  border-bottom-left-radius: 3px;
+  -moz-border-radius-bottomleft: 3px;
+  -webkit-border-bottom-left-radius: 3px;
+  margin-top: -38px;
+  margin-right: 15px;
 }
 
-/* line 68, ../sass/branding-guide.scss */
-.addthis_toolbox.addthis_vertical_style {
-  padding: 8px;
+/* line 219, ../sass/site.scss */
+.fimage {
+  margin-left: -15px;
+  border: 1;
+  border-top-left-radius: 3px;
+  -moz-border-radius-topleft: 3px;
+  -webkit-border-top-left-radius: 3px;
+  width: auto;
+}
+
+/* line 228, ../sass/site.scss */
+.fpanel {
+  background: #f2f2f2;
+  border: solid 1px #e6e6e6;
+  margin: 0 0 22px 0;
+  padding: 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 238, ../sass/site.scss */
+.fpanel-inside {
+  background: #ffffff;
+  border: solid 1px #e6e6e6;
+  margin: 0;
+  padding: 0;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
 }
