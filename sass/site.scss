@@ -201,46 +201,17 @@ h5 {
 	}
 }
 
-p.fbanner {
-	background-color: #000;
-	opacity: 0.8;
-	color: #fff;
-	padding:5px;
-	margin-bottom: 0;
-	margin-left: -15px;
-	border: 1px;
-	font-style: italic;
-	border-bottom-left-radius: 3px;
-	-moz-border-radius-bottomleft: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	margin-top:-38px;
-	margin-right: 15px;
-}
-.fimage {
-	margin-left: -15px;
-	border: 1;
-	border-top-left-radius: 3px;
-	-moz-border-radius-topleft: 3px;
-	-webkit-border-top-left-radius: 3px;
-	width: auto;
+.fbanner {
+	background-color: #000; opacity: 0.8; color: #fff; padding: 5px;
+	margin: -38px 15px 0 -15px; border: 1px; border-bottom-left-radius: 3px; -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; text-align: center; font-style: italic;
 }
 
 .fpanel {
-	background: #f2f2f2;
-	border: solid 1px #e6e6e6;
-	margin: 0 0 22px 0;
-	padding: 10px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-
+	background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 10px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
 }
 .fpanel-inside {
-	background: #ffffff;
-	border: solid 1px #e6e6e6;
-	margin: 0;
-	padding: 0;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
+	background: #ffffff; border: solid 1px #e6e6e6; margin: 0;
+	padding: 0; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+	h3 {color: #000;
+	}
 }
