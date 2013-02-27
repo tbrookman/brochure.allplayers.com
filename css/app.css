@@ -12842,6 +12842,18 @@ footer .footer-branding {
   margin: 30px;
 }
 
+/**Addthis~**/
+/* line 67, ../sass/branding-guide.scss */
+.addthis_floating_style {
+  background-color: transparent;
+  position: initial;
+}
+
+/* line 68, ../sass/branding-guide.scss */
+.addthis_toolbox.addthis_vertical_style {
+  padding: 8px;
+}
+
 /* line 1, ../sass/site.scss */
 #homepage-intro {
   background: url(../images/global/sep.png) no-repeat center top;
@@ -12955,24 +12967,24 @@ footer .footer-branding {
   padding-bottom: 20px;
 }
 /* line 46, ../sass/site.scss */
-#footer .three.columns h4 {
+#footer .four.columns h4 {
   color: #a0a0a0;
 }
 /* line 47, ../sass/site.scss */
-#footer .three.columns ul {
+#footer .four.columns ul {
   list-style-type: none;
 }
 /* line 48, ../sass/site.scss */
-#footer .three.columns ul li {
+#footer .four.columns ul li {
   padding-left: 10px;
 }
 /* line 49, ../sass/site.scss */
-#footer .three.columns ul li a {
+#footer .four.columns ul li a {
   color: #a0a0a0;
   text-shadow: 1px 1px white;
 }
 /* line 52, ../sass/site.scss */
-#footer .three.columns ul li:hover {
+#footer .four.columns ul li:hover {
   background: #e5e5e5;
   cursor: pointer;
 }
