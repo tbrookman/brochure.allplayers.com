@@ -13325,17 +13325,29 @@ h5 span.toggler.toggler.collapsed {
   background: url("../images/global/plus-icon.png") no-repeat 0 0;
 }
 
-/* line 194, ../sass/site.scss */
+/** Addthis ~**/
+/* line 195, ../sass/site.scss */
+.addthis_floating_style {
+  background-color: transparent;
+  position: initial;
+}
+
+/* line 196, ../sass/site.scss */
+.addthis_toolbox.addthis_vertical_style {
+  padding: 8px;
+}
+
+/* line 198, ../sass/site.scss */
 .addthis_toolbox.addthis_vertical_style {
   width: 100%;
 }
-/* line 195, ../sass/site.scss */
+/* line 199, ../sass/site.scss */
 .addthis_toolbox.addthis_vertical_style a {
   margin-top: 10px;
   border-bottom: 1px solid #e5e5e5;
 }
 
-/* line 198, ../sass/site.scss */
+/* line 202, ../sass/site.scss */
 .auth {
   background: #474747;
   -moz-border-radius: 0 0 5px 5px;
@@ -13346,13 +13358,29 @@ h5 span.toggler.toggler.collapsed {
   right: 0;
   top: 35px;
 }
-/* line 199, ../sass/site.scss */
+/* line 203, ../sass/site.scss */
 .auth .small.button {
   padding: 5px 10px;
   font-size: 14px;
   float: left;
 }
-/* line 200, ../sass/site.scss */
+/* line 204, ../sass/site.scss */
 .auth .small.button:first-child {
   margin-right: 5px;
+}
+
+/**More Info**/
+/* line 209, ../sass/site.scss */
+h3.readmore {
+  display: inline-block;
+  padding-right: 15px;
+  padding-bottom: 10px;
+}
+
+/* line 214, ../sass/site.scss */
+span.moreinfo {
+  border-left: 1px solid;
+  border-color: #e5e5e5;
+  padding: 7px;
+  padding-left: 15px;
 }
