@@ -73,6 +73,20 @@
               <li><a href="knowledge-base/videos.html">Browse video tutorials</a></li>
             </ul>
         </li>
+        <li class="has-dropdown">
+          <a class="active" href="benefits/benefits.html">Benefits</a>
+          <ul class="dropdown">
+            {% for page in site.pages %}
+              {% if page.tags == 'benefits_pages' %}
+                {% if page.root == 'enabled' %}
+                    <li><a href="{{ page.url }}"><label>{{ page.title }}</label></a></li>
+                  {% else %}
+                     <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+                  {% endif %}
+                {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
       </ul>
       </section>
       <div class="auth">
