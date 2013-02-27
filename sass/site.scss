@@ -203,6 +203,20 @@ h5 {
 	.small.button {padding: 5px 10px; font-size: ms(0); float: left;
 		&:first-child {margin-right: 5px;}
 	}
+
+.fbanner {
+	background-color: #000; opacity: 0.8; color: #fff; padding: 5px;
+	margin: -38px 15px 0 -15px; border: 1px; border-bottom-left-radius: 3px; -moz-border-radius-bottomleft: 3px; -webkit-border-bottom-left-radius: 3px; text-align: center; font-style: italic;
+}
+
+.fpanel {
+	background: #f2f2f2; border: solid 1px #e6e6e6; margin: 0 0 22px 0; padding: 10px; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+}
+.fpanel-inside {
+	background: #ffffff; border: solid 1px #e6e6e6; margin: 0;
+	padding: 0; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px;
+	h3 {color: #000;
+	}
 }
 
 /**More Info**/
@@ -216,4 +230,5 @@ span.moreinfo {
     border-color: $midLightGrey;
     padding: 7px;
     padding-left: 15px;
+	}
 }
