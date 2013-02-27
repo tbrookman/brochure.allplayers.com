@@ -191,6 +191,10 @@ h5 {
 	}
 }
 
+/** Addthis ~**/
+.addthis_floating_style { background-color: transparent; position: initial;}
+.addthis_toolbox.addthis_vertical_style {padding: 8px;}
+
 .addthis_toolbox.addthis_vertical_style {width: 100%;
 	a {margin-top: 10px; border-bottom: 1px solid $midLightGrey; }
 }
@@ -199,4 +203,17 @@ h5 {
 	.small.button {padding: 5px 10px; font-size: ms(0); float: left;
 		&:first-child {margin-right: 5px;}
 	}
+}
+
+/**More Info**/
+h3.readmore {
+	display: inline-block;
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+span.moreinfo {
+	border-left: 1px solid;
+    border-color: $midLightGrey;
+    padding: 7px;
+    padding-left: 15px;
 }
