@@ -12842,18 +12842,6 @@ footer .footer-branding {
   margin: 30px;
 }
 
-/**Addthis~**/
-/* line 67, ../sass/branding-guide.scss */
-.addthis_floating_style {
-  background-color: transparent;
-  position: initial;
-}
-
-/* line 68, ../sass/branding-guide.scss */
-.addthis_toolbox.addthis_vertical_style {
-  padding: 8px;
-}
-
 /* line 1, ../sass/site.scss */
 #homepage-intro {
   background: url(../images/global/sep.png) no-repeat center top;
@@ -13357,7 +13345,6 @@ h5 span.toggler.toggler.collapsed {
   position: absolute;
   right: 0;
   top: 35px;
-  /**More Info**/
 }
 /* line 203, ../sass/site.scss */
 .auth .small.button {
@@ -13369,8 +13356,9 @@ h5 span.toggler.toggler.collapsed {
 .auth .small.button:first-child {
   margin-right: 5px;
 }
-/* line 207, ../sass/site.scss */
-.auth .fbanner {
+
+/* line 208, ../sass/site.scss */
+.fbanner {
   background-color: #000;
   opacity: 0.8;
   color: #fff;
@@ -13383,8 +13371,9 @@ h5 span.toggler.toggler.collapsed {
   text-align: center;
   font-style: italic;
 }
-/* line 212, ../sass/site.scss */
-.auth .fpanel {
+
+/* line 213, ../sass/site.scss */
+.fpanel {
   background: #f2f2f2;
   border: solid 1px #e6e6e6;
   margin: 0 0 22px 0;
@@ -13393,8 +13382,9 @@ h5 span.toggler.toggler.collapsed {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 215, ../sass/site.scss */
-.auth .fpanel-inside {
+
+/* line 216, ../sass/site.scss */
+.fpanel-inside {
   background: #ffffff;
   border: solid 1px #e6e6e6;
   margin: 0;
@@ -13403,18 +13393,21 @@ h5 span.toggler.toggler.collapsed {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 218, ../sass/site.scss */
-.auth .fpanel-inside h3 {
+/* line 219, ../sass/site.scss */
+.fpanel-inside h3 {
   color: #000;
 }
-/* line 223, ../sass/site.scss */
-.auth h3.readmore {
+
+/**More Info**/
+/* line 224, ../sass/site.scss */
+h3.readmore {
   display: inline-block;
   padding-right: 15px;
   padding-bottom: 10px;
 }
-/* line 228, ../sass/site.scss */
-.auth span.moreinfo {
+
+/* line 229, ../sass/site.scss */
+span.moreinfo {
   border-left: 1px solid;
   border-color: #e5e5e5;
   padding: 7px;

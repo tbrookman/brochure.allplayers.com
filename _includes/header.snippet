@@ -14,7 +14,7 @@
             <a class="active" href="#">Features</a>
             <ul class="dropdown">
               <li class="has-dropdown">
-                <a href="features/basic-features.html">For you</a>
+                <a href="features/basic-features.html">For You</a>
                 <ul class="dropdown">
                   {% for item in site.pages %}
                     {% if item.tags contains 'for_you' %}
@@ -26,7 +26,7 @@
                 </ul>
               </li>
               <li class="has-dropdown">
-                <a href="features/enterprise-features.html">For your enterprise</a>
+                <a href="features/enterprise-features.html">For Your Enterprise</a>
                 <ul class="dropdown">
                   {% for item in site.pages %}
                     {% if item.tags contains 'for_your_enterprise' or item.tags contains 'for_you, for_your_enterprise' %}
@@ -43,7 +43,7 @@
             <a class="active" href="knowledge-base">Knowledge base</a>
             <ul class="dropdown">
               <li class="has-dropdown">
-                <a href="knowledge-base/basic-user-knowledge/">Basic user knowledge</a>
+                <a href="knowledge-base/basic-user-knowledge/">Basic User Knowledge</a>
                 <ul class="dropdown">
                   {% for page in site.pages %}
                     {% if page.tags == 'basic_user_pages' %}
