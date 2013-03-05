@@ -391,10 +391,13 @@
        p {font-size: ms(0);}
     }
 
-    section#feature-hero-wrapper {background: $lightGrey;
+    .auth.show-for-medium-down {top: 45px;}
+
+    section#feature-hero-wrapper {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0; padding-bottom: 20px;
       #feature-hero {padding-left: 30px; padding-top: 20px;
-        h1 {font-size: ms(4); margin-top: 40px; line-height: 35px;}
-        h2 {font-size: ms(1); color: $darkGrey;} 
+        h1 {color: $white; font-size: ms(7); margin-top: 20px;  line-height: 60px;}
+        h2 {color: $white; font-size: ms(3);} 
+        img {margin-top: 20px;}
       }
 
       #feature-image {position: relative;
@@ -504,7 +507,7 @@
             }
           }
         }
-        &.left, &.right { float: none; width: 100%;
+        &.left, &.right { float: none; width: 100%; margin-top: 40px;
           &>li { display: block; float: none; margin: 0 !important;
             &.has-dropdown {
               .dropdown { left: 100% !important; top: 0; right: auto !important; }
