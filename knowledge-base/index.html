@@ -125,9 +125,9 @@ AllPlayers.com takes the privacy of our members and their families seriously.</p
 				{% for page in site.pages %}
 					{% if page.tags == 'basic_user_pages' %}
 						{% if page.root == 'enabled' %}
-							<h5><a href="{{ page.url }}">{{ page.title }}</a></h5>
+							<h5><a href="{{ base.url }}{{ page.url }}">{{ page.title }}</a></h5>
 						{% else %}
-							<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+							<li><a href="{{ base.url }}{{ page.url }}">{{ page.title }}</a></li>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
@@ -149,9 +149,9 @@ AllPlayers.com takes the privacy of our members and their families seriously.</p
 				{% for page in site.pages %}
 					{% if page.tags == 'group_admin_pages' %}
 						{% if page.root == 'enabled' %}
-							<h5><a href="{{ page.url }}">{{ page.title }}</a></h5>
+							<h5><a href="{{ base.url }}{{ page.url }}">{{ page.title }}</a></h5>
 						{% else %}
-							<li><a href="{{ page.url }}">{{ page.title }}</a></li>
+							<li><a href="{{ base.url }}{{ page.url }}">{{ page.title }}</a></li>
 						{% endif %}
 					{% endif %}
 				{% endfor %}
