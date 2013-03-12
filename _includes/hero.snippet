@@ -26,7 +26,7 @@
     <div class="two hide-for-small columns" id="info-image">
       <img src="{{ page.info_image }}" />
     </div>
-    <div class="ten mobile-two columns">
+    <div class="ten mobile-four columns">
       <h1>{{ page.title }}</h1>
       <h2>{{ page.tagline }}</h2>
     </div>
@@ -37,7 +37,7 @@
 {% if page.layout_keyword == 'knowledge_base' %}
 <div class="row" id="knowledge-base-hero">
   <div class="twelve columns">
-    <div class="six mobile-two columns">
+    <div class="six mobile-four columns">
       <h1>Knowledge base</h1>
       <h2>How can we help you?</h2>
     </div>
@@ -48,7 +48,7 @@
 {% if page.layout_keyword == 'knowledge_base_page' %}
 <div class="row" id="knowledge-base-hero">
   <div class="twelve columns">
-    <div class="six mobile-two columns">
+    <div class="six mobile-four columns">
       <h1>Knowledge base</h1>
       <h2>How can we help you?</h2>
     </div>
@@ -59,7 +59,7 @@
 {% if page.layout_keyword == 'knowledge_base_video' %}
 <div class="row" id="knowledge-base-hero">
   <div class="twelve columns">
-    <div class="six mobile-two columns">
+    <div class="six mobile-four columns">
       <h1>{{ page.title }}</h1>
       <h2>{{ page.tagline }}</h2>
     </div>
@@ -72,7 +72,7 @@
   <div class="twelve columns">
     <div class="twelve mobile-four columns">
       <div class="two columns">
-        <img src="{{ page.feature_image }}" />
+        <img class="hide-for-small" src="{{ page.feature_image }}" />
       </div>
       <div class="ten columns">
         <h1>{{ page.title }}</h1>

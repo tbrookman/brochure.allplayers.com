@@ -288,6 +288,21 @@
       p:last-child { margin-bottom: 18px; }
     }
 
+     section#knowledge-hero-wrapper {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
+      #knowledge-base-hero {background: url("../images/knowledge/knowledge-base-hero-bg.png") no-repeat right center;
+        h1 {color: $white; font-size: ms(3); margin-left: -58px; margin-top: 30px; margin-bottom: 0; line-height: 30px;}
+        h2 {color: $white; font-size: ms(2); margin-left: -58px;} 
+       }
+    }
+
+    section#info-hero-wrapper {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
+      #info-hero {
+        height: 126px;
+        h1 {font-size: ms(5); color: $white; margin-top: 10px; margin-bottom: 0; line-height: 40px;}
+        h2 {font-size: ms(3); color: $white; margin: 0;} 
+      }
+    }
+
     /* Reveal --- */
     /*            */
     .reveal-modal-bg { position: absolute; }
@@ -391,15 +406,29 @@
        p {font-size: ms(0);}
     }
 
-    section#feature-hero-wrapper {background: $lightGrey;
+    .auth.show-for-medium-down {top: 45px;}
+
+    #tiled-features {
+        img {margin-left: 0px !important;}
+    }
+
+    section#feature-hero-wrapper {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0; padding-bottom: 20px;
       #feature-hero {padding-left: 30px; padding-top: 20px;
-        h1 {font-size: ms(4); margin-top: 40px; line-height: 35px;}
-        h2 {font-size: ms(1); color: $darkGrey;} 
+        h1 {color: $white; font-size: ms(7); margin-top: 20px;  line-height: 60px;}
+        h2 {color: $white; font-size: ms(3);} 
+        img {margin-top: 20px;}
       }
 
       #feature-image {position: relative;
         img {position: absolute; top: 70px; right: 160px;}
       }
+    }
+
+    section#knowledge-hero-wrapper {background: url(../images/global/bg/low_contrast_linen_bg.png) repeat 0 0;
+      #knowledge-base-hero {background: url("../images/knowledge/knowledge-base-hero-bg.png") no-repeat right center;
+        h1 {color: $white; font-size: ms(4); margin-left: -15px; margin-top: 30px; margin-bottom: 0; line-height: 50px;}
+        h2 {color: $white; font-size: ms(3); margin-left: -15px;} 
+       }
     }
 
     section#feature-content {padding-top: 25px;
@@ -504,7 +533,7 @@
             }
           }
         }
-        &.left, &.right { float: none; width: 100%;
+        &.left, &.right { float: none; width: 100%; margin-top: 40px;
           &>li { display: block; float: none; margin: 0 !important;
             &.has-dropdown {
               .dropdown { left: 100% !important; top: 0; right: auto !important; }
