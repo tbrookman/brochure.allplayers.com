@@ -4,7 +4,7 @@
   {% for item in site.pages %}
     {% if item.tags contains 'for_you' or item.tags contains 'for_your_enterprise' %}
       {% if item.root != 'enabled' %}
-        <li {% if item.url == page.url %}class="active"{% endif %}><a href="{{ base.url }}{{ item.url }}">{{ item.title }}</a></li>
+        <li {% if item.url == page.url %}class="active"{% endif %}><a href="{{ site.url }}{{ item.url }}">{{ item.title }}</a></li>
       {% endif %}
     {% endif %}
   {% endfor %}
